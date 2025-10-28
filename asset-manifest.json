@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.61ce2d24.css",
-    "main.js": "/static/js/main.8aabcc5d.js",
+    "main.js": "/static/js/main.707e0eaa.js",
     "static/js/453.42befe1a.chunk.js": "/static/js/453.42befe1a.chunk.js",
     "static/media/modern-care-1.png": "/static/media/modern-care-1.7a5afe669589f2f1e9fc.png",
     "static/media/jhola-1.png": "/static/media/jhola-1.6dbd5c9249c006f69fce.png",
@@ -48,11 +48,11 @@
     "static/media/moon.svg": "/static/media/moon.9ea86e7675730ad2b4e4.svg",
     "static/media/debug.log": "/static/media/debug.d1f4fc3cf1f9f17e07f0.log",
     "main.61ce2d24.css.map": "/static/css/main.61ce2d24.css.map",
-    "main.8aabcc5d.js.map": "/static/js/main.8aabcc5d.js.map",
+    "main.707e0eaa.js.map": "/static/js/main.707e0eaa.js.map",
     "453.42befe1a.chunk.js.map": "/static/js/453.42befe1a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.61ce2d24.css",
-    "static/js/main.8aabcc5d.js"
+    "static/js/main.707e0eaa.js"
   ]
 }
