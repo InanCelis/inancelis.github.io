@@ -1,6 +1,27 @@
 [
-    { 
+    {
         "id": 1,
+        "url": "modern-care",
+        "company": "Modern Care",
+        "description": "Modern Care is a family-owned senior care facility in Rocklin, California, providing personalized care solutions in a warm, welcoming environment that helps residents thrive with dignity and purpose.",
+        "website": "https://livemoderncare.com/",
+        "image": "modern-care-laptop.png",
+        "imageBg": "modern-care-bg.png",
+        "responsibilities": "I created the website from scratch using WordPress and Elementor Pro to deliver a compassionate, professional, and user-friendly experience for families seeking senior care solutions. The goal was to create a warm, inviting digital presence that reflects the caring nature of the facility while providing essential information for families making important care decisions. Using Elementor Pro's advanced features, I built custom layouts that showcase the facility's services, created an intuitive navigation system for easy access to care information, and ensured the site was fully optimized for both desktop and mobile devices. The result is a welcoming, accessible website that helps families connect with Modern Care's personalized senior care services.",
+        "tools": [
+            "HTML",
+            "CSS",
+            "JavaScript / JQuery",
+            "WordPress / Elementor Pro",
+            "PHP"
+        ],
+        "type": "WordPress",
+        "featured_image": [
+            "modern-care-1.png"
+        ]
+    },
+    { 
+        "id": 2,
         "url": "blue-apple-launchpad",
         "company":"Blue Apple Launchpad",
         "description":"Blue Apple Launchpad is a platform designed to connect startups with investors, mentors, and growth resources.",
@@ -21,7 +42,7 @@
         ]
     },
     { 
-        "id": 2,
+        "id": 3,
         "url": "monster-quest-escape-room",
         "company":"Monster Quest Escape Room",
         "description":"Monster Quest Escape Room is an immersive adventure experience where participants solve puzzles, uncover mysteries, and conquer challenges to escape themed rooms. Perfect for thrill-seekers, team-building, or fun outings with friends, Monster Quest offers a journey into creativity, strategy, and excitement.",
@@ -42,7 +63,7 @@
         ]
     },
     { 
-        "id": 3,
+        "id": 4,
         "url": "asticom-group-of-companies",
         "company":"Asticom Group of Companies",
         "description":"Asticom Group of Companies is a Philippine-based shared services company that provides staffing and tech solutions that empower businesses towards meaningful growth.",
@@ -63,7 +84,7 @@
         ]
     },
     { 
-        "id": 4,
+        "id": 5,
         "url": "champions-club-texas",
         "company":"Champions Club texas",
         "description":"Champions Club Texas is defining the new standard for poker clubs in Houston. Their luxurious poker room offers a world-class experience that starts as you enter the gaming room.",
@@ -84,7 +105,7 @@
         ]
     },
     { 
-        "id": 5,
+        "id": 6,
         "url": "escape-in-time",
         "company":"Escape In Time",
         "description":"Escape In Time is a distinctive platform offering immersive, interactive escape room experiences. Whether in-person or virtual, it allows participants to engage in thrilling puzzles, captivating storylines, and team challenges designed for all skill levels.",
@@ -105,7 +126,7 @@
         ]
     },
     { 
-        "id": 6,
+        "id": 7,
         "url": "baby-company",
         "company":"Baby Company",
         "description":"A polished website crafted from PSD to HTML, featuring seamless transitions and responsive design for optimal user experience and engagement.",
@@ -124,7 +145,7 @@
         ]
     }, 
     { 
-        "id": 7,
+        "id": 8,
         "url": "hols-kitchen",
         "company":"Hols Kitchen POS System",
         "description":"Hols Kitchen is a small restaurant business that has been developed using the Java programming language. The system was created using the Java NetBeans Integrated Development Environment (IDE) and utilizes a MySQL database for data storage.",
@@ -161,7 +182,7 @@
         ]
     },
     { 
-        "id": 8,
+        "id": 9,
         "url": "acquiro-website",
         "company":"Aquiro Website",
         "description":"Acquiro is an end-to-end workforce solutions company that connects top talents and businesses of all sizes through their advanced tech platform.",
@@ -182,7 +203,7 @@
         ]
     },
     { 
-        "id": 9,
+        "id": 10,
         "url": "absi-website",
         "company":"ABSI Website",
         "description":"ABSI is a business process and IT solutions provider under the subsidiary of Asticom Technology Inc. They are committed to helping their clients grow through innovative solutions, and unmatched expertise.",
@@ -203,7 +224,7 @@
         ]
     },
     { 
-        "id": 10,
+        "id": 11,
         "url": "finsi-website",
         "company":"Finsi Website",
         "description":"FINSI provides innovative engineering solutions to businesses in the Telecommunications, Energy and Infrastructure industries.",
@@ -224,7 +245,7 @@
         ]
     },
     { 
-        "id": 11,
+        "id": 12,
         "url": "the-champions-club",
         "company":"The Champions Shop",
         "description":"The Champions Shop made from Laravel Framework a website dedicated marketplace specifically designed for players of the popular game Lords Mobile. It provides a platform where gamers can not only sell their accounts but also post comprehensive information about their accounts, including achievements, character levels, and other relevant details. This enables other players to make informed decisions when considering purchasing an account.",
@@ -257,7 +278,7 @@
         ]
     },
     { 
-        "id": 12,
+        "id": 13,
         "url": "jhola",
         "company":"Jhola",
         "description":"Jhola is an Amazon agency, one if just a few groups of world-class specialist who've built their entire careers around helping clients succeed in the ultracompetitve world of Amazon marketing.",
@@ -277,7 +298,7 @@
         ]
     },
     { 
-        "id": 13,
+        "id": 14,
         "url": "reefic-protocol",
         "company":"Reefic Protocol",
         "description":"Reefic protocol is a decentralised platform where customers can exchange reward points accross multiple loyalty programs and selected cryptocurrencies.",
@@ -296,7 +317,7 @@
         ]
     },
     { 
-        "id": 14,
+        "id": 15,
         "url": "random-project",
         "company":"Random Project",
         "description":"This project involved creating a modern website design as part of my freelance portfolio. A friend referred the client to me, and the scope of my work was specifically to transform a PSD mockup design into a fully functional HTML file. This task required careful attention to detail to ensure that every element of the original design was accurately reflected in the web version.",
