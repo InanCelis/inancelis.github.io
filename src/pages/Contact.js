@@ -1,127 +1,170 @@
+import React, { useRef, useState } from "react";
+import emailjs from "emailjs-com";
 
+import Layout from "../Components/Layout/Layout";
+import { useHelperFunction } from "../utils/helperFuntion";
+import LineClipPath from "../Components/Slice/LineClipPath";
+import "../assets/styles/contact.scss";
 
-import React, { useRef, useState } from 'react';
-import emailjs from 'emailjs-com';
-
-import Layout from '../Components/Layout/Layout';
-import { useHelperFunction } from '../utils/helperFuntion';
-import LineClipPath from '../Components/Slice/LineClipPath';
-import '../assets/styles/contact.scss';
-
-import AlertPopup from '../Components/Slice/AlertPopup';
-import PageIndicator from '../Components/Slice/PageIndicator';
+import AlertPopup from "../Components/Slice/AlertPopup";
+import PageIndicator from "../Components/Slice/PageIndicator";
 function Contact() {
-    const [alert, setAlert] = useState({message: '', type: '', isVisible: false});
-    //form fields   
-    const [name, setName] = useState('');
-    const [email, setEmail] = useState('');
-    const [message, setMessage] = useState('');
-    
-    useHelperFunction('Contact |');
+  const [alert, setAlert] = useState({
+    message: "",
+    type: "",
+    isVisible: false,
+  });
+  //form fields
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
 
-    const form = useRef();
-    const sendEmail = (e) => {
-        e.preventDefault();
-        
-        emailjs.sendForm('service_ptae8fe', 'template_gq5izz6', form.current, 'w-rjpWx0cbWeWkXV6')
-        .then((result) => {
-            resetForm();
-            setAlert({message: `Message has been delivered successfully. Please hold on for Inan's response.`, type: 'success', isVisible: true});
-        }, (error) => {
-            setAlert({message: 'Failed to send the message.', type: 'error', isVisible: true});
-        });
-    };
+  useHelperFunction("Contact |");
 
-    const resetForm = () => {
-        setName('');
-        setEmail('');
-        setMessage('');
-    }
+  const form = useRef();
+  const sendEmail = (e) => {
+    e.preventDefault();
 
-    return (
-        <Layout>
-            <PageIndicator page='Contact'/>
-            <AlertPopup
-                alertInfo={alert}
-                onClose={() => setAlert(alert.isVisible = false)}
-            />
-            <div className=' container contact'>
-                <div className="form-container">
-                    <h3 className='font-weight-bold pb-3'>Say hello!</h3>
-                    <LineClipPath xtraClass={'grid-100 pb-4'}/>
-                    <form ref={form} onSubmit={sendEmail}>
-                        <div className="group">
-                            <input type="text" 
-                                required 
-                                className='form-input' 
-                                name='name' 
-                                onChange={(e) => setName(e.target.value)} 
-                                value={name}/>
+    emailjs
+      .sendForm(
+        "service_ptae8fe",
+        "template_gq5izz6",
+        form.current,
+        "w-rjpWx0cbWeWkXV6"
+      )
+      .then(
+        (result) => {
+          resetForm();
+          setAlert({
+            message: `Message has been delivered successfully. Please hold on for Inan's response.`,
+            type: "success",
+            isVisible: true,
+          });
+        },
+        (error) => {
+          setAlert({
+            message: "Failed to send the message.",
+            type: "error",
+            isVisible: true,
+          });
+        }
+      );
+  };
 
-                            <span className="bar"></span>
-                            <label>Name</label>
-                        </div>
-                        <div className="group">
-                            <input type="email" 
-                                required 
-                                name='email' 
-                                className='form-input' 
-                                placeholder='' 
-                                onChange={(e) => setEmail(e.target.value)} 
-                                value={email}/>
-                                
-                            <span className="bar"></span>
-                            <label>Your Email</label>
-                            <span className="validation-text">
-                                <i className="fa-solid fa-triangle-exclamation"></i> Please enter a valid email address.
-                            </span>
-                        </div>
-                        <div className="group">
-                            <textarea required 
-                                id="message" 
-                                name="message" 
-                                rows="0" 
-                                className='form-input'  
-                                onChange={(e) => setMessage(e.target.value)} 
-                                placeholder='' 
-                                value={message}></textarea>
-                            <span className="bar"></span>
-                            <label>Message</label>
-                        </div>
-                        
-                        <button type="submit" className="link link-full" ><i className="fa-solid fa-chevron-right"></i> Send Message</button>
-                    </form>
-                    <div className='other-contact'>
-                        <h4 className='f-text-m pb-2'>Other Contact info</h4>
-                        <div className='item-border'>
-                            <div>  
-                               <strong className='font-weight-bold text-muted f-text-s'>Address </strong>
-                               <span>Lilian st. Brgy. Bulihan Famy, Laguna Philippines</span>
-                            </div> 
-                            <div>  
-                               <strong className='font-weight-bold text-muted f-text-s'>Email</strong>
-                               <span>celisinan@gmail.com</span>
-                            </div> 
-                            <div>  
-                                <strong className='font-weight-bold text-muted f-text-s'>Mobile Number</strong>
-                               <span>(+63) 938 0386 385 <br />(+63) 992 3019 995 </span>  
-                            </div>  
-                            <div>  
-                                <strong className='font-weight-bold text-muted f-text-s'>Websites</strong>
-                               <span>
-                                    version 2.0 - <a href="https://inancelis.github.io/" target='_blank'>inancelis.github.io</a>
-                                    <br />
-                                    version 1.0 - <a href="https://inan-celis.surge.sh/" target='_blank'>inan-celis.surge.sh</a>
-                                </span>  
-                            </div>  
-                        </div>
-                    </div>
-                </div>
-                
+  const resetForm = () => {
+    setName("");
+    setEmail("");
+    setMessage("");
+  };
+
+  return (
+    <Layout>
+      <PageIndicator page="Contact" />
+      <AlertPopup
+        alertInfo={alert}
+        onClose={() => setAlert((alert.isVisible = false))}
+      />
+      <div className=" container contact">
+        <div className="form-container">
+          <h3 className="font-weight-bold pb-3">Say hello!</h3>
+          <LineClipPath xtraClass={"grid-100 pb-4"} />
+          <form ref={form} onSubmit={sendEmail}>
+            <div className="group">
+              <input
+                type="text"
+                required
+                className="form-input"
+                name="name"
+                onChange={(e) => setName(e.target.value)}
+                value={name}
+              />
+
+              <span className="bar"></span>
+              <label>Name</label>
             </div>
-        </Layout>
-    );
+            <div className="group">
+              <input
+                type="email"
+                required
+                name="email"
+                className="form-input"
+                placeholder=""
+                onChange={(e) => setEmail(e.target.value)}
+                value={email}
+              />
+
+              <span className="bar"></span>
+              <label>Your Email</label>
+              <span className="validation-text">
+                <i className="fa-solid fa-triangle-exclamation"></i> Please
+                enter a valid email address.
+              </span>
+            </div>
+            <div className="group">
+              <textarea
+                required
+                id="message"
+                name="message"
+                rows="0"
+                className="form-input"
+                onChange={(e) => setMessage(e.target.value)}
+                placeholder=""
+                value={message}
+              ></textarea>
+              <span className="bar"></span>
+              <label>Message</label>
+            </div>
+
+            <button type="submit" className="link link-full">
+              <i className="fa-solid fa-chevron-right"></i> Send Message
+            </button>
+          </form>
+          <div className="other-contact">
+            <h4 className="f-text-m pb-2">Other Contact info</h4>
+            <div className="item-border">
+              <div>
+                <strong className="font-weight-bold text-muted f-text-s">
+                  Address{" "}
+                </strong>
+                <span>Lilian st. Brgy. Bulihan Famy, Laguna Philippines</span>
+              </div>
+              <div>
+                <strong className="font-weight-bold text-muted f-text-s">
+                  Email
+                </strong>
+                <span>celisinan@gmail.com</span>
+              </div>
+              <div>
+                <strong className="font-weight-bold text-muted f-text-s">
+                  Mobile Number
+                </strong>
+                <span>
+                  (+63) 938 0386 385 <br />
+                  (+63) 992 3019 995{" "}
+                </span>
+              </div>
+              <div>
+                <strong className="font-weight-bold text-muted f-text-s">
+                  Websites
+                </strong>
+                <span>
+                  version 2.0 -{" "}
+                  <a href="https://www.inancelis.com/" target="_blank">
+                    www.inancelis.com
+                  </a>
+                  <br />
+                  version 1.0 -{" "}
+                  <a href="https://inan-celis.surge.sh/" target="_blank">
+                    inan-celis.surge.sh
+                  </a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </Layout>
+  );
 }
 
 export default Contact;
-
