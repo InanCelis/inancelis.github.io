@@ -7,7 +7,7 @@ const MetaSetup = () => (
       <title>Inan Celis</title>
       <meta
         name="description"
-        content="Inan is a dedicated web developer with a deep passion for frontend technologies."
+        content="Full-stack web developer specializing in React, Vue, Laravel, and WordPress. Building scalable web applications with modern technologies and user-centered design."
       />
       <meta
         name="keywords"

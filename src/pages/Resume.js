@@ -1,17 +1,22 @@
-import React from "react";
 import Layout from "../Components/Layout/Layout";
 import { useHelperFunction } from "../utils/helperFuntion";
 import Expertise from "../Components/Expertise";
 import Work from "../Components/Work";
 import Skills from "../Components/Skills";
 import PageIndicator from "../Components/Slice/PageIndicator";
-// import { NavLink } from 'react-router-dom';
 import ResumeButton from "../Components/Slice/ResumeButton";
+import SEO from "../Components/SEO";
+
 function Resume() {
   useHelperFunction("Resume |");
 
   return (
     <Layout>
+      <SEO
+        title="Resume - Inan Celis | Full Stack Developer"
+        description="View the professional resume of Inan Celis, showcasing skills in React, Vue, Laravel, PHP, WordPress, and expertise in full-stack web development."
+        url="https://www.inancelis.com/resume"
+      />
       <PageIndicator page="Resume" />
       <div className="pt-5 pb-5">
         <Expertise />

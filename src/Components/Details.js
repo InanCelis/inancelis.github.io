@@ -31,15 +31,15 @@ function Details() {
                 <div className={`details`}>
                     <h3 className='font-weight-bold pb-3' data-aos="fade-up">Hello there</h3>
                     <p className="text-muted f-text-m pb-4" data-aos="fade-up">
-                        <b>Inan</b> is a dedicated web developer with a deep passion 
-                        for frontend technologies. My journey in web development 
-                        started with a fascination for creating intuitive and engaging 
-                        user interfaces. Over the years, I've honed my skills in HTML, 
-                        CSS, JavaScript, and frameworks like React, WordPress, Laravel always aiming 
-                        to deliver seamless web experiences. <br/><br/>Beyond coding, my life is enriched by my 
-                        love for pets. Whether it's a break for a play or simply having a furry 
-                        friend by my side while I code, they remind me of the importance of 
-                        balance and empathy, qualities I bring into my development projects.
+                        I'm <b>Inan</b>, a full-stack web developer specializing in building
+                        scalable web applications and intuitive user experiences. With extensive
+                        expertise in modern frontend frameworks (React, Vue) and backend technologies
+                        (Laravel, PHP, Node.js), I transform complex requirements into elegant,
+                        high-performance solutions. <br/><br/>My approach combines technical excellence
+                        with user-centered design principles, ensuring every project delivers both
+                        functionality and exceptional user experience. I'm proficient in the complete
+                        development lifecycle, from architecture planning to deployment, with additional
+                        expertise in WordPress/Elementor Pro, database optimization, and cloud services.
                     </p>
                     <NavLink to={`/contact`} className="link">
                     <i className="fa-regular fa-paper-plane"></i> <span>Send Message</span>

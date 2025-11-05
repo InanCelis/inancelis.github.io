@@ -1,4 +1,3 @@
-import React from "react";
 import { useHelperFunction } from "../utils/helperFuntion";
 import Layout from "../Components/Layout/Layout";
 import ProjectItem from "../Components/ProjectItem";
@@ -11,14 +10,42 @@ import Details from "../Components/Details";
 import Work from "../Components/Work";
 import Expertise from "../Components/Expertise";
 import Skills from "../Components/Skills";
-import { NavLink } from "react-router-dom";
-import MetaSetup from "../Components/MetaSetup";
+import SEO from "../Components/SEO";
 import ResumeButton from "../Components/Slice/ResumeButton";
+
+const structuredData = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Ferdinand T. Celis (Inan Celis)",
+  "alternateName": "Inan Celis",
+  "url": "https://www.inancelis.com",
+  "image": "https://www.inancelis.com/static/media/meee.4c7463169d8947aeed63.png",
+  "jobTitle": "Full Stack Web Developer",
+  "worksFor": {
+    "@type": "Organization",
+    "name": "Freelance"
+  },
+  "sameAs": [
+    "https://github.com/inancelis",
+    "https://www.linkedin.com/in/inancelis"
+  ],
+  "knowsAbout": ["React", "Vue", "Laravel", "PHP", "JavaScript", "WordPress", "Web Development", "Frontend Development", "Backend Development"],
+  "alumniOf": {
+    "@type": "EducationalOrganization",
+    "name": "Bachelor of Science in Information Technology"
+  }
+};
+
 function Home() {
   useHelperFunction("");
   return (
     <Layout>
-      <MetaSetup />
+      <SEO
+        title="Inan Celis - Full Stack Web Developer | React, Laravel & WordPress Expert"
+        description="Professional full-stack web developer specializing in React, Vue, Laravel, PHP, and WordPress. Transforming ideas into high-performance web applications with modern technologies."
+        url="https://www.inancelis.com"
+        structuredData={structuredData}
+      />
       <div className="d-none d-md-block">
         <RainbowSwirl position={"Absolute"} />
       </div>

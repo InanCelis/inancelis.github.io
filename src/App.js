@@ -1,5 +1,5 @@
 
-import { HashRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Fragment, useEffect } from "react";
 import Home from './pages/Home';
 import About from './pages/About';
@@ -20,7 +20,7 @@ function App() {
   }, []);
 
   return (
-      <HashRouter>
+      <BrowserRouter>
         <div id="cursor"></div>
         <div id="cursor-border"></div>
         <Fragment>
@@ -36,8 +36,8 @@ function App() {
             <Route exact path='/contact' element={<Contact/>}/>
           </Routes>
         </Fragment>
-      </HashRouter>
-   
+      </BrowserRouter>
+
   );
 
 }

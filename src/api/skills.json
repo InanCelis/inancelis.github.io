@@ -1,67 +1,127 @@
 [
-    
     {
-        "text":"Laravel",
-        "icon":"lab la-laravel"
+        "category": "Backend & Frameworks",
+        "skills": [
+            {
+                "text": "Laravel",
+                "icon": "lab la-laravel",
+                "level": 80
+            },
+            {
+                "text": "PHP",
+                "icon": "lab la-php",
+                "level": 90
+            },
+            {
+                "text": "NodeJS",
+                "icon": "lab la-node",
+                "level": 50
+            },
+            {
+                "text": "Python",
+                "icon": "lab la-python",
+                "level": 75
+            },
+            {
+                "text": "Java",
+                "icon": "lab la-java",
+                "level": 60
+            }
+        ]
     },
     {
-        "text":"Elementor Pro",
-        "icon":"lab la-elementor"
+        "category": "Frontend",
+        "skills": [
+            {
+                "text": "ReactJS",
+                "icon": "lab la-react",
+                "level": 80
+            },
+            {
+                "text": "Vue / Nuxt",
+                "icon": "lab la-vuejs",
+                "level": 80
+            },
+            {
+                "text": "JavaScript",
+                "icon": "lab la-js-square",
+                "level": 90
+            },
+            {
+                "text": "jQuery",
+                "icon": "lab la-js",
+                "level": 90
+            },
+            {
+                "text": "HTML5",
+                "icon": "lab la-html5",
+                "level": 95
+            },
+            {
+                "text": "CSS / SASS",
+                "icon": "lab la-css3",
+                "level": 95
+            },
+            {
+                "text": "Bootstrap",
+                "icon": "lab la-bootstrap",
+                "level": 90
+            }
+        ]
     },
     {
-        "text":"WordPress",
-        "icon":"lab la-wordpress"
+        "category": "CMS & Tools",
+        "skills": [
+            {
+                "text": "WordPress",
+                "icon": "lab la-wordpress",
+                "level": 95
+            },
+            {
+                "text": "Elementor Pro",
+                "icon": "lab la-elementor",
+                "level": 95
+            },
+            {
+                "text": "GoHighLevel",
+                "icon": "las la-rocket",
+                "level": 70
+            },
+            {
+                "text": "Git",
+                "icon": "lab la-git-alt",
+                "level": 90
+            },
+            {
+                "text": "AWS",
+                "icon": "lab la-aws",
+                "level": 40
+            }
+        ]
     },
     {
-        "text":"PHP",
-        "icon":"lab la-php"
+        "category": "Database",
+        "skills": [
+            {
+                "text": "MySQL",
+                "icon": "las la-server",
+                "level": 90
+            }
+        ]
     },
     {
-        "text":"Java",
-        "icon":"lab la-java"
-    },
-    {
-        "text":"Python",
-        "icon":"lab la-python"
-    },
-    {
-        "text":"ReactJS",
-        "icon":"lab la-react"
-    },
-    {
-        "text":"Vue / Nuxt",
-        "icon":"lab la-vuejs"
-    },
-    
-    {
-        "text":"JS / JQuery",
-        "icon":"lab la-js-square"
-    },
-    {
-        "text":"NodeJs",
-        "icon":"lab la-node"
-    },
-    
-    {
-        "text":"HTML",
-        "icon":"lab la-html5"
-    },
-    {
-        "text":"CSS / SASS",
-        "icon":"lab la-css3"
-    },
-    {
-        "text":"Bootstrap",
-        "icon":"lab la-bootstrap"
-    },
-    {
-        "text":"MySQL",
-        "icon":"las la-server"
-    },
-    {
-        "text":"Git",
-        "icon":"lab la-git-alt"
+        "category": "AI Tools",
+        "skills": [
+            {
+                "text": "ChatGPT",
+                "icon": "las la-robot",
+                "level": 80
+            },
+            {
+                "text": "Claude AI",
+                "icon": "las la-brain",
+                "level": 90
+            }
+        ]
     }
-    
-    
 ]

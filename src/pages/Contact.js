@@ -8,6 +8,16 @@ import "../assets/styles/contact.scss";
 
 import AlertPopup from "../Components/Slice/AlertPopup";
 import PageIndicator from "../Components/Slice/PageIndicator";
+import SEO from "../Components/SEO";
+
+const contactStructuredData = {
+  "@context": "https://schema.org",
+  "@type": "ContactPage",
+  "name": "Contact Inan Celis",
+  "description": "Get in touch with Inan Celis for web development projects and collaborations",
+  "url": "https://www.inancelis.com/contact"
+};
+
 function Contact() {
   const [alert, setAlert] = useState({
     message: "",
@@ -59,6 +69,12 @@ function Contact() {
 
   return (
     <Layout>
+      <SEO
+        title="Contact - Inan Celis | Get in Touch"
+        description="Get in touch with Inan Celis for web development projects, collaborations, or freelance opportunities. Let's build something amazing together!"
+        url="https://www.inancelis.com/contact"
+        structuredData={contactStructuredData}
+      />
       <PageIndicator page="Contact" />
       <AlertPopup
         alertInfo={alert}

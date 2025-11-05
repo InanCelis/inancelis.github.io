@@ -1,0 +1,53 @@
+import React from "react";
+import { Helmet } from "react-helmet";
+
+const SEO = ({
+  title = "Inan Celis - Full Stack Web Developer",
+  description = "Full-stack web developer specializing in React, Vue, Laravel, and WordPress. Building scalable web applications with modern technologies and user-centered design.",
+  keywords = "Inan Celis, Full Stack Developer, Web Developer, React Developer, Laravel Developer, WordPress Developer, Frontend Developer, Backend Developer, Web Design, Philippines Developer",
+  author = "Inan Celis",
+  url = "https://www.inancelis.com",
+  image = "https://www.inancelis.com/static/media/meee.4c7463169d8947aeed63.png",
+  type = "website",
+  structuredData
+}) => {
+  const siteTitle = title.includes("Inan Celis") ? title : `${title} | Inan Celis`;
+
+  return (
+    <Helmet>
+      {/* Primary Meta Tags */}
+      <title>{siteTitle}</title>
+      <meta name="title" content={siteTitle} />
+      <meta name="description" content={description} />
+      <meta name="keywords" content={keywords} />
+      <meta name="author" content={author} />
+      <link rel="canonical" href={url} />
+
+      {/* Open Graph / Facebook */}
+      <meta property="og:type" content={type} />
+      <meta property="og:url" content={url} />
+      <meta property="og:title" content={siteTitle} />
+      <meta property="og:description" content={description} />
+      <meta property="og:image" content={image} />
+      <meta property="og:site_name" content="Inan Celis Portfolio" />
+      <meta property="og:locale" content="en_US" />
+
+      {/* Twitter */}
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:url" content={url} />
+      <meta name="twitter:title" content={siteTitle} />
+      <meta name="twitter:description" content={description} />
+      <meta name="twitter:image" content={image} />
+      <meta name="twitter:creator" content="@inancelis" />
+
+      {/* Structured Data */}
+      {structuredData && (
+        <script type="application/ld+json">
+          {JSON.stringify(structuredData)}
+        </script>
+      )}
+    </Helmet>
+  );
+};
+
+export default SEO;
