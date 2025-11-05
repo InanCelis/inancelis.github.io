@@ -31,11 +31,12 @@ function Details() {
                 <div className={`details`}>
                     <h3 className='font-weight-bold pb-3' data-aos="fade-up">Hello there</h3>
                     <p className="text-muted f-text-m pb-4" data-aos="fade-up">
-                        I'm <b>Inan</b>, a full-stack web developer specializing in building
-                        scalable web applications and intuitive user experiences. With extensive
+                        I'm <b>Inan</b>, a professional <b>web developer in the Philippines</b> specializing in building
+                        scalable web applications and intuitive user experiences. As a full-stack developer with extensive
                         expertise in modern frontend frameworks (React, Vue) and backend technologies
                         (Laravel, PHP, Node.js), I transform complex requirements into elegant,
-                        high-performance solutions. <br/><br/>My approach combines technical excellence
+                        high-performance solutions for businesses across the Philippines and internationally. <br/><br/>
+                        My approach as a <b>web developer</b> combines technical excellence
                         with user-centered design principles, ensuring every project delivers both
                         functionality and exceptional user experience. I'm proficient in the complete
                         development lifecycle, from architecture planning to deployment, with additional

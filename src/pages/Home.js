@@ -21,6 +21,11 @@ const structuredData = {
   "url": "https://www.inancelis.com",
   "image": "https://www.inancelis.com/static/media/meee.4c7463169d8947aeed63.png",
   "jobTitle": "Full Stack Web Developer",
+  "description": "Professional web developer in the Philippines specializing in React, Laravel, Vue, and WordPress development",
+  "address": {
+    "@type": "PostalAddress",
+    "addressCountry": "Philippines"
+  },
   "worksFor": {
     "@type": "Organization",
     "name": "Freelance"
@@ -29,7 +34,7 @@ const structuredData = {
     "https://github.com/inancelis",
     "https://www.linkedin.com/in/inancelis"
   ],
-  "knowsAbout": ["React", "Vue", "Laravel", "PHP", "JavaScript", "WordPress", "Web Development", "Frontend Development", "Backend Development"],
+  "knowsAbout": ["React", "Vue", "Laravel", "PHP", "JavaScript", "WordPress", "Web Development", "Frontend Development", "Backend Development", "Full Stack Development"],
   "alumniOf": {
     "@type": "EducationalOrganization",
     "name": "Bachelor of Science in Information Technology"
@@ -41,8 +46,8 @@ function Home() {
   return (
     <Layout>
       <SEO
-        title="Inan Celis - Full Stack Web Developer | React, Laravel & WordPress Expert"
-        description="Professional full-stack web developer specializing in React, Vue, Laravel, PHP, and WordPress. Transforming ideas into high-performance web applications with modern technologies."
+        title="Best Web Developer in the Philippines | Inan Celis - Full Stack Developer"
+        description="Looking for the best web developer in the Philippines? Inan Celis is a professional full-stack web developer specializing in React, Vue, Laravel, PHP, and WordPress. Expert web development services for businesses in the Philippines."
         url="https://www.inancelis.com"
         structuredData={structuredData}
       />
