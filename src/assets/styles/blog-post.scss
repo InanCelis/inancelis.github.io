@@ -434,9 +434,12 @@
 
 @media (max-width: 768px) {
     .blog-post-page {
-        padding: 60px 20px;
+        padding: 20px 15px;
+        padding-top: 150px !important;
 
         .blog-post-header {
+            margin-bottom: 30px;
+
             .blog-post-title {
                 font-size: size(fontSizeH4);
             }
