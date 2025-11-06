@@ -1,0 +1,44 @@
+{
+    "id": 0,
+    "slug": "your-post-slug-here",
+    "title": "Your Post Title - Include Target Keywords",
+    "metaDescription": "SEO description 150-160 characters. Naturally include 'web developer philippines' or related keywords.",
+    "author": "Inan Celis",
+    "date": "2025-01-06",
+    "readTime": "X min read",
+    "category": "Web Development",
+    "tags": ["web developer philippines", "keyword2", "keyword3"],
+    "featured_image": "blog-featured-image.jpg",
+    "og_image": "https://www.inancelis.com/blog-images/social-media-thumbnail.jpg",
+    "excerpt": "Brief 2-3 sentence summary shown on the blog listing page. Make it compelling to encourage clicks.",
+    "content": {
+        "introduction": "Opening paragraph that hooks the reader and introduces the topic. Include your main keyword naturally.",
+        "sections": [
+            {
+                "type": "text",
+                "heading": "First Section Heading",
+                "content": "Your content here. Share personal experiences, insights from your projects, or practical advice."
+            },
+            {
+                "type": "code",
+                "heading": "Code Example (Optional Heading)",
+                "language": "jsx",
+                "code": "// Your code here\nimport React from 'react';\n\nfunction Example() {\n  return (\n    <div className=\"example\">\n      <h1>Hello World</h1>\n    </div>\n  );\n}\n\nexport default Example;",
+                "caption": "Optional caption explaining what this code does"
+            },
+            {
+                "type": "image",
+                "src": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=1200&h=600&fit=crop",
+                "alt": "Descriptive alt text for SEO and accessibility",
+                "caption": "Optional caption (use external URLs from Unsplash, Pexels, or your own hosted images)"
+            },
+            {
+                "type": "text",
+                "heading": "Another Section",
+                "content": "Continue with more content. Mix text, code, and images to create engaging posts."
+            }
+        ],
+        "conclusion": "Wrap up with key takeaways. Remind readers you're a professional web developer in the Philippines available for projects. Encourage them to contact you."
+    },
+    "keywords": ["web developer philippines", "primary keyword", "secondary keyword", "technical topic"]
+}
