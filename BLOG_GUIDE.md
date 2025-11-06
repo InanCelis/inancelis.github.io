@@ -5,6 +5,7 @@ This guide explains how to add new blog posts to your portfolio website.
 ## Overview
 
 Blog posts are stored in `src/api/blogs.json`. Each post supports:
+
 - Text content with headings
 - Code snippets with syntax highlighting
 - Images with captions
@@ -15,6 +16,7 @@ Blog posts are stored in `src/api/blogs.json`. Each post supports:
 ### 1. Prepare Your Content
 
 Before adding a post to the JSON file, prepare:
+
 - **Title**: SEO-optimized title (include target keywords like "web developer philippines")
 - **Content**: Write your article with personal insights and experiences
 - **Code Examples**: Any code snippets you want to include
@@ -27,16 +29,19 @@ Before adding a post to the JSON file, prepare:
 You have two options:
 
 **Option 1: External URLs (Recommended)**
+
 - Use free stock images from Unsplash, Pexels, or similar
-- Example: `"src": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=1200&h=600&fit=crop"`
+- Example: `"src": "https://images.pexels.com/photos/2653362/pexels-photo-2653362.jpeg"`
 - Benefits: No file size limits, saves GitHub storage, loads from CDN
 
 **Option 2: Local images**
+
 - Use existing images from `src/assets/images/` folder
 - Reference: `"src": "me-at-office.jpg"` or `"src": "project/modern-care-laptop.png"`
 - Good for: Your own photos, screenshots, diagrams
 
 **For social media thumbnails:**
+
 - Create 1200x630px images and host externally (Imgur, Cloudinary, or `public/blog-images/`)
 - Use full URLs: `"og_image": "https://www.inancelis.com/blog-images/your-thumbnail.jpg"`
 
@@ -46,87 +51,96 @@ Open `src/api/blogs.json` and add a new entry:
 
 ```json
 {
-    "id": 4,
-    "slug": "your-post-slug",
-    "title": "Your Post Title - Include Keywords",
-    "metaDescription": "SEO description 150-160 characters. Include target keywords naturally.",
-    "author": "Inan Celis",
-    "date": "2025-01-15",
-    "readTime": "6 min read",
-    "category": "Web Development",
-    "tags": ["web developer philippines", "react", "tutorial"],
-    "featured_image": "your-featured-image.jpg",
-    "og_image": "https://www.inancelis.com/blog-images/your-social-thumbnail.jpg",
-    "excerpt": "Brief summary shown on blog listing page (2-3 sentences).",
-    "content": {
-        "introduction": "Opening paragraph that hooks the reader...",
-        "sections": [
-            {
-                "type": "text",
-                "heading": "Your First Section",
-                "content": "Your content here..."
-            },
-            {
-                "type": "code",
-                "heading": "Code Example",
-                "language": "jsx",
-                "code": "import React from 'react';\n\nfunction Example() {\n  return <div>Hello</div>;\n}",
-                "caption": "Description of what this code does"
-            },
-            {
-                "type": "image",
-                "src": "your-content-image.jpg",
-                "alt": "Descriptive alt text for SEO",
-                "caption": "Image caption explaining what's shown"
-            }
-        ],
-        "conclusion": "Wrap up your article with key takeaways..."
-    },
-    "keywords": ["primary keyword", "secondary keyword", "web developer philippines"]
+  "id": 4,
+  "slug": "your-post-slug",
+  "title": "Your Post Title - Include Keywords",
+  "metaDescription": "SEO description 150-160 characters. Include target keywords naturally.",
+  "author": "Inan Celis",
+  "date": "2025-01-15",
+  "readTime": "6 min read",
+  "category": "Web Development",
+  "tags": ["web developer philippines", "react", "tutorial"],
+  "featured_image": "your-featured-image.jpg",
+  "og_image": "https://www.inancelis.com/blog-images/your-social-thumbnail.jpg",
+  "excerpt": "Brief summary shown on blog listing page (2-3 sentences).",
+  "content": {
+    "introduction": "Opening paragraph that hooks the reader...",
+    "sections": [
+      {
+        "type": "text",
+        "heading": "Your First Section",
+        "content": "Your content here..."
+      },
+      {
+        "type": "code",
+        "heading": "Code Example",
+        "language": "jsx",
+        "code": "import React from 'react';\n\nfunction Example() {\n  return <div>Hello</div>;\n}",
+        "caption": "Description of what this code does"
+      },
+      {
+        "type": "image",
+        "src": "your-content-image.jpg",
+        "alt": "Descriptive alt text for SEO",
+        "caption": "Image caption explaining what's shown"
+      }
+    ],
+    "conclusion": "Wrap up your article with key takeaways..."
+  },
+  "keywords": [
+    "primary keyword",
+    "secondary keyword",
+    "web developer philippines"
+  ]
 }
 ```
 
 ### 4. Content Section Types
 
 #### Text Section
+
 ```json
 {
-    "type": "text",
-    "heading": "Section Heading",
-    "content": "Your paragraph content here. Can be multiple sentences."
+  "type": "text",
+  "heading": "Section Heading",
+  "content": "Your paragraph content here. Can be multiple sentences."
 }
 ```
 
 #### Code Section
+
 ```json
 {
-    "type": "code",
-    "heading": "Optional Heading",
-    "language": "jsx",
-    "code": "Your code here\nUse \\n for new lines",
-    "caption": "Optional explanation of the code"
+  "type": "code",
+  "heading": "Optional Heading",
+  "language": "jsx",
+  "code": "Your code here\nUse \\n for new lines",
+  "caption": "Optional explanation of the code"
 }
 ```
 
 Supported languages: `jsx`, `javascript`, `php`, `html`, `css`, `python`, `java`, etc.
 
 #### Image Section
+
 ```json
 {
-    "type": "image",
-    "src": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=1200&h=600&fit=crop",
-    "alt": "SEO-friendly alt text",
-    "caption": "Optional caption"
+  "type": "image",
+  "src": "https://images.pexels.com/photos/2653362/pexels-photo-2653362.jpeg",
+  "alt": "SEO-friendly alt text",
+  "caption": "Optional caption"
 }
 ```
 
 **Using External Images (Recommended):**
 Free stock photo sources:
+
 - **Unsplash**: https://unsplash.com/ (Tech/coding photos)
 - **Pexels**: https://pexels.com/ (Free stock images)
 - Add `?w=1200&h=600&fit=crop` to Unsplash URLs to resize
 
 **Using Local Images:**
+
 - `me-at-office.jpg` - Your workspace photo
 - `project/modern-care-laptop.png` - Your project screenshots
 - Any image from `src/assets/images/`
@@ -161,29 +175,34 @@ Add this before the closing `</urlset>` tag.
 ### 7. Submit to Search Engines
 
 After deployment:
+
 1. **Google Search Console**: Submit the new sitemap URL
 2. **Bing Webmaster Tools**: Bing will automatically update from sitemap
 
 ## SEO Best Practices
 
 ### Title Optimization
+
 - Include target keywords naturally
 - Keep under 60 characters
 - Make it compelling and click-worthy
 - Example: "How to Build a React App in Philippines | Web Developer Guide"
 
 ### Meta Description
+
 - 150-160 characters
 - Include primary keyword
 - Add a call-to-action
 - Example: "Learn how Filipino web developers build React applications. Step-by-step tutorial with code examples from a professional developer in the Philippines."
 
 ### Keywords
+
 - Primary: "web developer philippines" or "best web developer philippines"
 - Secondary: Technical topics (react, laravel, vue, etc.)
 - Long-tail: Specific phrases users might search
 
 ### Content Quality
+
 - Write 1000-2000 words minimum
 - Add personal experiences from your projects
 - Include practical examples
@@ -194,19 +213,23 @@ After deployment:
 ## Social Media Sharing
 
 ### Thumbnail Image Requirements
+
 - **Size**: 1200x630px (Facebook/LinkedIn recommended)
 - **Format**: JPG or PNG
 - **Content**: Include post title and your branding
 - **File size**: Under 1MB for fast loading
 
 ### Open Graph Tags
+
 The system automatically generates Open Graph tags using your `og_image` field:
+
 - `og:title`: Your post title
 - `og:description`: Your meta description
 - `og:image`: Your social media thumbnail
 - `og:url`: Post URL
 
 Test your social media preview:
+
 - Facebook: [Facebook Sharing Debugger](https://developers.facebook.com/tools/debug/)
 - Twitter: [Twitter Card Validator](https://cards-dev.twitter.com/validator)
 - LinkedIn: Share preview shows automatically
@@ -214,11 +237,13 @@ Test your social media preview:
 ## Content Strategy
 
 ### Recommended Posting Schedule
+
 - **Frequency**: 2-4 posts per month
 - **Quality over Quantity**: Better to post 2 excellent articles than 10 mediocre ones
 - **Consistency**: Choose specific days (e.g., 1st and 15th of each month)
 
 ### Content Ideas
+
 1. **Tutorial Posts**: "How to build X with Y" (include code)
 2. **Case Studies**: Share experiences from your projects
 3. **Technology Comparisons**: "React vs Vue" or "When to use Laravel"
@@ -227,6 +252,7 @@ Test your social media preview:
 6. **Project Showcases**: Deep dive into your portfolio projects
 
 ### Keyword Integration
+
 - Use "web developer philippines" naturally 3-5 times
 - Include in: title, meta description, introduction, and conclusion
 - Add variations: "Filipino web developer", "Philippines developer", "web development Philippines"
@@ -235,6 +261,7 @@ Test your social media preview:
 ## Image Optimization
 
 Before adding images:
+
 1. **Resize**: Use appropriate dimensions (max 1500px width for content images)
 2. **Compress**: Use tools like TinyPNG or ImageOptim
 3. **Format**: Use WebP for better compression, with JPG fallback
@@ -243,12 +270,15 @@ Before adding images:
 ## Code Formatting Tips
 
 ### Use Proper Escaping
+
 In JSON, escape special characters:
+
 - Use `\\n` for newlines
 - Use `\\"` for quotes inside strings
 - Use `\\\\` for backslashes
 
 ### Example
+
 ```json
 "code": "function greet(name) {\n  return `Hello, ${name}!`;\n}\n\nconsole.log(greet('World'));"
 ```
@@ -256,16 +286,19 @@ In JSON, escape special characters:
 ## Troubleshooting
 
 ### Post Not Showing
+
 - Check JSON syntax (use JSONLint to validate)
 - Ensure commas are correct between entries
 - Verify file is saved
 
 ### Images Not Loading
+
 - Check file path in `public/blog-images/`
 - Verify filename matches exactly (case-sensitive)
 - Ensure image file is committed to git
 
 ### Social Share Preview Not Working
+
 - Verify `og_image` is full URL (not relative path)
 - Check image is accessible publicly
 - Use Facebook Debugger to refresh cache
@@ -273,12 +306,14 @@ In JSON, escape special characters:
 ## Example Complete Post
 
 See the existing posts in `blogs.json` for complete examples:
+
 - Post 2: Includes code snippets with React and PHP
 - Post 3: Includes images with captions
 
 ## Need Help?
 
 If you encounter issues:
+
 1. Check the browser console for errors
 2. Validate JSON syntax
 3. Test locally before deploying
