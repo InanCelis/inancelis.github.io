@@ -27,36 +27,34 @@ function BlogPost() {
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
-    "headline": blog.title,
-    "description": blog.metaDescription,
-    "author": {
+    headline: blog.title,
+    description: blog.metaDescription,
+    author: {
       "@type": "Person",
-      "name": blog.author,
-      "url": "https://www.inancelis.com"
+      name: blog.author,
+      url: "https://www.inancelis.com",
     },
-    "datePublished": blog.date,
-    "dateModified": blog.date,
-    "publisher": {
+    datePublished: blog.date,
+    dateModified: blog.date,
+    publisher: {
       "@type": "Person",
-      "name": "Inan Celis",
-      "url": "https://www.inancelis.com"
+      name: "Inan Celis",
+      url: "https://www.inancelis.com",
     },
-    "mainEntityOfPage": {
+    mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": `https://www.inancelis.com/blog/${blog.slug}`
+      "@id": `https://www.inancelis.com/blog/${blog.slug}`,
     },
-    "keywords": blog.keywords.join(", ")
+    keywords: blog.keywords.join(", "),
   };
 
   // Get related posts (exclude current post)
-  const relatedPosts = blogsData
-    .filter((b) => b.id !== blog.id)
-    .slice(0, 2);
+  const relatedPosts = blogsData.filter((b) => b.id !== blog.id).slice(0, 2);
 
   // Render section based on type
   const renderSection = (section, index) => {
     switch (section.type) {
-      case 'text':
+      case "text":
         return (
           <div key={index} className="blog-section">
             <h2>{section.heading}</h2>
@@ -64,7 +62,7 @@ function BlogPost() {
           </div>
         );
 
-      case 'code':
+      case "code":
         return (
           <CodeBlock
             key={index}
@@ -75,19 +73,19 @@ function BlogPost() {
           />
         );
 
-      case 'image':
+      case "image":
         // Check if image is external URL (starts with http:// or https://)
-        const isExternalImage = section.src.startsWith('http://') || section.src.startsWith('https://');
-        const imageSrc = isExternalImage ? section.src : require(`../assets/images/${section.src}`);
+        const isExternalImage =
+          section.src.startsWith("http://") ||
+          section.src.startsWith("https://");
+        const imageSrc = isExternalImage
+          ? section.src
+          : require(`../assets/images/${section.src}`);
 
         return (
           <div key={index} className="blog-section blog-image-section">
             <div className="blog-image-wrapper">
-              <img
-                src={imageSrc}
-                alt={section.alt}
-                loading="lazy"
-              />
+              <img src={imageSrc} alt={section.alt} loading="lazy" />
               {section.caption && (
                 <p className="image-caption text-muted">{section.caption}</p>
               )}
@@ -106,11 +104,14 @@ function BlogPost() {
         title={`${blog.title} | Inan Celis - Web Developer Philippines`}
         description={blog.metaDescription}
         url={`https://www.inancelis.com/blog/${blog.slug}`}
-        image={blog.og_image || "https://www.inancelis.com/static/media/meee.4c7463169d8947aeed63.png"}
+        image={
+          blog.og_image ||
+          "https://www.inancelis.com/static/media/meee.4c7463169d8947aeed63.png"
+        }
         type="article"
         structuredData={structuredData}
       />
-      <article className="container blog-post-page">
+      <article className="container blog-post-page py-5 pt-5">
         <div className="blog-post-header" data-aos="fade-up">
           <NavLink to="/blog" className="back-link">
             <i className="fa-solid fa-arrow-left"></i> Back to Blog
@@ -135,7 +136,9 @@ function BlogPost() {
             <p>{blog.content.introduction}</p>
           </div>
 
-          {blog.content.sections.map((section, index) => renderSection(section, index))}
+          {blog.content.sections.map((section, index) =>
+            renderSection(section, index)
+          )}
 
           <div className="blog-conclusion">
             <h2>Conclusion</h2>
@@ -157,7 +160,11 @@ function BlogPost() {
             <strong>Share this article:</strong>
             <div className="share-buttons">
               <a
-                href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(blog.title)}&url=${encodeURIComponent(`https://www.inancelis.com/blog/${blog.slug}`)}`}
+                href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(
+                  blog.title
+                )}&url=${encodeURIComponent(
+                  `https://www.inancelis.com/blog/${blog.slug}`
+                )}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="share-btn twitter"
@@ -165,7 +172,9 @@ function BlogPost() {
                 <i className="fa-brands fa-twitter"></i>
               </a>
               <a
-                href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(`https://www.inancelis.com/blog/${blog.slug}`)}`}
+                href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(
+                  `https://www.inancelis.com/blog/${blog.slug}`
+                )}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="share-btn linkedin"
@@ -173,7 +182,9 @@ function BlogPost() {
                 <i className="fa-brands fa-linkedin"></i>
               </a>
               <a
-                href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(`https://www.inancelis.com/blog/${blog.slug}`)}`}
+                href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(
+                  `https://www.inancelis.com/blog/${blog.slug}`
+                )}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="share-btn facebook"
@@ -191,7 +202,9 @@ function BlogPost() {
               {relatedPosts.map((relatedBlog) => (
                 <div key={relatedBlog.id} className="related-post-card">
                   <div className="related-post-meta">
-                    <span className="blog-category">{relatedBlog.category}</span>
+                    <span className="blog-category">
+                      {relatedBlog.category}
+                    </span>
                     <span className="blog-date">{relatedBlog.date}</span>
                   </div>
                   <h4>
@@ -200,7 +213,10 @@ function BlogPost() {
                     </NavLink>
                   </h4>
                   <p className="text-muted">{relatedBlog.excerpt}</p>
-                  <NavLink to={`/blog/${relatedBlog.slug}`} className="read-more">
+                  <NavLink
+                    to={`/blog/${relatedBlog.slug}`}
+                    className="read-more"
+                  >
                     Read More <i className="fa-solid fa-arrow-right"></i>
                   </NavLink>
                 </div>
@@ -212,7 +228,9 @@ function BlogPost() {
         <div className="blog-cta" data-aos="fade-up">
           <h3>Need a Web Developer for Your Project?</h3>
           <p className="text-muted">
-            Looking for a professional web developer in the Philippines? Let's discuss how I can help bring your project to life with modern technologies and best practices.
+            Looking for a professional web developer in the Philippines? Let's
+            discuss how I can help bring your project to life with modern
+            technologies and best practices.
           </p>
           <NavLink to="/contact" className="cta-button">
             <i className="fa-regular fa-paper-plane"></i> Get In Touch

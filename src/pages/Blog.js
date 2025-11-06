@@ -28,7 +28,7 @@ function Blog() {
         url="https://www.inancelis.com/blog"
         structuredData={structuredData}
       />
-      <div className="container blog-page">
+      <div className="container blog-page py-5 pt-5">
         <div className="blog-header" data-aos="fade-up">
           <h1 className="font-weight-bold">Web Development Blog</h1>
           <p className="text-muted f-text-m">

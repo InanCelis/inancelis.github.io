@@ -80,7 +80,7 @@ function ProjectView() {
             <i className="fa-solid fa-arrow-right"></i>
           </button>
         </div>
-        <div className='project-item-bg' style={{position: 'fixed', backgroundImage: `url('project/${projItem.imageBg}')`}}></div>
+        <div className='project-item-bg' style={{position: 'fixed', backgroundImage: `url('/project/${projItem.imageBg}')`}}></div>
         <div className='project-item-content container' key={projItem.id}>
           <div className='details' >
             <h1 className='title-3' data-aos="fade-up">{projItem.company}</h1>
