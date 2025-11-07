@@ -45,7 +45,6 @@ function BlogPost() {
       "@type": "WebPage",
       "@id": `https://www.inancelis.com/blog/${blog.slug}`,
     },
-    keywords: blog.keywords.join(", "),
   };
 
   // Get related posts (exclude current post)
@@ -101,7 +100,7 @@ function BlogPost() {
   return (
     <Layout>
       <SEO
-        title={`${blog.title} | Inan Celis - Web Developer Philippines`}
+        title={`${blog.title} | Inan Celis`}
         description={blog.metaDescription}
         url={`https://www.inancelis.com/blog/${blog.slug}`}
         image={

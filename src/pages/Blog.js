@@ -20,6 +20,11 @@ const structuredData = {
 };
 
 function Blog() {
+  // Sort blogs by date in descending order (newest first)
+  const sortedBlogs = [...blogsData].sort((a, b) => {
+    return new Date(b.date) - new Date(a.date);
+  });
+
   return (
     <Layout>
       <SEO
@@ -38,7 +43,7 @@ function Blog() {
         </div>
 
         <div className="blog-grid">
-          {blogsData.map((blog) => (
+          {sortedBlogs.map((blog) => (
             <article key={blog.id} className="blog-card" data-aos="fade-up">
               <div className="blog-card-header">
                 <div className="blog-meta">

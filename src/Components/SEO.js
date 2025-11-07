@@ -4,7 +4,6 @@ import { Helmet } from "react-helmet";
 const SEO = ({
   title = "Inan Celis - Full Stack Web Developer",
   description = "Full-stack web developer specializing in React, Vue, Laravel, and WordPress. Building scalable web applications with modern technologies and user-centered design.",
-  keywords = "Inan Celis, Full Stack Developer, Web Developer, React Developer, Laravel Developer, WordPress Developer, Frontend Developer, Backend Developer, Web Design, Philippines Developer",
   author = "Inan Celis",
   url = "https://www.inancelis.com",
   image = "https://www.inancelis.com/static/media/meee.4c7463169d8947aeed63.png",
@@ -19,7 +18,6 @@ const SEO = ({
       <title>{siteTitle}</title>
       <meta name="title" content={siteTitle} />
       <meta name="description" content={description} />
-      <meta name="keywords" content={keywords} />
       <meta name="author" content={author} />
       <link rel="canonical" href={url} />
 

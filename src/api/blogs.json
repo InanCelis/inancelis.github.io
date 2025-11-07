@@ -2,8 +2,8 @@
     {
         "id": 1,
         "slug": "why-choose-web-developer-philippines",
-        "title": "Why Choose a Web Developer in the Philippines for Your Next Project",
-        "metaDescription": "Discover why hiring a web developer in the Philippines offers exceptional value, quality, and expertise for your web development project. Learn about the benefits of working with Filipino developers.",
+        "title": "Why Choose a Web Developer in the Philippines",
+        "metaDescription": "Discover why hiring a web developer in the Philippines offers exceptional value, quality, and expertise for your web development project.",
         "author": "Inan Celis",
         "date": "2025-01-06",
         "readTime": "5 min read",
@@ -42,14 +42,13 @@
                 }
             ],
             "conclusion": "Choosing a web developer in the Philippines means accessing a pool of talented, English-speaking professionals who combine technical excellence with strong work ethics and competitive pricing. Whether you're building a new web application, modernizing an existing system, or need ongoing development support, Filipino developers offer the skills, dedication, and value that can drive your project to success."
-        },
-        "keywords": ["web developer philippines", "filipino web developer", "hire web developer", "philippines tech talent", "outsource web development"]
+        }
     },
     {
         "id": 2,
         "slug": "modern-web-development-technologies-2025",
-        "title": "Modern Web Development Technologies Every Developer Should Know in 2025",
-        "metaDescription": "Explore the essential web development technologies in 2025, from React and Vue to Laravel and Node.js. Learn what the best web developers in the Philippines are using to build cutting-edge applications.",
+        "title": "Modern Web Development Technologies in 2025",
+        "metaDescription": "Explore essential web development technologies in 2025. Learn what the best developers are using to build cutting-edge applications.",
         "author": "Inan Celis",
         "date": "2025-01-06",
         "readTime": "7 min read",
@@ -64,7 +63,7 @@
                 {
                     "type": "text",
                     "heading": "React: The Frontend Powerhouse",
-                    "content": "React continues to dominate the frontend development space in 2025. Its component-based architecture, virtual DOM, and extensive ecosystem make it the go-to choice for building interactive user interfaces. With the introduction of React Server Components and improved concurrent rendering, React applications are faster and more efficient than ever. Top web developers in the Philippines extensively use React for building everything from simple landing pages to complex enterprise applications."
+                    "content": "React continues to dominate the frontend development space in 2025. Its component-based architecture, virtual DOM, and extensive ecosystem make it the go-to choice for building interactive user interfaces. With the introduction of React Server Components and improved concurrent rendering, React applications are faster and more efficient than ever. Top web developers extensively use React for building everything from simple landing pages to complex enterprise applications."
                 },
                 {
                     "type": "code",
@@ -76,7 +75,7 @@
                 {
                     "type": "text",
                     "heading": "Vue.js: The Progressive Framework",
-                    "content": "Vue.js has solidified its position as a developer-friendly framework that's both powerful and approachable. Its reactive data binding, component system, and gentle learning curve make it an excellent choice for projects of all sizes. Vue 3's Composition API has brought improved TypeScript support and better code organization, making it a favorite among professional developers in the Philippines and worldwide."
+                    "content": "Vue.js has solidified its position as a developer-friendly framework that's both powerful and approachable. Its reactive data binding, component system, and gentle learning curve make it an excellent choice for projects of all sizes. Vue 3's Composition API has brought improved TypeScript support and better code organization, making it a favorite among professional developers worldwide."
                 },
                 {
                     "type": "image",
@@ -112,15 +111,14 @@
                     "content": "In 2025, AI tools like GitHub Copilot and ChatGPT have become integral to the development workflow. Professional web developers use these tools to accelerate coding, debug issues, and explore new approaches. However, the best developers understand that AI is a tool to enhance productivity, not replace fundamental programming knowledge and critical thinking."
                 }
             ],
-            "conclusion": "The best web developers in 2025 are those who combine deep expertise in core technologies like React, Vue, and Laravel with an understanding of modern development practices and AI-assisted tools. Whether you're looking to hire a web developer in the Philippines or anywhere else, ensure they're proficient in these technologies and committed to continuous learning in this ever-evolving field."
-        },
-        "keywords": ["web development technologies", "react development", "vue.js", "laravel php", "best web developer philippines", "modern web development"]
+            "conclusion": "The best web developers in 2025 are those who combine deep expertise in core technologies like React, Vue, and Laravel with an understanding of modern development practices and AI-assisted tools. Whether you're looking to hire a developer or build your own skills, ensure proficiency in these technologies and commitment to continuous learning in this ever-evolving field."
+        }
     },
     {
         "id": 3,
         "slug": "full-stack-developer-vs-specialized-developer",
-        "title": "Full Stack Developer vs Specialized Developer: Which Does Your Project Need?",
-        "metaDescription": "Understand the difference between full stack developers and specialized developers. Learn which type of web developer in the Philippines is right for your project needs.",
+        "title": "Full Stack vs Specialized Developer: Choose Right",
+        "metaDescription": "Understand the difference between full stack and specialized developers. Learn which type is right for your project needs.",
         "author": "Inan Celis",
         "date": "2025-01-06",
         "readTime": "6 min read",
@@ -135,7 +133,7 @@
                 {
                     "type": "text",
                     "heading": "What is a Full Stack Developer?",
-                    "content": "A full stack developer is proficient in both frontend and backend development. They can work with databases, server-side logic, APIs, and user interfaces. A typical full stack web developer in the Philippines might be skilled in React or Vue for frontend, Laravel or Node.js for backend, and database management with MySQL or MongoDB. This versatility allows them to handle an entire project independently or contribute to any part of a larger project."
+                    "content": "A full stack developer is proficient in both frontend and backend development. They can work with databases, server-side logic, APIs, and user interfaces. A typical full stack web developer might be skilled in React or Vue for frontend, Laravel or Node.js for backend, and database management with MySQL or MongoDB. This versatility allows them to handle an entire project independently or contribute to any part of a larger project."
                 },
                 {
                     "type": "image",
@@ -146,7 +144,7 @@
                 {
                     "type": "text",
                     "heading": "Advantages of Full Stack Developers",
-                    "content": "Full stack developers offer several advantages: they provide a holistic view of the project, can quickly prototype and iterate, reduce communication overhead between frontend and backend teams, and are often more cost-effective for small to medium projects. For startups and small businesses in the Philippines and globally, a skilled full stack developer can be invaluable in the early stages."
+                    "content": "Full stack developers offer several advantages: they provide a holistic view of the project, can quickly prototype and iterate, reduce communication overhead between frontend and backend teams, and are often more cost-effective for small to medium projects. For startups and small businesses, a skilled full stack developer can be invaluable in the early stages."
                 },
                 {
                     "type": "text",
@@ -169,8 +167,349 @@
                     "content": "For MVPs, small to medium projects, startups with limited budgets, or projects requiring quick iterations, a full stack developer is often the best choice. For large enterprise applications, projects with specific technical challenges, or when you have the budget for a larger team, specialized developers provide the depth needed. Many successful projects use a hybrid approach – a full stack developer as the project lead with specialized developers for specific complex components."
                 }
             ],
-            "conclusion": "There's no universally correct answer – the best choice depends on your specific project needs, budget, and timeline. Whether you choose to work with a full stack web developer in the Philippines or build a team of specialists, the key is finding developers who are skilled, communicative, and committed to your project's success. Consider starting with a full stack developer for the initial build and bringing in specialists as your project grows and specific needs emerge."
-        },
-        "keywords": ["full stack developer philippines", "specialized developer", "hire web developer", "web development team", "best web developer philippines"]
+            "conclusion": "There's no universally correct answer – the best choice depends on your specific project needs, budget, and timeline. Whether you choose to work with a full stack developer or build a team of specialists, the key is finding developers who are skilled, communicative, and committed to your project's success. Consider starting with a full stack developer for the initial build and bringing in specialists as your project grows and specific needs emerge."
+        }
+    },
+    {
+        "id": 4,
+        "slug": "building-scalable-web-applications",
+        "title": "Build Scalable Web Apps in 2025",
+        "metaDescription": "Learn essential strategies for building scalable web applications. Expert insights on architecture and best practices from professional developers.",
+        "author": "Inan Celis",
+        "date": "2025-01-07",
+        "readTime": "8 min read",
+        "category": "Web Development",
+        "tags": ["scalable applications", "web architecture", "performance optimization", "web development"],
+        "featured_image": "blog-scalable-apps.jpg",
+        "og_image": "https://www.inancelis.com/blog-images/blog-scalable-apps.jpg",
+        "excerpt": "Building scalable web applications requires careful planning, the right technology choices, and adherence to best practices. Learn proven strategies that professional developers use.",
+        "content": {
+            "introduction": "As your web application grows, scalability becomes critical to success. Whether you're building a startup MVP or an enterprise system, understanding how to create applications that can handle increasing user loads and feature complexity is essential. This comprehensive guide will walk you through the fundamental principles and practical strategies for building scalable web applications in 2025.",
+            "sections": [
+                {
+                    "type": "text",
+                    "heading": "Understanding Scalability: More Than Just Performance",
+                    "content": "Scalability isn't just about making your application fast. It's about designing systems that can grow efficiently as demand increases. This includes handling more users, processing larger datasets, and adding new features without requiring complete rewrites. Scalability encompasses both vertical scaling (adding more power to existing servers) and horizontal scaling (adding more servers). Modern web applications must be designed with both approaches in mind from the start. Professional web developers understand that scalability decisions made early in development have lasting impacts on the application's ability to grow."
+                },
+                {
+                    "type": "text",
+                    "heading": "Choosing the Right Technology Stack",
+                    "content": "Your technology choices lay the foundation for scalability. For frontend development, frameworks like React and Vue offer component-based architectures that scale well as your application grows. React's virtual DOM and Vue's reactive system provide excellent performance even with complex user interfaces. On the backend, Node.js excels at handling concurrent connections with its non-blocking I/O model, making it ideal for real-time applications and APIs. Laravel, built on PHP, provides robust features like queue management and caching that support scalable architectures. When selecting databases, consider PostgreSQL for complex relational data, MongoDB for flexible document storage, and Redis for high-speed caching and session management."
+                },
+                {
+                    "type": "code",
+                    "heading": "Laravel Queue Configuration for Background Processing",
+                    "language": "php",
+                    "code": "<?php\n\nnamespace App\\Jobs;\n\nuse Illuminate\\Bus\\Queueable;\nuse Illuminate\\Contracts\\Queue\\ShouldQueue;\nuse Illuminate\\Foundation\\Bus\\Dispatchable;\nuse Illuminate\\Queue\\InteractsWithQueue;\nuse Illuminate\\Queue\\SerializesModels;\nuse App\\Models\\Report;\n\nclass GenerateUserReport implements ShouldQueue\n{\n    use Dispatchable, InteractsWithQueue, Queueable, SerializesModels;\n\n    protected $userId;\n\n    public function __construct($userId)\n    {\n        $this->userId = $userId;\n    }\n\n    public function handle()\n    {\n        // Heavy processing moved to background\n        $report = Report::generateForUser($this->userId);\n        $report->save();\n        \n        // Send notification when complete\n        $user = User::find($this->userId);\n        $user->notify(new ReportReady($report));\n    }\n}",
+                    "caption": "Using Laravel queues to handle resource-intensive tasks asynchronously"
+                },
+                {
+                    "type": "text",
+                    "heading": "Database Design and Optimization Strategies",
+                    "content": "Database performance is often the first bottleneck in scaling applications. Start with proper indexing on frequently queried columns. Use composite indexes for queries that filter on multiple fields. Implement database connection pooling to reduce the overhead of creating new connections. Consider read replicas for applications with heavy read loads, directing all reads to replica databases while writes go to the primary. Normalize your data to reduce redundancy, but don't be afraid to denormalize strategically for performance-critical queries. Use database caching layers like Redis to store frequently accessed data and reduce database load. For applications dealing with millions of records, implement database sharding to distribute data across multiple servers."
+                },
+                {
+                    "type": "text",
+                    "heading": "Implementing Effective Caching Strategies",
+                    "content": "Caching is one of the most effective ways to improve scalability. Implement multiple layers of caching: browser caching for static assets, CDN caching for content delivery, application-level caching with Redis or Memcached for database queries and computed results, and HTTP caching with proper cache headers. Use cache invalidation strategies carefully. Set appropriate expiration times and implement cache-busting mechanisms when data changes. For dynamic content, consider using stale-while-revalidate patterns that serve cached content while fetching fresh data in the background. This approach keeps your application responsive while ensuring data freshness."
+                },
+                {
+                    "type": "image",
+                    "src": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1200&h=600&fit=crop",
+                    "alt": "Cloud infrastructure and server visualization",
+                    "caption": "Modern scalable architecture often leverages cloud infrastructure and distributed systems"
+                },
+                {
+                    "type": "text",
+                    "heading": "API Design for Scalability",
+                    "content": "Well-designed APIs are crucial for scalable applications. Implement RESTful principles with proper HTTP methods and status codes. Use pagination for list endpoints to prevent overwhelming responses. Implement rate limiting to prevent abuse and ensure fair resource distribution. Design your API with versioning from the start, using URL versioning or header-based versioning to maintain backward compatibility as your API evolves. Use GraphQL for complex data requirements, allowing clients to request exactly the data they need and reducing over-fetching. Implement proper error handling with meaningful error messages and appropriate status codes. Consider using API gateways to handle cross-cutting concerns like authentication, rate limiting, and request transformation."
+                },
+                {
+                    "type": "code",
+                    "heading": "React Component with Efficient Data Fetching",
+                    "language": "jsx",
+                    "code": "import React, { useState, useEffect, useCallback } from 'react';\nimport { debounce } from 'lodash';\n\nfunction UserSearch() {\n  const [query, setQuery] = useState('');\n  const [results, setResults] = useState([]);\n  const [loading, setLoading] = useState(false);\n\n  // Debounced search to reduce API calls\n  const searchUsers = useCallback(\n    debounce(async (searchQuery) => {\n      if (!searchQuery) {\n        setResults([]);\n        return;\n      }\n\n      setLoading(true);\n      try {\n        const response = await fetch(\n          `/api/users/search?q=${encodeURIComponent(searchQuery)}&limit=10`\n        );\n        const data = await response.json();\n        setResults(data);\n      } catch (error) {\n        console.error('Search failed:', error);\n      } finally {\n        setLoading(false);\n      }\n    }, 300),\n    []\n  );\n\n  useEffect(() => {\n    searchUsers(query);\n  }, [query, searchUsers]);\n\n  return (\n    <div className=\"user-search\">\n      <input\n        type=\"text\"\n        value={query}\n        onChange={(e) => setQuery(e.target.value)}\n        placeholder=\"Search users...\"\n      />\n      {loading && <div>Searching...</div>}\n      <div className=\"results\">\n        {results.map(user => (\n          <div key={user.id}>{user.name}</div>\n        ))}\n      </div>\n    </div>\n  );\n}\n\nexport default UserSearch;",
+                    "caption": "Implementing debounced search to reduce unnecessary API calls and improve scalability"
+                },
+                {
+                    "type": "text",
+                    "heading": "Microservices vs Monolithic Architecture",
+                    "content": "While monolithic applications are simpler to develop initially, microservices offer better scalability for large applications. Microservices allow you to scale individual components independently. If your user authentication service experiences high load, you can scale just that service without affecting others. However, microservices introduce complexity in deployment, monitoring, and inter-service communication. For most small to medium projects, start with a well-structured monolith. Use clear module boundaries and dependency injection to make future extraction of services possible. As your application grows and specific bottlenecks emerge, consider extracting those components into separate microservices. This pragmatic approach balances simplicity and scalability."
+                },
+                {
+                    "type": "text",
+                    "heading": "Load Balancing and Auto-Scaling",
+                    "content": "Implement load balancing to distribute traffic across multiple application servers. Use round-robin, least connections, or IP hash algorithms based on your needs. Modern cloud platforms like AWS, Google Cloud, and Azure offer auto-scaling groups that automatically add or remove servers based on traffic patterns. Configure health checks to ensure traffic only routes to healthy instances. Set up proper monitoring and alerting to track server performance and scaling events. Use container orchestration platforms like Kubernetes for automated deployment, scaling, and management of containerized applications. This approach provides excellent scalability with minimal manual intervention."
+                },
+                {
+                    "type": "text",
+                    "heading": "Monitoring and Performance Testing",
+                    "content": "You can't improve what you don't measure. Implement comprehensive monitoring from day one. Use Application Performance Monitoring tools like New Relic or Datadog to track response times, error rates, and resource usage. Set up logging infrastructure to capture and analyze application logs. Use services like ELK Stack or Splunk for log aggregation and analysis. Conduct regular load testing to identify bottlenecks before they affect users. Tools like Apache JMeter or k6 can simulate thousands of concurrent users. Test different scenarios including normal load, peak load, and stress conditions. Monitor database query performance with slow query logs and identify optimization opportunities."
+                },
+                {
+                    "type": "text",
+                    "heading": "Security Considerations for Scalable Applications",
+                    "content": "As applications scale, security becomes increasingly important. Implement proper authentication and authorization from the start. Use JWT tokens for stateless authentication in distributed systems. Implement rate limiting and DDoS protection to prevent abuse. Use Web Application Firewalls to filter malicious traffic. Keep all dependencies updated to patch security vulnerabilities. Implement proper input validation and sanitization to prevent injection attacks. Use HTTPS everywhere and implement proper CORS policies. Regular security audits and penetration testing help identify vulnerabilities before attackers do."
+                }
+            ],
+            "conclusion": "Building scalable web applications requires careful planning, the right technology choices, and continuous optimization. Start with a solid foundation using proven technologies like React, Laravel, or Node.js. Implement caching strategies, optimize database queries, and design APIs thoughtfully. Monitor your application's performance and be ready to adapt as it grows. Whether you're working with a professional developer or building your own team, these principles will help you create applications that can scale from hundreds to millions of users. Remember that scalability is a journey, not a destination. Build for your current needs while keeping future growth in mind, and refactor strategically as patterns emerge."
+        }
+    },
+    {
+        "id": 5,
+        "slug": "react-best-practices-2025",
+        "title": "React Best Practices for 2025",
+        "metaDescription": "Master React development with essential best practices. Learn about component design, state management, and performance from professional developers.",
+        "author": "Inan Celis",
+        "date": "2025-01-07",
+        "readTime": "9 min read",
+        "category": "Technology",
+        "tags": ["react", "javascript", "frontend development", "best practices"],
+        "featured_image": "blog-react-practices.jpg",
+        "og_image": "https://www.inancelis.com/blog-images/blog-react-practices.jpg",
+        "excerpt": "Elevate your React development skills with proven best practices. From component architecture to performance optimization, learn what separates good React code from great React code.",
+        "content": {
+            "introduction": "React has revolutionized frontend development, but mastering it requires more than just knowing the basics. Whether you're a beginner looking to level up or an experienced developer seeking to refine your skills, understanding and applying React best practices is crucial. These practices have been refined by thousands of developers building production applications, and they'll help you write cleaner, more maintainable, and more performant React code. Let's explore the essential best practices that every React developer should follow in 2025.",
+            "sections": [
+                {
+                    "type": "text",
+                    "heading": "Component Design: Keep It Small and Focused",
+                    "content": "The foundation of good React code is well-designed components. Follow the Single Responsibility Principle - each component should do one thing well. If a component is handling multiple concerns, it's time to split it. Small components are easier to test, debug, and reuse. Aim for components that are typically under 200 lines of code. When a component grows beyond this, look for logical boundaries where you can extract child components. Use composition over inheritance. React's component model is built around composition, allowing you to combine simple components to build complex UIs. Create small, focused components and compose them together rather than building monolithic components with complex inheritance hierarchies."
+                },
+                {
+                    "type": "code",
+                    "heading": "Good Component Design Example",
+                    "language": "jsx",
+                    "code": "// Good: Small, focused components\nimport React from 'react';\n\nfunction UserAvatar({ imageUrl, name, size = 'medium' }) {\n  const sizeClasses = {\n    small: 'w-8 h-8',\n    medium: 'w-12 h-12',\n    large: 'w-16 h-16'\n  };\n\n  return (\n    <img\n      src={imageUrl}\n      alt={name}\n      className={`rounded-full ${sizeClasses[size]}`}\n    />\n  );\n}\n\nfunction UserInfo({ name, email, role }) {\n  return (\n    <div className=\"user-info\">\n      <h3>{name}</h3>\n      <p className=\"text-gray-600\">{email}</p>\n      <span className=\"badge\">{role}</span>\n    </div>\n  );\n}\n\nfunction UserCard({ user }) {\n  return (\n    <div className=\"user-card\">\n      <UserAvatar\n        imageUrl={user.avatar}\n        name={user.name}\n        size=\"large\"\n      />\n      <UserInfo\n        name={user.name}\n        email={user.email}\n        role={user.role}\n      />\n    </div>\n  );\n}\n\nexport default UserCard;",
+                    "caption": "Breaking down a user card into smaller, reusable components"
+                },
+                {
+                    "type": "text",
+                    "heading": "Proper State Management: Choose the Right Tool",
+                    "content": "State management is critical in React applications. For local component state, useState is perfect. Use it for simple, component-specific state like form inputs or toggle states. For state that needs to be shared across multiple components, React Context provides a built-in solution without external dependencies. It's ideal for themes, user authentication, and other global application state. For complex applications with intricate state logic, consider Redux Toolkit or Zustand. These libraries provide predictable state management with powerful developer tools. However, don't reach for them prematurely - many applications work perfectly fine with useState and Context. The key is to start simple and add complexity only when needed."
+                },
+                {
+                    "type": "text",
+                    "heading": "Custom Hooks: Reusable Logic",
+                    "content": "Custom hooks are one of React's most powerful features for code reuse. Identify repeated logic in your components and extract it into custom hooks. Common candidates include API data fetching, form handling, local storage management, and window resize listeners. Custom hooks follow the same rules as built-in hooks and can use other hooks internally. Name your custom hooks with the 'use' prefix to follow React conventions. This naming helps other developers immediately recognize them as hooks. Well-designed custom hooks can be shared across projects, building a library of reusable logic that accelerates development."
+                },
+                {
+                    "type": "code",
+                    "heading": "Creating Reusable Custom Hooks",
+                    "language": "jsx",
+                    "code": "import { useState, useEffect } from 'react';\n\n// Custom hook for API data fetching\nfunction useFetch(url) {\n  const [data, setData] = useState(null);\n  const [loading, setLoading] = useState(true);\n  const [error, setError] = useState(null);\n\n  useEffect(() => {\n    let isMounted = true;\n\n    async function fetchData() {\n      try {\n        setLoading(true);\n        const response = await fetch(url);\n        \n        if (!response.ok) {\n          throw new Error(`HTTP error! status: ${response.status}`);\n        }\n        \n        const json = await response.json();\n        \n        if (isMounted) {\n          setData(json);\n          setError(null);\n        }\n      } catch (e) {\n        if (isMounted) {\n          setError(e.message);\n          setData(null);\n        }\n      } finally {\n        if (isMounted) {\n          setLoading(false);\n        }\n      }\n    }\n\n    fetchData();\n\n    return () => {\n      isMounted = false;\n    };\n  }, [url]);\n\n  return { data, loading, error };\n}\n\n// Using the custom hook\nfunction UserList() {\n  const { data: users, loading, error } = useFetch('/api/users');\n\n  if (loading) return <div>Loading...</div>;\n  if (error) return <div>Error: {error}</div>;\n\n  return (\n    <ul>\n      {users.map(user => (\n        <li key={user.id}>{user.name}</li>\n      ))}\n    </ul>\n  );\n}\n\nexport default UserList;",
+                    "caption": "A reusable custom hook for data fetching that handles loading and error states"
+                },
+                {
+                    "type": "text",
+                    "heading": "Performance Optimization: When and How",
+                    "content": "React is fast by default, but there are cases where optimization is necessary. Use React.memo to prevent unnecessary re-renders of components that receive the same props. This is particularly useful for expensive components or components that render frequently. The useMemo hook caches expensive calculations between renders. Use it when you have computationally intensive operations that don't need to run on every render. The useCallback hook memoizes function references, preventing child components from re-rendering when passed as props. However, be careful with premature optimization. These tools add complexity and should only be used when you've identified actual performance issues through profiling."
+                },
+                {
+                    "type": "image",
+                    "src": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=1200&h=600&fit=crop",
+                    "alt": "Developer coding React application",
+                    "caption": "Modern React development focuses on component composition and performance optimization"
+                },
+                {
+                    "type": "text",
+                    "heading": "Error Boundaries: Graceful Error Handling",
+                    "content": "Error boundaries catch JavaScript errors anywhere in the component tree and display fallback UI instead of crashing the entire application. Implement error boundaries around major sections of your app to prevent isolated errors from breaking the entire user experience. Error boundaries can log error information to monitoring services, helping you identify and fix issues proactively. Remember that error boundaries only catch errors in rendering, lifecycle methods, and constructors. They don't catch errors in event handlers or asynchronous code. For those cases, use traditional try-catch blocks."
+                },
+                {
+                    "type": "code",
+                    "heading": "Implementing an Error Boundary",
+                    "language": "jsx",
+                    "code": "import React from 'react';\n\nclass ErrorBoundary extends React.Component {\n  constructor(props) {\n    super(props);\n    this.state = { hasError: false, error: null };\n  }\n\n  static getDerivedStateFromError(error) {\n    return { hasError: true, error };\n  }\n\n  componentDidCatch(error, errorInfo) {\n    // Log error to monitoring service\n    console.error('Error caught by boundary:', error, errorInfo);\n    // You can also log to services like Sentry here\n  }\n\n  render() {\n    if (this.state.hasError) {\n      return (\n        <div className=\"error-fallback\">\n          <h2>Something went wrong</h2>\n          <p>We're sorry for the inconvenience. Please try refreshing the page.</p>\n          <button onClick={() => window.location.reload()}>\n            Refresh Page\n          </button>\n        </div>\n      );\n    }\n\n    return this.props.children;\n  }\n}\n\n// Usage\nfunction App() {\n  return (\n    <ErrorBoundary>\n      <MyApplication />\n    </ErrorBoundary>\n  );\n}\n\nexport default App;",
+                    "caption": "Error boundary component providing graceful error handling and recovery"
+                },
+                {
+                    "type": "text",
+                    "heading": "Proper Props Handling and Validation",
+                    "content": "Always destructure props in component parameters for better readability and explicit declaration of dependencies. Use default values for optional props directly in the destructuring. For production applications, consider using TypeScript for type safety and better developer experience. TypeScript catches type-related errors at compile time rather than runtime, significantly reducing bugs. If you're not using TypeScript, at least use PropTypes for runtime prop validation during development. This helps catch issues early and serves as inline documentation for component APIs."
+                },
+                {
+                    "type": "text",
+                    "heading": "Code Organization and File Structure",
+                    "content": "Organize your React project with a clear structure. Group related components together, either by feature or by component type. A feature-based structure is often more scalable for larger applications. Keep component files focused - if a file is getting too large, it's probably time to split it. Use index files to simplify imports and create clear public APIs for your component folders. Separate business logic from presentation components. Container components handle data fetching and state management, while presentational components focus on rendering UI. This separation makes testing easier and components more reusable."
+                },
+                {
+                    "type": "text",
+                    "heading": "Testing Best Practices",
+                    "content": "Write tests for your React components using React Testing Library. Focus on testing behavior rather than implementation details. Test what users see and interact with, not internal component state or implementation details. This approach makes your tests more resilient to refactoring. Write integration tests for critical user flows to ensure different parts of your application work together correctly. Use meaningful test descriptions that explain what the test is verifying. A good test should serve as documentation for how the component should behave. Mock external dependencies like API calls to make tests fast and reliable."
+                },
+                {
+                    "type": "text",
+                    "heading": "Accessibility: Build for Everyone",
+                    "content": "Accessibility should be a core consideration, not an afterthought. Use semantic HTML elements whenever possible - they provide built-in accessibility features. Ensure all interactive elements are keyboard accessible. Users should be able to navigate your entire application using only a keyboard. Provide proper ARIA labels for elements that need additional context for screen readers. Test your application with screen readers and keyboard navigation. Tools like axe-dev-tools can automatically detect many accessibility issues during development. Remember that good accessibility often improves usability for all users, not just those with disabilities."
+                },
+                {
+                    "type": "text",
+                    "heading": "Keep Dependencies Updated",
+                    "content": "Regularly update your React and other dependencies to benefit from performance improvements, bug fixes, and security patches. Use tools like npm audit or Dependabot to identify and fix security vulnerabilities. Test thoroughly after updates to catch any breaking changes. Follow React's official upgrade guides when moving between major versions. Stay informed about deprecations and prepare for future changes. React's team provides excellent documentation and migration guides for major version updates."
+                }
+            ],
+            "conclusion": "Following these React best practices will significantly improve your code quality, maintainability, and application performance. Remember that best practices evolve as the React ecosystem matures. Stay connected with the React community through blogs, conferences, and open source projects. Whether you're a professional developer or learning React, continuously applying these practices will make you more effective. Start implementing these practices in your projects today, but remember to apply them pragmatically. Not every practice applies to every situation - use your judgment to determine what makes sense for your specific project and team."
+        }
+    },
+    {
+        "id": 6,
+        "slug": "create-react-app-from-scratch",
+        "title": "Create React App from Scratch Guide",
+        "metaDescription": "Complete guide to building a React application from scratch. Learn setup, configuration, and development best practices step by step.",
+        "author": "Inan Celis",
+        "date": "2025-01-07",
+        "readTime": "10 min read",
+        "category": "Tutorial",
+        "tags": ["react", "tutorial", "web development", "javascript", "frontend"],
+        "featured_image": "blog-react-tutorial.jpg",
+        "og_image": "https://www.inancelis.com/blog-images/blog-react-tutorial.jpg",
+        "excerpt": "Learn how to create a React application from scratch with this comprehensive step-by-step guide. Perfect for developers who want to understand the fundamentals of React setup and configuration.",
+        "content": {
+            "introduction": "Creating a React application from scratch might seem daunting, but understanding the process helps you become a better developer. While tools like Create React App provide quick setup, knowing how to build a React app manually gives you deeper insight into how React works and how to customize your development environment. In this comprehensive guide, we'll walk through creating a React application from scratch, covering everything from initial setup to building your first components. Whether you're a beginner learning React or an experienced developer wanting to understand the fundamentals, this tutorial will provide you with the knowledge you need.",
+            "sections": [
+                {
+                    "type": "text",
+                    "heading": "Prerequisites and Initial Setup",
+                    "content": "Before we begin, ensure you have Node.js installed on your system. Node.js comes with npm (Node Package Manager), which we'll use to install dependencies. You can verify your installation by running 'node --version' and 'npm --version' in your terminal. Create a new directory for your project and navigate into it. This will be your project root where all your React application files will live. Initialize a new npm project by running 'npm init -y' which creates a package.json file with default values. This file will track all your project dependencies and scripts."
+                },
+                {
+                    "type": "code",
+                    "heading": "Project Initialization Commands",
+                    "language": "bash",
+                    "code": "# Create project directory\nmkdir my-react-app\ncd my-react-app\n\n# Initialize npm project\nnpm init -y\n\n# Create project structure\nmkdir src public\ntouch src/index.js src/App.js public/index.html",
+                    "caption": "Commands to set up the initial project structure"
+                },
+                {
+                    "type": "text",
+                    "heading": "Installing Essential Dependencies",
+                    "content": "React requires several core dependencies to function. First, install React and ReactDOM - these are the fundamental libraries for building React applications. React is the core library for creating components, while ReactDOM provides DOM-specific methods for rendering your React components to the browser. Next, we need development dependencies including Babel for transpiling modern JavaScript and JSX, and Webpack for bundling our application files. Babel transforms your modern JavaScript code into versions that browsers can understand, and it also handles JSX syntax. Webpack bundles all your JavaScript files, CSS, and assets into optimized files for production."
+                },
+                {
+                    "type": "code",
+                    "heading": "Installing React and Build Tools",
+                    "language": "bash",
+                    "code": "# Install React dependencies\nnpm install react react-dom\n\n# Install development dependencies\nnpm install --save-dev webpack webpack-cli webpack-dev-server\nnpm install --save-dev @babel/core @babel/preset-env @babel/preset-react\nnpm install --save-dev babel-loader html-webpack-plugin\nnpm install --save-dev css-loader style-loader",
+                    "caption": "Installing all necessary dependencies for React development"
+                },
+                {
+                    "type": "text",
+                    "heading": "Configuring Babel for JSX and Modern JavaScript",
+                    "content": "Babel is essential for transforming JSX and modern JavaScript features into code that browsers can execute. Create a .babelrc file in your project root to configure Babel. The @babel/preset-env preset allows you to use the latest JavaScript features, automatically determining which transformations and polyfills are needed based on your target browsers. The @babel/preset-react preset adds support for JSX syntax, transforming it into regular JavaScript function calls that React can understand. This configuration ensures your code works across different browsers while letting you write modern, clean code."
+                },
+                {
+                    "type": "code",
+                    "heading": "Babel Configuration File",
+                    "language": "json",
+                    "code": "{\n  \"presets\": [\n    \"@babel/preset-env\",\n    \"@babel/preset-react\"\n  ]\n}",
+                    "caption": "Create this as .babelrc in your project root"
+                },
+                {
+                    "type": "text",
+                    "heading": "Setting Up Webpack Configuration",
+                    "content": "Webpack is a powerful module bundler that processes your application files and outputs optimized bundles for the browser. Create a webpack.config.js file to define how Webpack should handle different file types and where to output the bundled files. Configure the entry point as your main JavaScript file, typically src/index.js. Set the output to a dist folder where Webpack will place the bundled files. Define loaders for different file types - babel-loader for JavaScript and JSX files, and css-loader with style-loader for CSS files. The HtmlWebpackPlugin automatically generates an HTML file that includes your bundled JavaScript, making development easier."
+                },
+                {
+                    "type": "code",
+                    "heading": "Complete Webpack Configuration",
+                    "language": "javascript",
+                    "code": "const path = require('path');\nconst HtmlWebpackPlugin = require('html-webpack-plugin');\n\nmodule.exports = {\n  entry: './src/index.js',\n  output: {\n    path: path.resolve(__dirname, 'dist'),\n    filename: 'bundle.js',\n    clean: true\n  },\n  mode: 'development',\n  module: {\n    rules: [\n      {\n        test: /\\.(js|jsx)$/,\n        exclude: /node_modules/,\n        use: {\n          loader: 'babel-loader'\n        }\n      },\n      {\n        test: /\\.css$/,\n        use: ['style-loader', 'css-loader']\n      }\n    ]\n  },\n  resolve: {\n    extensions: ['.js', '.jsx']\n  },\n  plugins: [\n    new HtmlWebpackPlugin({\n      template: './public/index.html'\n    })\n  ],\n  devServer: {\n    static: {\n      directory: path.join(__dirname, 'public')\n    },\n    port: 3000,\n    hot: true,\n    open: true\n  }\n};",
+                    "caption": "webpack.config.js - Complete configuration for development"
+                },
+                {
+                    "type": "text",
+                    "heading": "Creating the HTML Template",
+                    "content": "Every React application needs an HTML file that serves as the entry point. Create an index.html file in your public folder. This file should include a root div element where React will mount your application. The div typically has an id of 'root', which matches the id you'll reference in your JavaScript code. Keep this HTML file minimal - React will handle rendering all your UI components. Include any meta tags for SEO, viewport settings for responsive design, and the page title. The HtmlWebpackPlugin will automatically inject your bundled JavaScript into this HTML file."
+                },
+                {
+                    "type": "code",
+                    "heading": "HTML Template File",
+                    "language": "html",
+                    "code": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <meta name=\"description\" content=\"My React Application\">\n  <title>My React App</title>\n</head>\n<body>\n  <div id=\"root\"></div>\n  <!-- Webpack will inject the bundled script here -->\n</body>\n</html>",
+                    "caption": "Create this as public/index.html"
+                },
+                {
+                    "type": "text",
+                    "heading": "Creating Your First React Component",
+                    "content": "Now let's create your first React component. In the src folder, create an App.js file that will contain your main application component. React components can be written as functions or classes, but modern React development favors functional components with hooks. Your App component is the root component that will contain all other components in your application. Start simple with a component that returns some JSX displaying a welcome message. JSX looks like HTML but is actually JavaScript, allowing you to write UI code that's both readable and powerful. You can include JavaScript expressions within JSX using curly braces."
+                },
+                {
+                    "type": "code",
+                    "heading": "Main App Component",
+                    "language": "jsx",
+                    "code": "import React, { useState } from 'react';\nimport './App.css';\n\nfunction App() {\n  const [count, setCount] = useState(0);\n\n  const handleClick = () => {\n    setCount(count + 1);\n  };\n\n  return (\n    <div className=\"App\">\n      <header className=\"App-header\">\n        <h1>Welcome to React!</h1>\n        <p>You've created your first React app from scratch.</p>\n        \n        <div className=\"counter-section\">\n          <p>You clicked the button {count} times</p>\n          <button onClick={handleClick}>\n            Click me\n          </button>\n        </div>\n\n        <div className=\"info-section\">\n          <h2>What's Next?</h2>\n          <ul>\n            <li>Create more components</li>\n            <li>Add routing with React Router</li>\n            <li>Implement state management</li>\n            <li>Build something amazing!</li>\n          </ul>\n        </div>\n      </header>\n    </div>\n  );\n}\n\nexport default App;",
+                    "caption": "src/App.js - Your main application component with interactive features"
+                },
+                {
+                    "type": "text",
+                    "heading": "Creating the Entry Point",
+                    "content": "The entry point of your React application is the index.js file. This file imports React, ReactDOM, and your App component, then renders the App component into the DOM. Use ReactDOM.createRoot to create a root and render your application. This is the new React 18 syntax that enables concurrent features. The createRoot method takes a DOM element (the div with id 'root' from your HTML) and mounts your React application to it. Import your App component and render it within React.StrictMode, which helps identify potential problems in your application during development."
+                },
+                {
+                    "type": "code",
+                    "heading": "Application Entry Point",
+                    "language": "javascript",
+                    "code": "import React from 'react';\nimport { createRoot } from 'react-dom/client';\nimport App from './App';\n\nconst container = document.getElementById('root');\nconst root = createRoot(container);\n\nroot.render(\n  <React.StrictMode>\n    <App />\n  </React.StrictMode>\n);",
+                    "caption": "src/index.js - The entry point that renders your React app"
+                },
+                {
+                    "type": "text",
+                    "heading": "Adding Styles to Your Application",
+                    "content": "Let's add some CSS to make your application look professional. Create an App.css file in your src folder. CSS in React can be handled in various ways - regular CSS files, CSS modules, styled-components, or CSS-in-JS solutions. For this tutorial, we'll use regular CSS files which are imported directly into your components. The webpack configuration we set up earlier with css-loader and style-loader will handle processing and injecting these styles into your application. You can also create a global styles file for application-wide styles that don't belong to specific components."
+                },
+                {
+                    "type": "code",
+                    "heading": "Component Styles",
+                    "language": "css",
+                    "code": ".App {\n  text-align: center;\n  min-height: 100vh;\n  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);\n}\n\n.App-header {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  padding: 40px;\n  color: white;\n}\n\n.App-header h1 {\n  font-size: 3rem;\n  margin-bottom: 1rem;\n  animation: fadeIn 1s ease-in;\n}\n\n.counter-section {\n  margin: 2rem 0;\n  padding: 2rem;\n  background: rgba(255, 255, 255, 0.1);\n  border-radius: 10px;\n  backdrop-filter: blur(10px);\n}\n\n.counter-section button {\n  padding: 12px 30px;\n  font-size: 1rem;\n  background: white;\n  color: #667eea;\n  border: none;\n  border-radius: 25px;\n  cursor: pointer;\n  transition: transform 0.2s;\n}\n\n.counter-section button:hover {\n  transform: scale(1.05);\n}\n\n.info-section {\n  margin-top: 2rem;\n  text-align: left;\n}\n\n.info-section ul {\n  list-style: none;\n  padding: 0;\n}\n\n.info-section li {\n  padding: 0.5rem 0;\n  padding-left: 1.5rem;\n  position: relative;\n}\n\n.info-section li:before {\n  content: '✓';\n  position: absolute;\n  left: 0;\n  color: #4ade80;\n  font-weight: bold;\n}\n\n@keyframes fadeIn {\n  from {\n    opacity: 0;\n    transform: translateY(-20px);\n  }\n  to {\n    opacity: 1;\n    transform: translateY(0);\n  }\n}",
+                    "caption": "src/App.css - Modern and attractive styles for your React app"
+                },
+                {
+                    "type": "text",
+                    "heading": "Adding NPM Scripts for Development",
+                    "content": "Update your package.json file to include scripts that make development easier. Add a 'start' script that runs webpack-dev-server for development, providing hot module replacement so your changes appear instantly in the browser. Add a 'build' script that creates an optimized production build of your application. These scripts simplify your workflow - just run 'npm start' to begin development or 'npm run build' when you're ready to deploy. The webpack-dev-server includes features like hot reloading, which updates your application in the browser as you make changes without requiring a full page refresh."
+                },
+                {
+                    "type": "code",
+                    "heading": "Package.json Scripts",
+                    "language": "json",
+                    "code": "{\n  \"name\": \"my-react-app\",\n  \"version\": \"1.0.0\",\n  \"scripts\": {\n    \"start\": \"webpack serve --mode development\",\n    \"build\": \"webpack --mode production\"\n  },\n  \"dependencies\": {\n    \"react\": \"^18.2.0\",\n    \"react-dom\": \"^18.2.0\"\n  },\n  \"devDependencies\": {\n    \"@babel/core\": \"^7.23.0\",\n    \"@babel/preset-env\": \"^7.23.0\",\n    \"@babel/preset-react\": \"^7.23.0\",\n    \"babel-loader\": \"^9.1.3\",\n    \"css-loader\": \"^6.8.1\",\n    \"html-webpack-plugin\": \"^5.5.3\",\n    \"style-loader\": \"^3.3.3\",\n    \"webpack\": \"^5.89.0\",\n    \"webpack-cli\": \"^5.1.4\",\n    \"webpack-dev-server\": \"^4.15.1\"\n  }\n}",
+                    "caption": "Updated package.json with scripts and dependencies"
+                },
+                {
+                    "type": "text",
+                    "heading": "Running Your Application",
+                    "content": "You're now ready to run your React application! Execute 'npm start' in your terminal, and webpack-dev-server will compile your code and open your browser to localhost:3000. You should see your React application running with the welcome message and interactive counter. Try clicking the button to see React's state management in action. Make changes to your App.js file and save - you'll see the changes instantly reflected in your browser thanks to hot module replacement. This is the magic of modern React development. When you're ready to deploy, run 'npm run build' to create optimized production files in the dist folder."
+                },
+                {
+                    "type": "text",
+                    "heading": "Understanding React Component Structure",
+                    "content": "Now that your app is running, let's understand component structure better. React components are reusable pieces of UI that can manage their own state and accept props from parent components. Break your UI into smaller components for better organization and reusability. For example, you could create separate components for the counter and the info section. Each component should have a single responsibility, making your code more maintainable. Components can be nested - your App component can render other components, which can render their own child components, creating a component tree that represents your entire application."
+                },
+                {
+                    "type": "code",
+                    "heading": "Creating a Reusable Counter Component",
+                    "language": "jsx",
+                    "code": "import React, { useState } from 'react';\n\nfunction Counter({ initialCount = 0 }) {\n  const [count, setCount] = useState(initialCount);\n\n  const increment = () => setCount(count + 1);\n  const decrement = () => setCount(count - 1);\n  const reset = () => setCount(initialCount);\n\n  return (\n    <div className=\"counter\">\n      <h3>Counter: {count}</h3>\n      <div className=\"button-group\">\n        <button onClick={decrement}>-</button>\n        <button onClick={reset}>Reset</button>\n        <button onClick={increment}>+</button>\n      </div>\n    </div>\n  );\n}\n\nexport default Counter;\n\n// Usage in App.js:\n// import Counter from './Counter';\n// <Counter initialCount={0} />",
+                    "caption": "A reusable counter component that accepts props"
+                },
+                {
+                    "type": "text",
+                    "heading": "Adding Environment Variables",
+                    "content": "For managing environment-specific configurations, create a .env file in your project root. Environment variables are useful for API endpoints, feature flags, and other configuration that changes between development and production. In webpack, you can use the DefinePlugin to make these variables available in your code. Prefix your variables with 'REACT_APP_' to make them accessible in your application. Never commit sensitive information like API keys to version control - use environment variables and add .env to your .gitignore file. This approach keeps your configuration separate from your code and makes deployment to different environments easier."
+                },
+                {
+                    "type": "text",
+                    "heading": "Production Build Optimization",
+                    "content": "When building for production, webpack automatically optimizes your code. It minifies JavaScript, removes development-only code, and optimizes asset loading. The production build in the dist folder contains everything needed to deploy your application. You can deploy these files to any static hosting service like Netlify, Vercel, or GitHub Pages. Before deploying, test your production build locally by serving the dist folder with a simple HTTP server. Production builds are significantly smaller than development builds because they exclude source maps, development warnings, and hot reloading code that's only useful during development."
+                },
+                {
+                    "type": "text",
+                    "heading": "Next Steps and Best Practices",
+                    "content": "Now that you have a working React application, consider adding more features. Implement routing with React Router for multi-page applications. Add state management with Context API for simple apps or Redux for complex state. Integrate a CSS framework like Tailwind CSS or Material-UI for faster UI development. Set up ESLint for code quality and Prettier for consistent formatting. Write tests using Jest and React Testing Library to ensure your components work correctly. Consider adding TypeScript for type safety. Implement code splitting to load components only when needed, improving initial load times. Keep your components small and focused, follow the single responsibility principle, and always think about reusability."
+                }
+            ],
+            "conclusion": "Congratulations! You've successfully created a React application from scratch and learned the fundamentals of React development setup. Understanding this manual setup process gives you valuable insight into how React applications work under the hood, even if you use create-react-app or other tools in the future. You now know how to configure Babel for JSX transformation, set up Webpack for bundling, create React components, manage state with hooks, and build optimized production bundles. This knowledge empowers you to customize your development environment and troubleshoot issues when they arise. Continue building on this foundation by creating more components, adding features, and exploring the vast React ecosystem. The best way to learn React is by building projects, so start creating and don't be afraid to experiment. Whether you're building a simple portfolio site or a complex web application, these fundamentals will serve you well throughout your React development journey."
+        }
     }
 ]

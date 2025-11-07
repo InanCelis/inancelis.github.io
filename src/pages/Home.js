@@ -46,7 +46,7 @@ function Home() {
   return (
     <Layout>
       <SEO
-        title="Best Web Developer in the Philippines | Inan Celis - Full Stack Developer"
+        title="Best Web Developer Philippines | Inan Celis"
         description="Looking for the best web developer in the Philippines? Inan Celis is a professional full-stack web developer specializing in React, Vue, Laravel, PHP, and WordPress. Expert web development services for businesses in the Philippines."
         url="https://www.inancelis.com"
         structuredData={structuredData}
