@@ -26,8 +26,30 @@
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "postbuild": "react-snap",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+  },
+  "reactSnap": {
+    "inlineCss": true,
+    "minifyHtml": {
+      "collapseWhitespace": true,
+      "removeComments": false
+    },
+    "include": [
+      "/",
+      "/details",
+      "/project",
+      "/resume",
+      "/contact",
+      "/blog",
+      "/blog/why-choose-web-developer-philippines",
+      "/blog/modern-web-development-technologies-2025",
+      "/blog/full-stack-developer-vs-specialized-developer",
+      "/blog/building-scalable-web-applications",
+      "/blog/react-best-practices-2025",
+      "/blog/create-react-app-from-scratch"
+    ]
   },
   "eslintConfig": {
     "extends": [
