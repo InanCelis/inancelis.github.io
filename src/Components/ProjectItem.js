@@ -63,7 +63,7 @@ function ProjectItem({ itemCount, viewAll, otherItem }) {
               </div>
             </div>
             <>
-              <NavLink target={"_blank"} to={`${p.url}`} className="link mt-2">
+              <NavLink target={"_blank"} to={`${p.url}/`} className="link mt-2">
                 <i className="fa-solid fa-chevron-right"></i>{" "}
                 <span>View project</span>
               </NavLink>
