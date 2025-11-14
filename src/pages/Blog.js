@@ -11,11 +11,11 @@ const structuredData = {
   name: "Web Development Blog by Inan Celis",
   description:
     "Insights, tutorials, and best practices in web development from a professional web developer in the Philippines",
-  url: "https://inancelis.com/blog",
+  url: "https://inancelis.com/blog/",
   author: {
     "@type": "Person",
     name: "Ferdinand T. Celis (Inan Celis)",
-    url: "https://inancelis.com",
+    url: "https://inancelis.com/",
   },
 };
 
@@ -29,8 +29,8 @@ function Blog() {
     <Layout>
       <SEO
         title="Web Development Blog | Inan Celis - Best Web Developer Philippines"
-        description="Read expert insights on web development, React, Vue, Laravel, and modern technologies from a professional web developer in the Philippines. Learn best practices and industry trends."
-        url="https://inancelis.com/blog"
+        description="Latest tutorials, coding tips, and industry insights from a Filipino web developer. Deep dives into React, JavaScript, Laravel, WordPress development, and modern web technologies. Updated regularly with practical guides."
+        url="https://inancelis.com/blog/"
         structuredData={structuredData}
       />
       <div className="container blog-page py-5 pt-5">

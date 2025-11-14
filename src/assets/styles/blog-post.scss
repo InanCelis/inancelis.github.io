@@ -78,6 +78,12 @@
                     margin-right: 8px;
                     color: color(main);
                 }
+                a {
+                    color: inherit;
+                    &:hover {
+                        color: color(main);
+                    }
+                }
             }
         }
     }

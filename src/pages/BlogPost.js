@@ -34,18 +34,18 @@ function BlogPost() {
     author: {
       "@type": "Person",
       name: blog.author,
-      url: "https://inancelis.com",
+      url: "https://inancelis.com/",
     },
     datePublished: blog.date,
     dateModified: blog.date,
     publisher: {
       "@type": "Person",
       name: "Inan Celis",
-      url: "https://inancelis.com",
+      url: "https://inancelis.com/",
     },
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": `https://inancelis.com/blog/${blog.slug}`,
+      "@id": `https://inancelis.com/blog/${blog.slug}/`,
     },
   };
 
@@ -104,7 +104,7 @@ function BlogPost() {
       <SEO
         title={`${blog.title} | Inan Celis`}
         description={blog.metaDescription}
-        url={`https://inancelis.com/blog/${blog.slug}`}
+        url={`https://inancelis.com/blog/${blog.slug}/`}
         image={
           blog.og_image ||
           "https://inancelis.com/static/media/meee.4c7463169d8947aeed63.png"
@@ -124,7 +124,7 @@ function BlogPost() {
           <h1 className="blog-post-title">{blog.title}</h1>
           <div className="blog-post-info">
             <span className="blog-author">
-              <i className="fa-regular fa-user"></i> {blog.author}
+              <i className="fa-regular fa-user"></i> <NavLink to="/">{blog.author}</NavLink>
             </span>
             <span className="blog-read-time">
               <i className="fa-regular fa-clock"></i> {blog.readTime}
@@ -164,7 +164,7 @@ function BlogPost() {
                 href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(
                   blog.title
                 )}&url=${encodeURIComponent(
-                  `https://inancelis.com/blog/${blog.slug}`
+                  `https://inancelis.com/blog/${blog.slug}/`
                 )}`}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -174,7 +174,7 @@ function BlogPost() {
               </a>
               <a
                 href={`https://linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(
-                  `https://inancelis.com/blog/${blog.slug}`
+                  `https://inancelis.com/blog/${blog.slug}/`
                 )}`}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -184,7 +184,7 @@ function BlogPost() {
               </a>
               <a
                 href={`https://facebook.com/sharer/sharer.php?u=${encodeURIComponent(
-                  `https://inancelis.com/blog/${blog.slug}`
+                  `https://inancelis.com/blog/${blog.slug}/`
                 )}`}
                 target="_blank"
                 rel="noopener noreferrer"

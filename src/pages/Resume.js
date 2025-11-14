@@ -14,11 +14,13 @@ function Resume() {
     <Layout>
       <SEO
         title="Resume - Inan Celis | Full Stack Developer"
-        description="View the professional resume of Inan Celis, showcasing skills in React, Vue, Laravel, PHP, WordPress, and expertise in full-stack web development."
-        url="https://inancelis.com/resume"
+        description="Download Inan Celis' professional resume. Detailed work experience, technical skills, education, and certifications. Proven expertise in building enterprise web applications and leading development teams."
+        url="https://inancelis.com/resume/"
       />
-      <PageIndicator page="Resume" />
-      <div className="pt-5 pb-5">
+      <div className="container">
+        <h1 className="page-title">My Resume</h1>
+      </div>
+      <div className="pb-5">
         <Expertise />
       </div>
       <div className="pt-5 pb-5">
@@ -30,6 +32,7 @@ function Resume() {
       <div className="d-flex justify-content-center pb-5">
         <ResumeButton />
       </div>
+      <PageIndicator page="Resume" />
     </Layout>
   );
 }

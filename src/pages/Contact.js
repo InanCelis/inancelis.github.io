@@ -16,7 +16,7 @@ const contactStructuredData = {
   name: "Contact Inan Celis",
   description:
     "Get in touch with Inan Celis for web development projects and collaborations",
-  url: "https://inancelis.com/contact",
+  url: "https://inancelis.com/contact/",
 };
 
 function Contact() {
@@ -73,17 +73,16 @@ function Contact() {
       <SEO
         title="Contact - Inan Celis | Get in Touch"
         description="Get in touch with Inan Celis for web development projects, collaborations, or freelance opportunities. Let's build something amazing together!"
-        url="https://inancelis.com/contact"
+        url="https://inancelis.com/contact/"
         structuredData={contactStructuredData}
       />
-      <PageIndicator page="Contact" />
       <AlertPopup
         alertInfo={alert}
         onClose={() => setAlert((alert.isVisible = false))}
       />
       <div className=" container contact">
         <div className="form-container">
-          <h3 className="font-weight-bold pb-3">Say hello!</h3>
+          <h1 className="contact-title font-weight-bold pb-3">Get In Touch</h1>
           <LineClipPath xtraClass={"grid-100 pb-4"} />
           <form ref={form} onSubmit={sendEmail}>
             <div className="group">
@@ -180,6 +179,7 @@ function Contact() {
           </div>
         </div>
       </div>
+      <PageIndicator page="Contact" />
     </Layout>
   );
 }

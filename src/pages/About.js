@@ -11,16 +11,17 @@ function About() {
     <Layout>
       <SEO
         title="About Me - Inan Celis"
-        description="Learn more about Inan Celis, a full-stack web developer with expertise in React, Vue, Laravel, and WordPress. Building scalable web applications with modern technologies."
-        url="https://inancelis.com/details"
+        description="Get to know Inan Celis - passionate web developer from the Philippines. Discover my journey in web development, professional background, and why I love creating innovative digital solutions."
+        url="https://inancelis.com/details/"
         type="profile"
       />
-      <PageIndicator page="Details" />
-      <div className="container pt-5">
+      <div className="container">
+        <h1 className="page-title">About Me</h1>
         <div className="text-container">
           <Details />
         </div>
       </div>
+      <PageIndicator page="Details" />
     </Layout>
   );
 }

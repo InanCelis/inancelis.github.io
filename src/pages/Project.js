@@ -10,11 +10,15 @@ function Project() {
     <Layout>
       <SEO
         title="Projects - Inan Celis Portfolio"
-        description="Explore my portfolio of web development projects built with React, Vue, Laravel, WordPress and modern web technologies. View case studies and live demos."
-        url="https://inancelis.com/project"
+        description="Browse 15+ real-world web development projects. From enterprise WordPress sites to custom React applications. See live examples of e-commerce, business websites, and web apps I've built for clients worldwide."
+        url="https://inancelis.com/project/"
       />
-      <PageIndicator page="Projects" />
+
+      <div className="container">
+        <h1 className="page-title">My Projects</h1>
+      </div>
       <ProjectItem viewAll={false} otherItem={true} />
+      <PageIndicator page="Projects" />
     </Layout>
   );
 }

@@ -213,3 +213,18 @@ $width: 400px;
     height: unset;
   }
 }
+
+// Contact Title Styles
+.contact-title {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 1rem;
+
+  @media screen and (max-width: 768px) {
+    font-size: 2rem;
+  }
+
+  @media screen and (max-width: 450px) {
+    font-size: 1.75rem;
+  }
+}

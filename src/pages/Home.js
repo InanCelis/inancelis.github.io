@@ -18,7 +18,7 @@ const structuredData = {
   "@type": "Person",
   name: "Ferdinand T. Celis (Inan Celis)",
   alternateName: "Inan Celis",
-  url: "https://inancelis.com",
+  url: "https://inancelis.com/",
   image: "https://inancelis.com/static/media/meee.4c7463169d8947aeed63.png",
   jobTitle: "Full Stack Web Developer",
   description:
@@ -57,7 +57,7 @@ function Home() {
       <SEO
         title="Best Web Developer Philippines | Inan Celis"
         description="Looking for the best web developer in the Philippines? Inan Celis is a professional full-stack web developer specializing in React, Vue, Laravel, PHP, and WordPress. Expert web development services for businesses in the Philippines."
-        url="https://inancelis.com"
+        url="https://inancelis.com/"
         structuredData={structuredData}
       />
       <div className="d-none d-md-block">
