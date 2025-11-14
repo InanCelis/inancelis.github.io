@@ -7,8 +7,8 @@
         "to_date": "Present",
         "company": "Flexible role",
         "address": "Multiple Location",
-        "site": "https://www.inancelis.com/",
-        "site_text": "www.inancelis.com",
+        "site": "https://inancelis.com/",
+        "site_text": "inancelis.com",
         "description": "<span className='text-muted'>As a freelancer, I thrive on the dynamic nature of juggling multiple projects, each presenting its unique set of challenges and learning opportunities. I adapt swiftly to clients' varying needs, crafting bespoke solutions that align with their goals. My days are a blend of creative brainstorming, rigorous problem-solving, and continuous learning, using an array of technologies and tools. I communicate transparently, ensuring expectations are clear and deliverables are met with precision. Above all, I'm committed to delivering excellence, driving growth, and fostering enduring partnerships.</span>",
         "tool" : [
             "Web Development",
@@ -26,7 +26,7 @@
         "to_date": "December 2024",
         "company": "Accenture",
         "address": "Uptown Taguig, Philippines",
-        "site": "https://www.accenture.com/",
+        "site": "https://accenture.com/",
         "site_text": "accenture.com",
         "description": "<b>Responsibilities</b> <ul className='text-muted'><li>Develop, test, and deploy scalable software solutions for enterprise-level clients.</li> <li>Collaborate with cross-functional teams, including analysts, designers, and other developers,to deliver client-centric solutions.</li> <li>Identify and resolve software defects through rigorous testing and debugging processes.</li> <li>Provide technical support and maintenance for existing applications to ensure optimal performance.</li> <li>Ensure compliance with coding standards and best practices, including security and data protection protocols.</li> </ul>",
         "tool" : [
@@ -66,7 +66,7 @@
         "to_date": "April 2022",
         "company": "Valens Research Asia",
         "address": "Pasig City, Philippines",
-        "site": "https://www.valens-research.com/",
+        "site": "https://valens-research.com/",
         "site_text": "valens-research.com",
         "description": "<b>Responsibilities</b> <ul className='text-muted'><li>Helps the Digital Team design, develop, deploy, and maintain web applications, scripts,and data systems for both internal use and our clients.</li><li>Ensures that all work done by the team is bug-free via Test-Driven Development methodologies.</li> <li>Administers live websites as necessary.</li></ul>",
         "tool" : [

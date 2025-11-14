@@ -13,9 +13,10 @@ import SEO from "../Components/SEO";
 const contactStructuredData = {
   "@context": "https://schema.org",
   "@type": "ContactPage",
-  "name": "Contact Inan Celis",
-  "description": "Get in touch with Inan Celis for web development projects and collaborations",
-  "url": "https://www.inancelis.com/contact"
+  name: "Contact Inan Celis",
+  description:
+    "Get in touch with Inan Celis for web development projects and collaborations",
+  url: "https://inancelis.com/contact",
 };
 
 function Contact() {
@@ -72,7 +73,7 @@ function Contact() {
       <SEO
         title="Contact - Inan Celis | Get in Touch"
         description="Get in touch with Inan Celis for web development projects, collaborations, or freelance opportunities. Let's build something amazing together!"
-        url="https://www.inancelis.com/contact"
+        url="https://inancelis.com/contact"
         structuredData={contactStructuredData}
       />
       <PageIndicator page="Contact" />
@@ -165,8 +166,8 @@ function Contact() {
                 </strong>
                 <span>
                   version 2.0 -{" "}
-                  <a href="https://www.inancelis.com/" target="_blank">
-                    www.inancelis.com
+                  <a href="https://inancelis.com/" target="_blank">
+                    inancelis.com
                   </a>
                   <br />
                   version 1.0 -{" "}

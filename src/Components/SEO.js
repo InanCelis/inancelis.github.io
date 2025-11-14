@@ -5,12 +5,14 @@ const SEO = ({
   title = "Inan Celis - Full Stack Web Developer",
   description = "Full-stack web developer specializing in React, Vue, Laravel, and WordPress. Building scalable web applications with modern technologies and user-centered design.",
   author = "Inan Celis",
-  url = "https://www.inancelis.com",
-  image = "https://www.inancelis.com/static/media/meee.4c7463169d8947aeed63.png",
+  url = "https://inancelis.com",
+  image = "https://inancelis.com/static/media/meee.4c7463169d8947aeed63.png",
   type = "website",
-  structuredData
+  structuredData,
 }) => {
-  const siteTitle = title.includes("Inan Celis") ? title : `${title} | Inan Celis`;
+  const siteTitle = title.includes("Inan Celis")
+    ? title
+    : `${title} | Inan Celis`;
 
   return (
     <Helmet>

@@ -32,18 +32,18 @@ function BlogPost() {
     author: {
       "@type": "Person",
       name: blog.author,
-      url: "https://www.inancelis.com",
+      url: "https://inancelis.com",
     },
     datePublished: blog.date,
     dateModified: blog.date,
     publisher: {
       "@type": "Person",
       name: "Inan Celis",
-      url: "https://www.inancelis.com",
+      url: "https://inancelis.com",
     },
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": `https://www.inancelis.com/blog/${blog.slug}`,
+      "@id": `https://inancelis.com/blog/${blog.slug}`,
     },
   };
 
@@ -102,10 +102,10 @@ function BlogPost() {
       <SEO
         title={`${blog.title} | Inan Celis`}
         description={blog.metaDescription}
-        url={`https://www.inancelis.com/blog/${blog.slug}`}
+        url={`https://inancelis.com/blog/${blog.slug}`}
         image={
           blog.og_image ||
-          "https://www.inancelis.com/static/media/meee.4c7463169d8947aeed63.png"
+          "https://inancelis.com/static/media/meee.4c7463169d8947aeed63.png"
         }
         type="article"
         structuredData={structuredData}
@@ -162,7 +162,7 @@ function BlogPost() {
                 href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(
                   blog.title
                 )}&url=${encodeURIComponent(
-                  `https://www.inancelis.com/blog/${blog.slug}`
+                  `https://inancelis.com/blog/${blog.slug}`
                 )}`}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -171,8 +171,8 @@ function BlogPost() {
                 <i className="fa-brands fa-twitter"></i>
               </a>
               <a
-                href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(
-                  `https://www.inancelis.com/blog/${blog.slug}`
+                href={`https://linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(
+                  `https://inancelis.com/blog/${blog.slug}`
                 )}`}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -181,8 +181,8 @@ function BlogPost() {
                 <i className="fa-brands fa-linkedin"></i>
               </a>
               <a
-                href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(
-                  `https://www.inancelis.com/blog/${blog.slug}`
+                href={`https://facebook.com/sharer/sharer.php?u=${encodeURIComponent(
+                  `https://inancelis.com/blog/${blog.slug}`
                 )}`}
                 target="_blank"
                 rel="noopener noreferrer"

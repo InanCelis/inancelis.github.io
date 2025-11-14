@@ -11,7 +11,7 @@ function Project() {
       <SEO
         title="Projects - Inan Celis Portfolio"
         description="Explore my portfolio of web development projects built with React, Vue, Laravel, WordPress and modern web technologies. View case studies and live demos."
-        url="https://www.inancelis.com/project"
+        url="https://inancelis.com/project"
       />
       <PageIndicator page="Projects" />
       <ProjectItem viewAll={false} otherItem={true} />

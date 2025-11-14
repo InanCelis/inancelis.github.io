@@ -97,7 +97,7 @@ canvas {
                 letter-spacing: 0.2em;
                 padding-bottom: 15px;
             }
-            h3 {
+            .my-name {
                 font-size: 2.5em;
             }
             h1 {
@@ -108,7 +108,7 @@ canvas {
                 margin-bottom: 0;
                 line-height: 5rem;
             }
-            h2 {
+            .tag-dev {
                 text-transform: uppercase;
                 letter-spacing: 0.4em;
                 font-weight: 400;
@@ -116,7 +116,7 @@ canvas {
                 color: color(textColor);
             }
 
-            h2::after {
+            .tag-dev::after {
                 content:"Developer";
                 animation: changeText 7s infinite;
                 padding: 5px 10px;
@@ -187,13 +187,13 @@ canvas {
             .details {
                 width: 100%;
 
-                h3 {
+                .my-name {
                     font-size: 2em;
                 }
                 h1 {
                     font-size: 4em;
                 }
-                h2 {
+                .tag-dev {
                     font-size: 3em;
                 }
             }
@@ -215,13 +215,13 @@ canvas {
                     font-size: 0.8em; 
                     padding-bottom: 0;
                 }
-                h3 {
+                .my-name {
                     font-size: 1.7em;
                 }
                 h1 {
                     font-size: 3.5em;
                 }
-                h2 {
+                .tag-dev {
                     font-size: 2.5em;
                 }
             }
@@ -240,14 +240,14 @@ canvas {
                     font-size: 0.7em; 
                     padding-bottom: 0;
                 }
-                h3 {
+                .my-name {
                     font-size: 1.5em;
                 }
                 h1 {
                     font-size: 2.5em;
                     line-height: 4rem;
                 }
-                h2 {
+                .tag-dev {
                     font-size: 2.0em;
                 }
             }

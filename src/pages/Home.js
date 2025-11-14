@@ -16,29 +16,38 @@ import ResumeButton from "../Components/Slice/ResumeButton";
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "Person",
-  "name": "Ferdinand T. Celis (Inan Celis)",
-  "alternateName": "Inan Celis",
-  "url": "https://www.inancelis.com",
-  "image": "https://www.inancelis.com/static/media/meee.4c7463169d8947aeed63.png",
-  "jobTitle": "Full Stack Web Developer",
-  "description": "Professional web developer in the Philippines specializing in React, Laravel, Vue, and WordPress development",
-  "address": {
+  name: "Ferdinand T. Celis (Inan Celis)",
+  alternateName: "Inan Celis",
+  url: "https://inancelis.com",
+  image: "https://inancelis.com/static/media/meee.4c7463169d8947aeed63.png",
+  jobTitle: "Full Stack Web Developer",
+  description:
+    "Professional web developer in the Philippines specializing in React, Laravel, Vue, and WordPress development",
+  address: {
     "@type": "PostalAddress",
-    "addressCountry": "Philippines"
+    addressCountry: "Philippines",
   },
-  "worksFor": {
+  worksFor: {
     "@type": "Organization",
-    "name": "Freelance"
+    name: "Freelance",
   },
-  "sameAs": [
-    "https://github.com/inancelis",
-    "https://www.linkedin.com/in/inancelis"
+  sameAs: ["https://github.com/inancelis", "https://linkedin.com/in/inancelis"],
+  knowsAbout: [
+    "React",
+    "Vue",
+    "Laravel",
+    "PHP",
+    "JavaScript",
+    "WordPress",
+    "Web Development",
+    "Frontend Development",
+    "Backend Development",
+    "Full Stack Development",
   ],
-  "knowsAbout": ["React", "Vue", "Laravel", "PHP", "JavaScript", "WordPress", "Web Development", "Frontend Development", "Backend Development", "Full Stack Development"],
-  "alumniOf": {
+  alumniOf: {
     "@type": "EducationalOrganization",
-    "name": "Bachelor of Science in Information Technology"
-  }
+    name: "Bachelor of Science in Information Technology",
+  },
 };
 
 function Home() {
@@ -48,7 +57,7 @@ function Home() {
       <SEO
         title="Best Web Developer Philippines | Inan Celis"
         description="Looking for the best web developer in the Philippines? Inan Celis is a professional full-stack web developer specializing in React, Vue, Laravel, PHP, and WordPress. Expert web development services for businesses in the Philippines."
-        url="https://www.inancelis.com"
+        url="https://inancelis.com"
         structuredData={structuredData}
       />
       <div className="d-none d-md-block">

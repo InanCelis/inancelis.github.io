@@ -43,7 +43,7 @@ You have two options:
 **For social media thumbnails:**
 
 - Create 1200x630px images and host externally (Imgur, Cloudinary, or `public/blog-images/`)
-- Use full URLs: `"og_image": "https://www.inancelis.com/blog-images/your-thumbnail.jpg"`
+- Use full URLs: `"og_image": "https://inancelis.com/blog-images/your-thumbnail.jpg"`
 
 ### 3. Add Blog Post to JSON
 
@@ -61,7 +61,7 @@ Open `src/api/blogs.json` and add a new entry:
   "category": "Web Development",
   "tags": ["web developer philippines", "react", "tutorial"],
   "featured_image": "your-featured-image.jpg",
-  "og_image": "https://www.inancelis.com/blog-images/your-social-thumbnail.jpg",
+  "og_image": "https://inancelis.com/blog-images/your-social-thumbnail.jpg",
   "excerpt": "Brief summary shown on blog listing page (2-3 sentences).",
   "content": {
     "introduction": "Opening paragraph that hooks the reader...",
@@ -151,7 +151,7 @@ After adding a new post, update `public/sitemap.xml`:
 
 ```xml
 <url>
-    <loc>https://www.inancelis.com/blog/your-post-slug</loc>
+    <loc>https://inancelis.com/blog/your-post-slug</loc>
     <lastmod>2025-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>

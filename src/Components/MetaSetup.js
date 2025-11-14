@@ -19,10 +19,10 @@ const MetaSetup = () => (
         content="Description of your site for SEO purposes"
       />
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://www.inancelis.com/" />
+      <meta property="og:url" content="https://inancelis.com/" />
       <meta
         property="og:image"
-        content="https://www.inancelis.com/static/media/meee.4c7463169d8947aeed63.png"
+        content="https://inancelis.com/static/media/meee.4c7463169d8947aeed63.png"
       />
     </Helmet>
   </div>

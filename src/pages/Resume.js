@@ -15,7 +15,7 @@ function Resume() {
       <SEO
         title="Resume - Inan Celis | Full Stack Developer"
         description="View the professional resume of Inan Celis, showcasing skills in React, Vue, Laravel, PHP, WordPress, and expertise in full-stack web development."
-        url="https://www.inancelis.com/resume"
+        url="https://inancelis.com/resume"
       />
       <PageIndicator page="Resume" />
       <div className="pt-5 pb-5">

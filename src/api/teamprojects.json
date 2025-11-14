@@ -1,7 +1,7 @@
 [
     {
         "name":"Valens Research",
-        "link":"https://www.valens-research.com/",
+        "link":"https://valens-research.com/",
         "link_name":"valens-research.com",
         "tools": [
             "JavaScript",
@@ -32,7 +32,7 @@
     },
     {
         "name":"Axe Master Throwing",
-        "link":"https://www.axemaster.com/",
+        "link":"https://axemaster.com/",
         "link_name":"axemaster.com",
         "tools": [
             "WordPress",
@@ -41,7 +41,7 @@
     },
     {
         "name":"Paranoia Quest Escape Room",
-        "link":"https://www.paranoiaquest.com/",
+        "link":"https://paranoiaquest.com/",
         "link_name":"paranoiaquest.com",
         "tools": [
             "WordPress",
