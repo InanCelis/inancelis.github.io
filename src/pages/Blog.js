@@ -53,7 +53,7 @@ function Blog() {
               </div>
               <div className="blog-card-body">
                 <h2 className="blog-title">
-                  <NavLink to={`/blog/${blog.slug}`}>{blog.title}</NavLink>
+                  <NavLink to={`/blog/${blog.slug}/`}>{blog.title}</NavLink>
                 </h2>
                 <p className="blog-excerpt text-muted">{blog.excerpt}</p>
                 <div className="blog-footer">
@@ -65,7 +65,7 @@ function Blog() {
                       <i className="fa-regular fa-clock"></i> {blog.readTime}
                     </span>
                   </div>
-                  <NavLink to={`/blog/${blog.slug}`} className="read-more">
+                  <NavLink to={`/blog/${blog.slug}/`} className="read-more">
                     Read More <i className="fa-solid fa-arrow-right"></i>
                   </NavLink>
                 </div>

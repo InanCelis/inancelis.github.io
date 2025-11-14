@@ -17,7 +17,7 @@ function ProjectView() {
     // const [next, setNext] = useState();
     let data = project;
     let str = window.location.href;
-    str = str.split("/");
+    str = str.split("/").filter(segment => segment !== ""); // Remove empty segments
     let obj = data.filter(item => item.url === str[str.length - 1]);
     
     useEffect(() => {
@@ -45,7 +45,7 @@ function ProjectView() {
           if(prevLink.length === 0) {
             setAlert({message: 'No previous project, please click Next.', type: 'error', isVisible: true});
           } else {
-            navigate(`/project/${prevLink[0].url}`);
+            navigate(`/project/${prevLink[0].url}/`);
             window.location.reload(false);
           }
 
@@ -55,7 +55,7 @@ function ProjectView() {
             if(nextLink.length === 0) {
               setAlert({message: 'No more project, please click Previous.', type: 'error', isVisible: true});
             } else {
-              navigate(`/project/${nextLink[0].url}`);
+              navigate(`/project/${nextLink[0].url}/`);
               window.location.reload(false);
             }
         }

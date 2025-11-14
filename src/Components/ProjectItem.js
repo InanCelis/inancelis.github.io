@@ -16,7 +16,7 @@ function ProjectItem({ itemCount, viewAll, otherItem }) {
               <p className="text-muted mb-4 mb-md-5 f-text-m">
                 {p.description}
               </p>
-              <NavLink to={`/project/${p.url}`} className="button-52 button">
+              <NavLink to={`/project/${p.url}/`} className="button-52 button">
                 View project &nbsp;<i className="fa-solid fa-arrow-right"></i>
               </NavLink>
             </div>
@@ -40,7 +40,7 @@ function ProjectItem({ itemCount, viewAll, otherItem }) {
         key={index}
         data-aos="flip-left"
       >
-        <NavLink to={`/project/${p.url}`} className="card-link">
+        <NavLink to={`/project/${p.url}/`} className="card-link">
           <div className="card bgColor p-3 mb-2 shadow project-card h-100">
             <div className="d-flex justify-content-between">
               <div className="badge badge-project">
@@ -127,7 +127,7 @@ function ProjectItem({ itemCount, viewAll, otherItem }) {
       {viewAll ? (
         <div className="d-flex justify-content-center pb-5">
           <NavLink
-            to="/project"
+            to="/project/"
             className="button-50 button"
             data-aos="fade-up"
           >

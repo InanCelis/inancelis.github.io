@@ -12,7 +12,9 @@ function BlogPost() {
   const [blog, setBlog] = useState(null);
 
   useEffect(() => {
-    const foundBlog = blogsData.find((b) => b.slug === slug);
+    // Remove trailing slash from slug if present
+    const cleanSlug = slug?.replace(/\/$/, '') || slug;
+    const foundBlog = blogsData.find((b) => b.slug === cleanSlug);
     if (foundBlog) {
       setBlog(foundBlog);
     } else {
@@ -112,7 +114,7 @@ function BlogPost() {
       />
       <article className="container blog-post-page py-5 pt-5">
         <div className="blog-post-header" data-aos="fade-up">
-          <NavLink to="/blog" className="back-link">
+          <NavLink to="/blog/" className="back-link">
             <i className="fa-solid fa-arrow-left"></i> Back to Blog
           </NavLink>
           <div className="blog-meta">
@@ -207,13 +209,13 @@ function BlogPost() {
                     <span className="blog-date">{relatedBlog.date}</span>
                   </div>
                   <h4>
-                    <NavLink to={`/blog/${relatedBlog.slug}`}>
+                    <NavLink to={`/blog/${relatedBlog.slug}/`}>
                       {relatedBlog.title}
                     </NavLink>
                   </h4>
                   <p className="text-muted">{relatedBlog.excerpt}</p>
                   <NavLink
-                    to={`/blog/${relatedBlog.slug}`}
+                    to={`/blog/${relatedBlog.slug}/`}
                     className="read-more"
                   >
                     Read More <i className="fa-solid fa-arrow-right"></i>
@@ -231,7 +233,7 @@ function BlogPost() {
             discuss how I can help bring your project to life with modern
             technologies and best practices.
           </p>
-          <NavLink to="/contact" className="cta-button">
+          <NavLink to="/contact/" className="cta-button">
             <i className="fa-regular fa-paper-plane"></i> Get In Touch
           </NavLink>
         </div>

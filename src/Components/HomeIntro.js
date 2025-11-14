@@ -23,7 +23,7 @@ function HomeIntro({ photo }) {
           </p>
           <div className="row m-0">
             <NavLink
-              to="/contact"
+              to="/contact/"
               className="button-52 button mr-5 mb-4 mb-sm-0"
             >
               Hire Me Now

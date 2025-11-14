@@ -12,7 +12,7 @@
 
   <!-- About Page -->
   <url>
-    <loc>https://inancelis.com/details</loc>
+    <loc>https://inancelis.com/details/</loc>
     <lastmod>2025-11-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.90</priority>
@@ -20,15 +20,15 @@
 
   <!-- Projects Page -->
   <url>
-    <loc>https://inancelis.com/project</loc>
-    <lastmod>2025-11-05</lastmod>
+    <loc>https://inancelis.com/project/</loc>
+    <lastmod>2025-11-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.90</priority>
   </url>
 
   <!-- Resume Page -->
   <url>
-    <loc>https://inancelis.com/resume</loc>
+    <loc>https://inancelis.com/resume/</loc>
     <lastmod>2025-11-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.80</priority>
@@ -36,7 +36,7 @@
 
   <!-- Contact Page -->
   <url>
-    <loc>https://inancelis.com/contact</loc>
+    <loc>https://inancelis.com/contact/</loc>
     <lastmod>2025-11-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.80</priority>
@@ -44,7 +44,7 @@
 
   <!-- Blog Page -->
   <url>
-    <loc>https://inancelis.com/blog</loc>
+    <loc>https://inancelis.com/blog/</loc>
     <lastmod>2025-01-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.90</priority>
@@ -52,45 +52,151 @@
 
   <!-- Blog Posts -->
   <url>
-    <loc>https://inancelis.com/blog/why-choose-web-developer-philippines</loc>
+    <loc>https://inancelis.com/blog/why-choose-web-developer-philippines/</loc>
     <lastmod>2025-01-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
 
   <url>
-    <loc>https://inancelis.com/blog/modern-web-development-technologies-2025</loc>
+    <loc>https://inancelis.com/blog/modern-web-development-technologies-2025/</loc>
     <lastmod>2025-01-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
 
   <url>
-    <loc>https://inancelis.com/blog/full-stack-developer-vs-specialized-developer</loc>
+    <loc>https://inancelis.com/blog/full-stack-developer-vs-specialized-developer/</loc>
     <lastmod>2025-01-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
 
   <url>
-    <loc>https://inancelis.com/blog/building-scalable-web-applications</loc>
+    <loc>https://inancelis.com/blog/building-scalable-web-applications/</loc>
     <lastmod>2025-01-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
 
   <url>
-    <loc>https://inancelis.com/blog/react-best-practices-2025</loc>
+    <loc>https://inancelis.com/blog/react-best-practices-2025/</loc>
     <lastmod>2025-01-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
 
   <url>
-    <loc>https://inancelis.com/blog/create-react-app-from-scratch</loc>
+    <loc>https://inancelis.com/blog/create-react-app-from-scratch/</loc>
     <lastmod>2025-01-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
+  </url>
+
+  <!-- Individual Projects -->
+  <url>
+    <loc>https://inancelis.com/project/modern-care/</loc>
+    <lastmod>2025-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://inancelis.com/project/blue-apple-launchpad/</loc>
+    <lastmod>2025-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://inancelis.com/project/monster-quest-escape-room/</loc>
+    <lastmod>2025-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://inancelis.com/project/asticom-group-of-companies/</loc>
+    <lastmod>2025-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://inancelis.com/project/champions-club-texas/</loc>
+    <lastmod>2025-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://inancelis.com/project/escape-in-time/</loc>
+    <lastmod>2025-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://inancelis.com/project/baby-company/</loc>
+    <lastmod>2025-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://inancelis.com/project/hols-kitchen/</loc>
+    <lastmod>2025-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://inancelis.com/project/acquiro-website/</loc>
+    <lastmod>2025-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://inancelis.com/project/absi-website/</loc>
+    <lastmod>2025-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://inancelis.com/project/finsi-website/</loc>
+    <lastmod>2025-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://inancelis.com/project/the-champions-club/</loc>
+    <lastmod>2025-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://inancelis.com/project/jhola/</loc>
+    <lastmod>2025-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://inancelis.com/project/reefic-protocol/</loc>
+    <lastmod>2025-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://inancelis.com/project/random-project/</loc>
+    <lastmod>2025-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
   </url>
 
 </urlset>
