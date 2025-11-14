@@ -1,99 +1,125 @@
 <!DOCTYPE html>
 <html lang="en" data-theme>
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="./logo-v2.png" />
-    <!-- SEO SETUP -->
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta name="author" content="Inan Celis">
-    <meta name="google-site-verification" content="H9548CbG9R8tdEI1Jo5cpBbeuwwYNfwo0i42Yo5Zfz8" />
-    <meta name="msvalidate.01" content="2EDA5A59B81B2F686A6A84C58F18E48B" />
-    <meta name="robots" content="index, follow">
-    <title>Best Web Developer Philippines | Inan Celis</title>
-    <!-- Bootstrap CDN -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <!-- Fontawesome Icon -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!-- <link rel="stylesheet" href="./style.css"> -->
-    <link rel= "stylesheet" href= "https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css" >
 
-    <!-- GitHub Pages SPA redirect script -->
-    <script>
-      // Single Page Apps for GitHub Pages
-      // MIT License
-      // https://github.com/rafgraph/spa-github-pages
-      (function(l) {
-        if (l.search[1] === '/' ) {
-          var decoded = l.search.slice(1).split('&').map(function(s) {
-            return s.replace(/~and~/g, '&')
-          }).join('?');
-          window.history.replaceState(null, null,
-              l.pathname.slice(0, -1) + decoded + l.hash
-          );
-        }
-      }(window.location))
-    </script>
-  </head>
-  <body class="main-container">
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-  </body>
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="./logo-v2.png" />
+  <!-- SEO SETUP -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="author" content="Inan Celis">
+  <meta name="google-site-verification" content="H9548CbG9R8tdEI1Jo5cpBbeuwwYNfwo0i42Yo5Zfz8" />
+  <meta name="msvalidate.01" content="2EDA5A59B81B2F686A6A84C58F18E48B" />
+  <meta name="robots" content="index, follow">
+  <title>Best Web Developer Philippines | Inan Celis</title>
+  <!-- Bootstrap CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-  
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- Fontawesome Icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- <link rel="stylesheet" href="./style.css"> -->
+  <link rel="stylesheet"
+    href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+
+  <!-- GitHub Pages SPA redirect script -->
   <script>
-    $(document).ready(function(){
-
-        AOS.init();
-
-        
-        $('[data-toggle="tooltip"]').tooltip()
-        const cursor = document.querySelector("#cursor");
-        const cursorBorder = document.querySelector("#cursor-border");
-        const cursorPos = { x: 0, y: 0 };
-        const cursorBorderPos = { x: 0, y: 0 };
-
-        document.addEventListener("mousemove", (e) => {
-          cursorPos.x = e.clientX;
-          cursorPos.y = e.clientY;
-
-          cursor.style.transform = `translate(${e.clientX}px, ${e.clientY}px)`;
-        });
-
-        requestAnimationFrame(function loop() {
-          const easting = 5;
-          cursorBorderPos.x += (cursorPos.x - cursorBorderPos.x) / easting;
-          cursorBorderPos.y += (cursorPos.y - cursorBorderPos.y) / easting;
-
-          cursorBorder.style.transform = `translate(${cursorBorderPos.x}px, ${cursorBorderPos.y}px)`;
-          requestAnimationFrame(loop);
-        });
-
-        document.querySelectorAll("[data-cursor]").forEach((item) => {
-          item.addEventListener("mouseover", (e) => {
-            if (item.dataset.cursor === "pointer") {
-              cursorBorder.style.backgroundColor = "rgba(255, 255, 255, .6)";
-              cursorBorder.style.setProperty("--size", "30px");
-            }
-            if (item.dataset.cursor === "pointer2") {
-              cursorBorder.style.backgroundColor = "white";
-              cursorBorder.style.mixBlendMode = "difference";
-              cursorBorder.style.setProperty("--size", "80px");
-            }
-          });
-          item.addEventListener("mouseout", (e) => {
-            cursorBorder.style.backgroundColor = "unset";
-            cursorBorder.style.mixBlendMode = "unset";
-            cursorBorder.style.setProperty("--size", "50px");
-          });
-        });
-      
-    })
+    // Single Page Apps for GitHub Pages
+    // MIT License
+    // https://github.com/rafgraph/spa-github-pages
+    (function (l) {
+      if (l.search[1] === '/') {
+        var decoded = l.search.slice(1).split('&').map(function (s) {
+          return s.replace(/~and~/g, '&')
+        }).join('?');
+        window.history.replaceState(null, null,
+          l.pathname.slice(0, -1) + decoded + l.hash
+        );
+      }
+    }(window.location))
   </script>
+
+  <!-- Google Tag Manager -->
+  <script>(function (w, d, s, l, i) {
+          w[l] = w[l] || []; w[l].push({
+            'gtm.start':
+              new Date().getTime(), event: 'gtm.js'
+          }); var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+              'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-NBW89956');</script>
+  <!-- End Google Tag Manager -->
+</head>
+
+<body class="main-container">
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NBW89956" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+</body>
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+  integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+  integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+  integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  $(document).ready(function () {
+
+    AOS.init();
+
+
+    $('[data-toggle="tooltip"]').tooltip()
+    const cursor = document.querySelector("#cursor");
+    const cursorBorder = document.querySelector("#cursor-border");
+    const cursorPos = { x: 0, y: 0 };
+    const cursorBorderPos = { x: 0, y: 0 };
+
+    document.addEventListener("mousemove", (e) => {
+      cursorPos.x = e.clientX;
+      cursorPos.y = e.clientY;
+
+      cursor.style.transform = `translate(${e.clientX}px, ${e.clientY}px)`;
+    });
+
+    requestAnimationFrame(function loop() {
+      const easting = 5;
+      cursorBorderPos.x += (cursorPos.x - cursorBorderPos.x) / easting;
+      cursorBorderPos.y += (cursorPos.y - cursorBorderPos.y) / easting;
+
+      cursorBorder.style.transform = `translate(${cursorBorderPos.x}px, ${cursorBorderPos.y}px)`;
+      requestAnimationFrame(loop);
+    });
+
+    document.querySelectorAll("[data-cursor]").forEach((item) => {
+      item.addEventListener("mouseover", (e) => {
+        if (item.dataset.cursor === "pointer") {
+          cursorBorder.style.backgroundColor = "rgba(255, 255, 255, .6)";
+          cursorBorder.style.setProperty("--size", "30px");
+        }
+        if (item.dataset.cursor === "pointer2") {
+          cursorBorder.style.backgroundColor = "white";
+          cursorBorder.style.mixBlendMode = "difference";
+          cursorBorder.style.setProperty("--size", "80px");
+        }
+      });
+      item.addEventListener("mouseout", (e) => {
+        cursorBorder.style.backgroundColor = "unset";
+        cursorBorder.style.mixBlendMode = "unset";
+        cursorBorder.style.setProperty("--size", "50px");
+      });
+    });
+
+  })
+</script>
+
 </html>
