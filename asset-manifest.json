@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.a8e3ac02.css",
-    "main.js": "/static/js/main.fd535c3e.js",
+    "main.css": "/static/css/main.05b0004f.css",
+    "main.js": "/static/js/main.5b52f816.js",
     "static/js/453.42befe1a.chunk.js": "/static/js/453.42befe1a.chunk.js",
     "static/media/gradpic.jpg": "/static/media/gradpic.c698ded6c2820500577e.jpg",
     "static/media/modern-care-1.png": "/static/media/modern-care-1.7a5afe669589f2f1e9fc.png",
@@ -71,12 +71,12 @@
     "static/media/sun.svg": "/static/media/sun.c2f30e0dcb2ba02ad7ea.svg",
     "static/media/moon.svg": "/static/media/moon.9ea86e7675730ad2b4e4.svg",
     "static/media/debug.log": "/static/media/debug.d1f4fc3cf1f9f17e07f0.log",
-    "main.a8e3ac02.css.map": "/static/css/main.a8e3ac02.css.map",
-    "main.fd535c3e.js.map": "/static/js/main.fd535c3e.js.map",
+    "main.05b0004f.css.map": "/static/css/main.05b0004f.css.map",
+    "main.5b52f816.js.map": "/static/js/main.5b52f816.js.map",
     "453.42befe1a.chunk.js.map": "/static/js/453.42befe1a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a8e3ac02.css",
-    "static/js/main.fd535c3e.js"
+    "static/css/main.05b0004f.css",
+    "static/js/main.5b52f816.js"
   ]
 }
