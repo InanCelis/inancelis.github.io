@@ -29,7 +29,7 @@ function Blog() {
     <Layout>
       <SEO
         title="Web Development Blog | Inan Celis - Best Web Developer Philippines"
-        description="Latest tutorials, coding tips, and industry insights from a Filipino web developer. Deep dives into React, JavaScript, Laravel, WordPress development, and modern web technologies. Updated regularly with practical guides."
+        description="Web development tutorials and coding tips. Expert guides on React, JavaScript, Laravel, WordPress, and modern web technologies."
         url="https://inancelis.com/blog/"
         structuredData={structuredData}
       />

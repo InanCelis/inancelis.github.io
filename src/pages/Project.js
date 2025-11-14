@@ -10,7 +10,7 @@ function Project() {
     <Layout>
       <SEO
         title="Projects - Inan Celis Portfolio"
-        description="Browse 15+ real-world web development projects. From enterprise WordPress sites to custom React applications. See live examples of e-commerce, business websites, and web apps I've built for clients worldwide."
+        description="Browse 15+ web development projects. Enterprise WordPress sites, custom React apps, e-commerce, and business websites."
         url="https://inancelis.com/project/"
       />
 

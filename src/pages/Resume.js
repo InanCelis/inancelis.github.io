@@ -14,7 +14,7 @@ function Resume() {
     <Layout>
       <SEO
         title="Resume - Inan Celis | Full Stack Developer"
-        description="Download Inan Celis' professional resume. Detailed work experience, technical skills, education, and certifications. Proven expertise in building enterprise web applications and leading development teams."
+        description="Download Inan Celis' resume. Full-stack developer with expertise in React, Vue, Laravel, and WordPress development."
         url="https://inancelis.com/resume/"
       />
       <div className="container">
