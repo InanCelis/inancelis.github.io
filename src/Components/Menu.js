@@ -15,8 +15,12 @@ function Layout({ children }) {
   }, [setClassName])
 
   const [isOpen, setOpen] = useState(false);
+  const [isFirstLoad, setFirstLoad] = useState(true);
   const ToggleMenu = () => {
-    setOpen(!isOpen); 
+    if (isFirstLoad) {
+      setFirstLoad(false);
+    }
+    setOpen(!isOpen);
    };
   return (
     <>
@@ -32,7 +36,7 @@ function Layout({ children }) {
       </div>
       <div className="mobile-header">
         <NavLink to="/" className="logo-link"><Logo/></NavLink>
-        <svg id="hamburger" className={isOpen ? 'open-menu' : ''} viewbox="0 0 60 40" onClick={ToggleMenu}>
+        <svg id="hamburger" className={`${isOpen ? 'open-menu' : ''} ${isFirstLoad ? 'initial-load' : ''}`} viewbox="0 0 60 40" onClick={ToggleMenu}>
           <g strokeWidth="4" strokeLinecap="round" strokeLinejoin="round">
             <path id="top-line" d="M10,10 L50,10 Z"></path>
             <path id="middle-line" d="M10,20 L50,20 Z"></path>

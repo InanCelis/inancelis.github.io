@@ -116,16 +116,26 @@ header {
 	#top-line {
     transform-box: fill-box;
 	  transform-origin: center;
-		animation: down2-rotate 0.7s ease-out both;
+		transform: translateY(0px);
 	}
 	#bottom-line {
     transform-box: fill-box;
 	  transform-origin: center;
-		animation: up2-rotate 0.7s ease-out both;
+		transform: translateY(0px);
 	}
 	#middle-line {
     transform-box: fill-box;
 	  transform-origin: center;
+		opacity: 1;
+	}
+}
+
+#hamburger:not(.open-menu):not(.initial-load) {
+	#top-line {
+		animation: down2-rotate 0.7s ease-out both;
+	}
+	#bottom-line {
+		animation: up2-rotate 0.7s ease-out both;
 	}
 }
 
