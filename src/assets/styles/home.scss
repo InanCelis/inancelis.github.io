@@ -237,7 +237,7 @@ canvas {
             .details {
                 width: 100%;
                 h6 {
-                    font-size: 0.7em; 
+                    font-size: 0.7em;
                     padding-bottom: 0;
                 }
                 .my-name {
@@ -250,8 +250,18 @@ canvas {
                 .tag-dev {
                     font-size: 2.0em;
                 }
+                .row {
+                    flex-direction: column;
+                    width: 100%;
+
+                    .button {
+                        width: 100%;
+                        text-align: center;
+                        margin-right: 0 !important;
+                    }
+                }
             }
         }
     }
-      
+
   }
