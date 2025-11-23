@@ -7,6 +7,7 @@ import '../assets/styles/project.scss';
 import project from '../api/projects.json';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import ProjectImageSlider from '../Components/Slice/ProjectImageSlider';
+import SEO from '../Components/SEO';
 
 function ProjectView() {
   
@@ -68,6 +69,11 @@ function ProjectView() {
   return (
     <Layout>
       <>
+        <SEO
+          title={`${projItem.company} | Web Development Project Philippines`}
+          description={projItem.description ? projItem.description.substring(0, 155) : 'Web development project by Inan Celis, professional web developer in the Philippines.'}
+          url={`https://inancelis.com/project/${projItem.url}/`}
+        />
         <AlertPopup
               alertInfo={alert}
               onClose={() => setAlert(alert.isVisible = false)}

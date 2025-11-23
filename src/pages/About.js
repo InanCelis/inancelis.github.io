@@ -10,7 +10,7 @@ function About() {
   return (
     <Layout>
       <SEO
-        title="About Me - Inan Celis"
+        title="About Inan Celis | Web Developer Philippines"
         description="Meet Inan Celis, passionate web developer from the Philippines. Discover my journey and expertise in creating digital solutions."
         url="https://inancelis.com/details/"
         type="profile"

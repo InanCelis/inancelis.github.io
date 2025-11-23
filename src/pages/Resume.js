@@ -13,8 +13,8 @@ function Resume() {
   return (
     <Layout>
       <SEO
-        title="Resume - Inan Celis | Full Stack Developer"
-        description="Download Inan Celis' resume. Full-stack developer with expertise in React, Vue, Laravel, and WordPress development."
+        title="Resume | Full Stack Web Developer Philippines"
+        description="Download Inan Celis' resume. Full-stack web developer in the Philippines with expertise in React, Vue, Laravel, and WordPress development. View skills, experience, and projects."
         url="https://inancelis.com/resume/"
       />
       <div className="container">

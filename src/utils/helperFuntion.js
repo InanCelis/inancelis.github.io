@@ -7,11 +7,8 @@ export function useHelperFunction(title) {
   useEffect(() => {
     window.scrollTo(0, 0);
     // chaging page title
-    if(title !== 'nothing'){
-      document.title = `${title} Inan The Future`;
-    }
-
-    
+    // if(title !== 'nothing'){
+    //   document.title = `${title} Inan The Future`;
+    // }
   }, [pathname]);
 }
-

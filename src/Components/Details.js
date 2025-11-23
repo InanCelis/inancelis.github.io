@@ -28,25 +28,27 @@ function Details() {
         <div className="content">
           <div className={`details`}>
             <h3 className="font-weight-bold pb-3" data-aos="fade-up">
-              Hello there
+              Hello There!
             </h3>
             <p className="text-muted f-text-m pb-4" data-aos="fade-up">
-              I'm <b>Inan</b>, a professional{" "}
-              <b>web developer in the Philippines</b> specializing in building
-              scalable web applications and intuitive user experiences. As a
-              full-stack developer with extensive expertise in modern frontend
-              frameworks (React, Vue) and backend technologies (Laravel, PHP,
-              Node.js), I transform complex requirements into elegant,
-              high-performance solutions for businesses across the Philippines
-              and internationally. <br />
+              I'm Inan, a professional web developer in the Philippines who
+              enjoys building websites that are fast, easy to use, and simple to
+              understand. I also work as a web designer Philippines and a
+              WordPress developer Philippines, creating websites that look clean
+              and work well for both small and large businesses.
               <br />
-              My approach as a <b>web developer</b> combines technical
-              excellence with user-centered design principles, ensuring every
-              project delivers both functionality and exceptional user
-              experience. I'm proficient in the complete development lifecycle,
-              from architecture planning to deployment, with additional
-              expertise in WordPress/Elementor Pro, database optimization, and
-              cloud services.
+              <br />
+              As one of the web developers Philippines, I use tools like React,
+              Vue, Laravel, PHP, and Node.js to turn ideas into working web
+              applications. I take complex tasks and make them smooth,
+              organised, and easy for users to enjoy.
+              <br />
+              <br />
+              My approach is simple. I focus on clear design, good function, and
+              a friendly user experience. Handle the full process from planning
+              to testing and launching. I also work with WordPress, Elementor
+              Pro, databases, and cloud services to make sure every project runs
+              well and looks great on any device.
             </p>
             <NavLink to={`/contact/`} className="link">
               <i className="fa-regular fa-paper-plane"></i>{" "}

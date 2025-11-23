@@ -1,0 +1,57 @@
+@import '_variables';
+@import 'functions';
+
+.cta-section {
+  padding: 80px 20px;
+
+  .cta-content {
+    // max-width: 900px;
+    margin: 0 auto;
+    padding: 60px 40px;
+    border: 2px solid color(main);
+    background: color-mix(in lab, color(main) 5%, transparent);
+    position: relative;
+
+    h2 {
+      margin-bottom: 0;
+    }
+
+    p {
+      line-height: 1.8;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cta-section {
+    padding: 60px 20px;
+
+    .cta-content {
+      padding: 40px 30px;
+
+      h2 {
+        font-size: 2rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .cta-section {
+    padding: 40px 0;
+
+    .cta-content {
+      padding: 30px 20px;
+
+      h2 {
+        font-size: 1.8rem;
+      }
+
+      p {
+        font-size: 0.95rem;
+      }
+    }
+  }
+}

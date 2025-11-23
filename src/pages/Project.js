@@ -9,8 +9,8 @@ function Project() {
   return (
     <Layout>
       <SEO
-        title="Projects - Inan Celis Portfolio"
-        description="Browse 15+ web development projects. Enterprise WordPress sites, custom React apps, e-commerce, and business websites."
+        title="Web Development Projects Portfolio Philippines"
+        description="Browse 15+ web development projects by Inan Celis. Enterprise WordPress sites, custom React apps, e-commerce platforms, and business websites built in the Philippines."
         url="https://inancelis.com/project/"
       />
 

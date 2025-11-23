@@ -1,0 +1,59 @@
+@import '_variables';
+@import 'functions';
+
+.why-trust-me {
+  .intro-text {
+    max-width: 900px;
+    margin: 0 auto;
+    line-height: 1.8;
+  }
+
+  .trust-reasons-row {
+    .card {
+      border: 1px solid color(main);
+      padding: 1.8rem;
+      border-radius: 0rem !important;
+      overflow-y: hidden;
+      width: 100%;
+
+      .ex-header {
+        i {
+          font-size: 3rem;
+          padding-right: 1.2rem;
+          color: color(rgbaColor);
+        }
+        h3 {
+          font-weight: 600;
+          letter-spacing: .8px;
+          font-size: 1.7rem;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .why-trust-me {
+    .trust-reasons-row {
+      .column:not(:first-child) {
+        .card {
+          border-top: 0;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .why-trust-me {
+    padding-top: 6rem !important;
+
+    .trust-reasons-row {
+      margin: 0 !important;
+    }
+
+    .column {
+      padding: 0;
+    }
+  }
+}

@@ -9,17 +9,19 @@ function HomeIntro({ photo }) {
           <LazyLoadImage src={photo} className="my-image" />
         </div>
         <div className="details">
-          <span>Explore My World!</span>
           <p className="my-name">
             Hi, I'm{" "}
             <span className="textMain font-weight-bold">Inan Celis</span> a
           </p>
           <h1>Website</h1>
           <span className="tag-dev"></span>
+          <p className="my-name">in the Philippines</p>
           <p className="text-muted mb-5">
-            Creative web developer and designer - crafting visually stunning,
-            functional websites. Elevate your brand with bespoke design and
-            innovative technology.
+            I am a website developer Philippines who loves creating clean,
+            beautiful, and easy-to-use websites. Design pages that look nice,
+            load fast, and work well on any device. I use simple ideas and smart
+            tools to help brands grow online. My goal is to make every website
+            simple to explore, fun to look at, and helpful for visitors.
           </p>
           <div className="row m-0">
             <NavLink

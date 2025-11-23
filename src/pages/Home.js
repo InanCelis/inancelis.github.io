@@ -12,6 +12,9 @@ import Expertise from "../Components/Expertise";
 import Skills from "../Components/Skills";
 import SEO from "../Components/SEO";
 import ResumeButton from "../Components/Slice/ResumeButton";
+import WhyTrustMe from "../Components/WhyTrustMe";
+import CallToAction from "../Components/CallToAction";
+import FAQ from "../Components/FAQ";
 
 const structuredData = {
   "@context": "https://schema.org",
@@ -55,8 +58,8 @@ function Home() {
   return (
     <Layout>
       <SEO
-        title="Website Developer Philippines | Web Development Philippines | Inan Celis"
-        description="Expert website developer Philippines. Professional web development Philippines services - React, Vue, Laravel, WordPress (Elementor). Quality websites."
+        title="Web Developer Philippines | Inan Celis Portfolio"
+        description="Professional web developer in the Philippines. Expert in React, Vue, Laravel & WordPress development. Building fast, modern websites for businesses."
         url="https://inancelis.com/"
         structuredData={structuredData}
       />
@@ -75,9 +78,13 @@ function Home() {
           otherItem={false}
         />
       </div>
+      <div className="margin-top-big">
+        <WhyTrustMe />
+      </div>
       <div className="margin-top-big padding-mobile">
         <Details />
       </div>
+
       <div className="margin-top-big">
         <Expertise />
       </div>
@@ -89,6 +96,12 @@ function Home() {
       </div>
       <div className="d-flex justify-content-center pb-5">
         <ResumeButton />
+      </div>
+      <div className="margin-top-big">
+        <CallToAction />
+      </div>
+      <div className="margin-top-big">
+        <FAQ />
       </div>
     </Layout>
   );

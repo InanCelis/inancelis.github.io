@@ -98,7 +98,7 @@ canvas {
                 padding-bottom: 15px;
             }
             .my-name {
-                font-size: 2.5em;
+                font-size: 2em;
             }
             h1 {
                 text-transform: uppercase;
@@ -250,16 +250,7 @@ canvas {
                 .tag-dev {
                     font-size: 2.0em;
                 }
-                .row {
-                    flex-direction: column;
-                    width: 100%;
-
-                    .button {
-                        width: 100%;
-                        text-align: center;
-                        margin-right: 0 !important;
-                    }
-                }
+        
             }
         }
     }

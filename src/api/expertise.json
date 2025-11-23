@@ -2,20 +2,20 @@
     {
         "id": 1,
         "icon": "las la-laptop-code",
-        "title": "Website Development",
-        "description": "Proficient with extensive experience in both functional and object-oriented programming, particularly using PHP Laravel and JavaScript, demonstrating a strong coding background."
+        "title": "Website Development Skills",
+        "description": "As a web developer in Philippines, I build clear and useful websites with strong coding skills. I work with PHP, Laravel, and JavaScript to create smooth and reliable systems. I make sure every project is simple to use and ready for real business needs."
     },
     {
         "id": 2,
         "icon": "las la-code",
-        "title": "Frontend Development",
-        "description": "Passionate about UI/UX, with extensive experience in developing with HTML, CSS, JavaScript, React, Vue, and WordPress Elementor Pro over the years."
+        "title": "Frontend Design Skills",
+        "description": "As one of the website developers Philippines, I enjoy working on the look and feel of each page. I use HTML, CSS, JavaScript, React, Vue, and WordPress Elementor Pro to create clean layouts that are easy for people to explore."
     },
     
     {
         "id": 3,
         "icon": "las la-user-tie",
-        "title": "Virtual Assistant",
-        "description": "Adaptable virtual assistant proficient in content creation, data analysis, research, language support, and personalized advice to streamline tasks and enhance learning."
+        "title": "Virtual Assistant Skills",
+        "description": "As a Philippines web designer who also supports clients, I help with content creation, data research, language tasks, and simple daily actions. This makes work easier, faster, and more organized for the people I assist."
     }
 ]
