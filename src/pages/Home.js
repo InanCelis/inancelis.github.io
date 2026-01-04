@@ -76,6 +76,7 @@ function Home() {
           viewAll={true}
           hasObject={null}
           otherItem={false}
+          title={true}
         />
       </div>
       <div className="margin-top-big">

@@ -38,25 +38,29 @@ function WhyTrustMe() {
 
   return (
     <div className="why-trust-me container">
-      <h3 className="font-weight-bold text-center pb-3" data-aos="fade-up">
+      <h2 className="font-weight-bold text-center pb-3" data-aos="fade-up">
         Why Do Clients Trust Me?
-      </h3>
-      <p className="text-center text-muted f-text-m pb-5 intro-text" data-aos="fade-up">
+      </h2>
+      <p
+        className="text-center text-muted f-text-m pb-5 intro-text"
+        data-aos="fade-up"
+      >
         As a website developer Philippines, I focus on giving every client a
         smooth and stress-free experience. I keep my work simple, clear, and
         honest so people feel safe choosing me for their web development
         Philippines projects. As a web designer Philippines, I make sure each
-        website looks clean, works well, and supports real business needs.
-        Here are the values that help clients trust my work.
+        website looks clean, works well, and supports real business needs. Here
+        are the values that help clients trust my work.
       </p>
 
       <div className="row trust-reasons-row">
         {trustReasons.map((reason, index) => (
-          <div
-            className="col-sm-12 col-md-6 pb-0 pb-md-4 column"
-            key={index}
-          >
-            <div className="card bgColor h-100" data-aos="fade-up" data-aos-delay={index * 100}>
+          <div className="col-sm-12 col-md-6 pb-0 pb-md-4 column" key={index}>
+            <div
+              className="card bgColor h-100"
+              data-aos="fade-up"
+              data-aos-delay={index * 100}
+            >
               <LineClipPath content={``} xtraClass={"line-small"} />
               <div className="d-flex ex-header mt-4">
                 <i className={reason.icon}></i>

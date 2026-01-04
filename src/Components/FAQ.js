@@ -43,21 +43,20 @@ function FAQ() {
 
   return (
     <div className="faq-section container">
-      <h3 className="font-weight-bold text-center pb-5" data-aos="fade-up">
+      <h2 className="font-weight-bold text-center pb-5" data-aos="fade-up">
         FAQs
-      </h3>
+      </h2>
 
       <div className="faq-list">
         {faqs.map((faq, index) => {
           const isActive = activeIndex === index;
           return (
-            <div
-              key={index}
-              className={`faq-item ${isActive ? "active" : ""}`}
-            >
+            <div key={index} className={`faq-item ${isActive ? "active" : ""}`}>
               <div className="faq-question" onClick={() => toggleFAQ(index)}>
-                <h4>{faq.question}</h4>
-                <i className={`fa-solid ${isActive ? "fa-minus" : "fa-plus"}`}></i>
+                <h3>{faq.question}</h3>
+                <i
+                  className={`fa-solid ${isActive ? "fa-minus" : "fa-plus"}`}
+                ></i>
               </div>
               {isActive && (
                 <div className="faq-answer">

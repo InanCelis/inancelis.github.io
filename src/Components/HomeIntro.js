@@ -13,9 +13,10 @@ function HomeIntro({ photo }) {
             Hi, I'm{" "}
             <span className="textMain font-weight-bold">Inan Celis</span> a
           </p>
-          <h1>Website</h1>
-          <span className="tag-dev"></span>
-          <p className="my-name">in the Philippines</p>
+          <h1 className="sr-only">Website Developer / Designer in the Philippines</h1>
+          <p className="h1-visual" aria-hidden="true">Website</p>
+          <span className="tag-dev" aria-hidden="true"></span>
+          <p className="my-name" aria-hidden="true">in the Philippines</p>
           <p className="text-muted mb-5">
             I am a website developer Philippines who loves creating clean,
             beautiful, and easy-to-use websites. Design pages that look nice,

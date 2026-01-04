@@ -100,7 +100,18 @@ canvas {
             .my-name {
                 font-size: 2em;
             }
-            h1 {
+            h1.sr-only {
+                position: absolute;
+                width: 1px;
+                height: 1px;
+                padding: 0;
+                margin: -1px;
+                overflow: hidden;
+                clip: rect(0, 0, 0, 0);
+                white-space: nowrap;
+                border: 0;
+            }
+            .h1-visual {
                 text-transform: uppercase;
                 letter-spacing: 0.2em;
                 font-weight: 600;
@@ -190,7 +201,7 @@ canvas {
                 .my-name {
                     font-size: 2em;
                 }
-                h1 {
+                .h1-visual {
                     font-size: 4em;
                 }
                 .tag-dev {
@@ -218,7 +229,7 @@ canvas {
                 .my-name {
                     font-size: 1.7em;
                 }
-                h1 {
+                .h1-visual {
                     font-size: 3.5em;
                 }
                 .tag-dev {
@@ -243,7 +254,7 @@ canvas {
                 .my-name {
                     font-size: 1.5em;
                 }
-                h1 {
+                .h1-visual {
                     font-size: 2.5em;
                     line-height: 4rem;
                 }

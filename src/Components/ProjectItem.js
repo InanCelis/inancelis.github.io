@@ -4,7 +4,7 @@ import data from "../api/projects.json";
 import TeamProjectData from "../api/teamprojects.json";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
-function ProjectItem({ itemCount, viewAll, otherItem }) {
+function ProjectItem({ itemCount, viewAll, otherItem, title }) {
   const projects = data.slice(0, itemCount).map((p, index) => {
     if (index <= 5) {
       return (
@@ -97,16 +97,17 @@ function ProjectItem({ itemCount, viewAll, otherItem }) {
 
   return (
     <>
+      {title && <h2 className="container text-center pt-5">Projects</h2>}
       {projects}
       {otherItem ? (
         <>
           <div className="container pt-5">
-            <h4 className="f-text-m">Solo Projects</h4>
+            <h2 className="f-text-m">Solo Projects</h2>
             <div className="row project-row">{soloProjects}</div>
           </div>
 
           <div className="container pt-5">
-            <h4 className="f-text-m pb-2">Team Projects</h4>
+            <h2 className="f-text-m pb-2">Team Projects</h2>
             <table className="table textColor table-bordered-mode table-responsive">
               <thead className="bgMain">
                 <tr>

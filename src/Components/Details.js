@@ -27,9 +27,9 @@ function Details() {
       <div className="details-about container">
         <div className="content">
           <div className={`details`}>
-            <h3 className="font-weight-bold pb-3" data-aos="fade-up">
+            <h2 className="font-weight-bold pb-3" data-aos="fade-up">
               Hello There!
-            </h3>
+            </h2>
             <p className="text-muted f-text-m pb-4" data-aos="fade-up">
               I'm Inan, a professional web developer in the Philippines who
               enjoys building websites that are fast, easy to use, and simple to
@@ -55,9 +55,9 @@ function Details() {
               <span>Send Message</span>
             </NavLink>
             <div className="pt-5">
-              <h4 className="f-text-m pb-2" data-aos="fade-up">
+              <h3 className="f-text-m pb-2" data-aos="fade-up">
                 Personal Information
-              </h4>
+              </h3>
               <div className="item-border pb-5">
                 <div data-aos="fade-up">
                   <strong className="font-weight-bold text-muted f-text-s">
