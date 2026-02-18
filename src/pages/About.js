@@ -16,7 +16,7 @@ function About() {
         type="profile"
       />
       <div className="container">
-        <h1 className="page-title">About Me</h1>
+        <h1 className="page-title">About Me Test</h1>
         <div className="text-container">
           <Details />
         </div>
