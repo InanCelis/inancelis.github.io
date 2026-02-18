@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.f2b717cb.css",
-    "main.js": "/static/js/main.4a6a464e.js",
+    "main.css": "/static/css/main.2186bea8.css",
+    "main.js": "/static/js/main.e040cd3a.js",
     "static/js/453.42befe1a.chunk.js": "/static/js/453.42befe1a.chunk.js",
     "static/media/gradpic.jpg": "/static/media/gradpic.c698ded6c2820500577e.jpg",
     "static/media/modern-care-1.png": "/static/media/modern-care-1.7a5afe669589f2f1e9fc.png",
@@ -68,15 +68,15 @@
     "static/media/bootstrap.png": "/static/media/bootstrap.82f7f7430bc5b4c395af.png",
     "static/media/html.png": "/static/media/html.918d2bd3a1053b101768.png",
     "index.html": "/index.html",
-    "static/media/sun.svg": "/static/media/sun.c2f30e0dcb2ba02ad7ea.svg",
-    "static/media/moon.svg": "/static/media/moon.9ea86e7675730ad2b4e4.svg",
-    "static/media/debug.log": "/static/media/debug.d1f4fc3cf1f9f17e07f0.log",
-    "main.f2b717cb.css.map": "/static/css/main.f2b717cb.css.map",
-    "main.4a6a464e.js.map": "/static/js/main.4a6a464e.js.map",
+    "static/media/sun.svg": "/static/media/sun.96d3373620f4c2f852ff.svg",
+    "static/media/moon.svg": "/static/media/moon.53ad6d49a21e6f089caf.svg",
+    "static/media/debug.log": "/static/media/debug.0343788b825d343acc49.log",
+    "main.2186bea8.css.map": "/static/css/main.2186bea8.css.map",
+    "main.e040cd3a.js.map": "/static/js/main.e040cd3a.js.map",
     "453.42befe1a.chunk.js.map": "/static/js/453.42befe1a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f2b717cb.css",
-    "static/js/main.4a6a464e.js"
+    "static/css/main.2186bea8.css",
+    "static/js/main.e040cd3a.js"
   ]
 }
