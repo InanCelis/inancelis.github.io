@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom";
+import { useState } from "react";
 import Layout from "../Components/Layout/Layout";
 import SEO from "../Components/SEO";
 import blogsData from "../api/blogs.json";
@@ -20,10 +21,51 @@ const structuredData = {
 };
 
 function Blog() {
+  const [query, setQuery] = useState("");
+
   // Sort blogs by date in descending order (newest first)
   const sortedBlogs = [...blogsData].sort((a, b) => {
     return new Date(b.date) - new Date(a.date);
   });
+
+  const searchBlogs = (blog) => {
+    if (!query.trim()) return true;
+    const q = query.toLowerCase();
+
+    // Search title, excerpt, category
+    if (blog.title.toLowerCase().includes(q)) return true;
+    if (blog.excerpt.toLowerCase().includes(q)) return true;
+    if (blog.category.toLowerCase().includes(q)) return true;
+
+    // Search tags
+    if (blog.tags.some((tag) => tag.toLowerCase().includes(q))) return true;
+
+    // Search keywords (blog #7 has keywords field)
+    if (blog.keywords?.some((kw) => kw.toLowerCase().includes(q))) return true;
+
+    // Search content introduction
+    if (blog.content.introduction.toLowerCase().includes(q)) return true;
+
+    // Search sections
+    for (const section of blog.content.sections) {
+      if (section.heading?.toLowerCase().includes(q)) return true;
+      if (section.content?.toLowerCase().includes(q)) return true;
+      if (section.intro?.toLowerCase().includes(q)) return true;
+      if (Array.isArray(section.items)) {
+        for (const item of section.items) {
+          if (typeof item === "string" && item.toLowerCase().includes(q)) return true;
+          if (item.title?.toLowerCase().includes(q)) return true;
+          if (item.description?.toLowerCase().includes(q)) return true;
+          if (item.question?.toLowerCase().includes(q)) return true;
+          if (item.answer?.toLowerCase().includes(q)) return true;
+        }
+      }
+    }
+
+    return false;
+  };
+
+  const filteredBlogs = sortedBlogs.filter(searchBlogs);
 
   return (
     <Layout>
@@ -40,10 +82,31 @@ function Blog() {
             Insights, tutorials, and best practices from a professional web
             developer in the Philippines
           </p>
+          <div className="blog-search" data-aos="fade-up">
+            <div className="blog-search-input-wrapper">
+              <i className="fa-solid fa-magnifying-glass"></i>
+              <input
+                type="text"
+                placeholder="Search articles..."
+                value={query}
+                onChange={(e) => setQuery(e.target.value)}
+              />
+              {query && (
+                <button className="blog-search-clear" onClick={() => setQuery("")}>
+                  <i className="fa-solid fa-xmark"></i>
+                </button>
+              )}
+            </div>
+            {query && (
+              <p className="blog-search-results">
+                {filteredBlogs.length} result{filteredBlogs.length !== 1 ? "s" : ""} for "{query}"
+              </p>
+            )}
+          </div>
         </div>
 
         <div className="blog-grid">
-          {sortedBlogs.map((blog) => (
+          {filteredBlogs.map((blog) => (
             <article key={blog.id} className="blog-card" data-aos="fade-up">
               <div className="blog-card-header">
                 <div className="blog-meta">
@@ -81,10 +144,10 @@ function Blog() {
           ))}
         </div>
 
-        {blogsData.length === 0 && (
+        {filteredBlogs.length === 0 && (
           <div className="no-blogs" data-aos="fade-up">
             <p className="text-muted">
-              No blog posts available yet. Check back soon!
+              {query ? `No results found for "${query}".` : "No blog posts available yet. Check back soon!"}
             </p>
           </div>
         )}

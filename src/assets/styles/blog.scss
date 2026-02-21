@@ -23,6 +23,71 @@
         }
     }
 
+    .blog-search {
+        margin-top: 30px;
+
+        .blog-search-input-wrapper {
+            display: flex;
+            align-items: center;
+            border: 1px solid color(main);
+            max-width: 550px;
+            margin: 0 auto;
+            padding: 12px 20px;
+            gap: 12px;
+            background-color: transparent;
+            transition: box-shadow 0.3s ease;
+
+            &:focus-within {
+                box-shadow: 0 0 0 2px rgba(189, 136, 60, 0.2);
+            }
+
+            i {
+                color: color(main);
+                font-size: size(fontSizeM);
+                flex-shrink: 0;
+            }
+
+            input {
+                flex: 1;
+                border: none;
+                outline: none;
+                background: transparent;
+                font-size: size(fontSizeM);
+                font-family: $font-nunito;
+                color: color(textColor);
+
+                &::placeholder {
+                    color: color(textLight);
+                }
+            }
+
+            .blog-search-clear {
+                background: none;
+                border: none;
+                outline: none;
+                cursor: pointer;
+                color: color(textLight);
+                font-size: size(fontSizeM);
+                padding: 0;
+                display: flex;
+                align-items: center;
+                transition: color 0.2s ease;
+
+                &:hover {
+                    color: color(main);
+                }
+            }
+        }
+
+        .blog-search-results {
+            margin-top: 12px;
+            font-size: size(fontSizeS);
+            color: color(textLight);
+            font-family: $font-nunito;
+            text-align: center;
+        }
+    }
+
     .blog-grid {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));

@@ -19,6 +19,28 @@
         "logo": "freelance.png"
     },
     {
+        "id": 5,
+        "position": "Full Stack Web Developer",
+        "job_type": "Full-time",
+        "from_date": "February 2025",
+        "to_date": "December 2025",
+        "company": "International Property Alerts",
+        "address": "MCS Tower, Chino Roces Ave, Makati City, Philippines",
+        "site": "https://internationalpropertyalerts.com/",
+        "site_text": "internationalpropertyalerts.com",
+        "description": "<b>Responsibilities</b> <ul className='text-muted'><li>Creating custom WordPress plugins and themes</li><li>Building and maintaining Elementor pages as needed</li><li>Creating and maintaining API endpoints</li><li>Managing and maintaining databases</li><li>Maintaining scraper systems</li><li>Managing IPA listings and CRM system</li><li>Troubleshooting and addressing issues as reported</li><li>Creating web applications as needed</li></ul>",
+        "tool": [
+            "PHP",
+            "WordPress",
+            "Elementor Pro",
+            "JavaScript",
+            "GHL",
+            "Namecheap",
+            "Kinsta"
+        ],
+        "logo": "https://internationalpropertyalerts.com/wp-content/uploads/2025/07/IPA-Gold-Blue-Logo-white-2.png"
+    },
+    {
         "id": 2,
         "position": "Software Engineer",
         "job_type": "Full-time",

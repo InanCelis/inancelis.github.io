@@ -206,6 +206,229 @@
             }
         }
 
+        // List section styles
+        .blog-list-section {
+            .list-intro {
+                font-size: size(fontSizeM);
+                color: color(textColor);
+                line-height: 2;
+                margin-bottom: 15px;
+            }
+
+            .blog-unordered-list {
+                list-style: none;
+                padding-left: 0;
+                margin: 15px 0;
+
+                li {
+                    font-size: size(fontSizeM);
+                    color: color(textColor);
+                    line-height: 2;
+                    margin-bottom: 10px;
+                    padding-left: 22px;
+                    position: relative;
+
+                    &::before {
+                        content: '';
+                        position: absolute;
+                        left: 0;
+                        top: 14px;
+                        width: 8px;
+                        height: 8px;
+                        background-color: color(main);
+                        border-radius: 50%;
+                    }
+                }
+            }
+
+            .blog-ordered-list {
+                list-style: none;
+                padding-left: 0;
+                margin: 15px 0;
+                counter-reset: ordered-counter;
+
+                li {
+                    counter-increment: ordered-counter;
+                    font-size: size(fontSizeM);
+                    color: color(textColor);
+                    line-height: 1.8;
+                    margin-bottom: 20px;
+                    padding-left: 50px;
+                    position: relative;
+
+                    &::before {
+                        content: counter(ordered-counter);
+                        position: absolute;
+                        left: 0;
+                        top: 0;
+                        width: 32px;
+                        height: 32px;
+                        background-color: color(main);
+                        color: color(bgColor);
+                        border-radius: 50%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        font-size: size(fontSizeS);
+                        font-weight: 700;
+                        font-family: $font-raleway;
+                    }
+
+                    strong {
+                        display: block;
+                        font-size: size(fontSizeM);
+                        font-family: $font-raleway;
+                        font-weight: 700;
+                        margin-bottom: 5px;
+                    }
+
+                    p {
+                        margin: 0;
+                        line-height: 2;
+                    }
+                }
+            }
+
+            .blog-checklist {
+                list-style: none;
+                padding-left: 0;
+                margin: 15px 0;
+
+                li {
+                    display: flex;
+                    align-items: flex-start;
+                    gap: 15px;
+                    margin-bottom: 18px;
+
+                    .checklist-icon {
+                        width: 26px;
+                        height: 26px;
+                        min-width: 26px;
+                        border: 2px solid color(main);
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        color: color(main);
+                        font-size: 11px;
+                        margin-top: 3px;
+                    }
+
+                    div {
+                        flex: 1;
+
+                        strong {
+                            display: block;
+                            font-size: size(fontSizeM);
+                            font-family: $font-raleway;
+                            font-weight: 700;
+                            color: color(textColor);
+                            margin-bottom: 4px;
+                        }
+
+                        p {
+                            margin: 0;
+                            font-size: size(fontSizeM);
+                            color: color(textColor);
+                            line-height: 2;
+                        }
+                    }
+                }
+            }
+
+            .blog-description-list {
+                margin: 15px 0;
+
+                .description-item {
+                    margin-bottom: 15px;
+                    padding: 18px 20px;
+                    border-left: 3px solid color(main);
+                    background-color: rgba(189, 136, 60, 0.04);
+
+                    dt {
+                        font-weight: 700;
+                        font-family: $font-raleway;
+                        color: color(textColor);
+                        margin-bottom: 6px;
+                        font-size: size(fontSizeM);
+                    }
+
+                    dd {
+                        font-size: size(fontSizeM);
+                        color: color(textColor);
+                        line-height: 2;
+                        margin-left: 0;
+                    }
+                }
+            }
+
+            .list-outro {
+                margin-top: 15px;
+                font-size: size(fontSizeM);
+                color: color(textColor);
+                line-height: 2;
+                font-style: italic;
+            }
+        }
+
+        // FAQ section styles
+        .blog-faq-section {
+            .faq-list {
+                margin-top: 20px;
+            }
+
+            .faq-item {
+                margin-bottom: 15px;
+                border: 1px solid rgba(189, 136, 60, 0.3);
+
+                .faq-question {
+                    display: flex;
+                    align-items: flex-start;
+                    gap: 15px;
+                    padding: 20px 25px;
+                    background-color: rgba(189, 136, 60, 0.05);
+
+                    h3 {
+                        font-size: size(fontSizeM);
+                        font-family: $font-raleway;
+                        font-weight: 700;
+                        color: color(textColor);
+                        margin: 0;
+                        line-height: 1.6;
+                    }
+                }
+
+                .faq-answer {
+                    display: flex;
+                    align-items: flex-start;
+                    gap: 15px;
+                    padding: 20px 25px;
+
+                    p {
+                        margin: 0;
+                        font-size: size(fontSizeM);
+                        color: color(textColor);
+                        line-height: 2;
+                    }
+                }
+
+                .faq-badge {
+                    width: 28px;
+                    height: 28px;
+                    min-width: 28px;
+                    background-color: color(main);
+                    color: color(bgColor);
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-weight: 700;
+                    font-family: $font-raleway;
+                    font-size: size(fontSizeS);
+                    border-radius: 50%;
+                    margin-top: 2px;
+                }
+            }
+        }
+
         .blog-conclusion {
             margin-top: 50px;
             padding: 30px;
@@ -480,6 +703,42 @@
             h3 {
                 font-size: size(fontSizeL);
             }
+        }
+
+        .paginator {
+            right: 0%;
+            bottom: 50%;
+
+            button {
+                padding: 10px;
+            }
+        }
+    }
+}
+
+.paginator {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: 3%;
+    bottom: 6%;
+    z-index: 999;
+
+    button {
+        padding: 15px;
+        background-color: color(textColor);
+        color: color(bgColor);
+        border: 1px solid color(bgColor);
+        outline: none;
+        cursor: pointer;
+        transition: opacity 0.3s ease;
+
+        &:nth-child(1) {
+            border-bottom: none;
+        }
+
+        &:hover {
+            opacity: 0.8;
         }
     }
 }

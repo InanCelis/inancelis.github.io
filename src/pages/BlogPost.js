@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import Layout from "../Components/Layout/Layout";
 import SEO from "../Components/SEO";
 import CodeBlock from "../Components/CodeBlock";
+import AlertPopup from "../Components/Slice/AlertPopup";
 import blogsData from "../api/blogs.json";
 import "../assets/styles/blog-post.scss";
 
@@ -10,6 +11,7 @@ function BlogPost() {
   const { slug } = useParams();
   const navigate = useNavigate();
   const [blog, setBlog] = useState(null);
+  const [alert, setAlert] = useState({ message: '', type: '', isVisible: false });
 
   useEffect(() => {
     // Remove trailing slash from slug if present
@@ -51,6 +53,30 @@ function BlogPost() {
 
   // Get related posts (exclude current post)
   const relatedPosts = blogsData.filter((b) => b.id !== blog.id).slice(0, 2);
+
+  const redirectPage = (to) => {
+    window.scrollTo(0, 0);
+    setTimeout(() => {
+      const currentId = blog.id;
+      if (to === 'prev') {
+        const prevBlog = blogsData.find((b) => b.id === currentId + 1);
+        if (!prevBlog) {
+          setAlert({ message: 'No previous blog post, please click Next.', type: 'error', isVisible: true });
+        } else {
+          navigate(`/blog/${prevBlog.slug}/`);
+          window.location.reload(false);
+        }
+      } else {
+        const nextBlog = blogsData.find((b) => b.id === currentId - 1);
+        if (!nextBlog) {
+          setAlert({ message: 'No more blog posts, please click Previous.', type: 'error', isVisible: true });
+        } else {
+          navigate(`/blog/${nextBlog.slug}/`);
+          window.location.reload(false);
+        }
+      }
+    }, 1000);
+  };
 
   // Render section based on type
   const renderSection = (section, index) => {
@@ -94,6 +120,92 @@ function BlogPost() {
           </div>
         );
 
+      case "list":
+        return (
+          <div key={index} className="blog-section blog-list-section">
+            {section.heading && <h2>{section.heading}</h2>}
+            {section.intro && <p className="list-intro">{section.intro}</p>}
+            {section.listType === "ordered" ? (
+              <ol className="blog-ordered-list">
+                {section.items.map((item, i) =>
+                  typeof item === "string" ? (
+                    <li key={i}>{item}</li>
+                  ) : (
+                    <li key={i}>
+                      <strong>{item.title}</strong>
+                      {item.description && <p>{item.description}</p>}
+                    </li>
+                  )
+                )}
+              </ol>
+            ) : section.listType === "checklist" ? (
+              <ul className="blog-checklist">
+                {section.items.map((item, i) => (
+                  <li key={i}>
+                    <span className="checklist-icon">
+                      <i className="fa-solid fa-check"></i>
+                    </span>
+                    <div>
+                      {typeof item === "string" ? (
+                        item
+                      ) : (
+                        <>
+                          <strong>{item.title}</strong>
+                          {item.description && <p>{item.description}</p>}
+                        </>
+                      )}
+                    </div>
+                  </li>
+                ))}
+              </ul>
+            ) : section.listType === "description" ? (
+              <dl className="blog-description-list">
+                {section.items.map((item, i) => (
+                  <div key={i} className="description-item">
+                    <dt>{item.title}</dt>
+                    <dd>{item.description}</dd>
+                  </div>
+                ))}
+              </dl>
+            ) : (
+              <ul className="blog-unordered-list">
+                {section.items.map((item, i) =>
+                  typeof item === "string" ? (
+                    <li key={i}>{item}</li>
+                  ) : (
+                    <li key={i}>
+                      <strong>{item.title}</strong>
+                      {item.description && <span>: {item.description}</span>}
+                    </li>
+                  )
+                )}
+              </ul>
+            )}
+            {section.outro && <p className="list-outro">{section.outro}</p>}
+          </div>
+        );
+
+      case "faq":
+        return (
+          <div key={index} className="blog-section blog-faq-section">
+            {section.heading && <h2>{section.heading}</h2>}
+            <div className="faq-list">
+              {section.items.map((item, i) => (
+                <div key={i} className="faq-item">
+                  <div className="faq-question">
+                    <span className="faq-badge">Q</span>
+                    <h3>{item.question}</h3>
+                  </div>
+                  <div className="faq-answer">
+                    <span className="faq-badge">A</span>
+                    <p>{item.answer}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        );
+
       default:
         return null;
     }
@@ -101,6 +213,18 @@ function BlogPost() {
 
   return (
     <Layout>
+      <AlertPopup
+        alertInfo={alert}
+        onClose={() => setAlert({ ...alert, isVisible: false })}
+      />
+      <div className="paginator shadow">
+        <button type="button" onClick={() => redirectPage('prev')} title="Previous">
+          <i className="fa-solid fa-arrow-left"></i>
+        </button>
+        <button type="button" onClick={() => redirectPage('next')} title="Next">
+          <i className="fa-solid fa-arrow-right"></i>
+        </button>
+      </div>
       <SEO
         title={`${blog.title} | Inan Celis`}
         description={blog.metaDescription}

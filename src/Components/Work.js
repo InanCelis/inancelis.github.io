@@ -7,7 +7,7 @@ import { LazyLoadImage } from 'react-lazy-load-image-component';
 function Work() {
 
 
-    const works = data.slice(0, 5).map((w, index) =>{
+    const works = data.slice(0, 5).map((w) =>{
         return (
             <div className="w-item shadow" key={w.id} data-aos="fade-up">
                 <div className="w-header">
@@ -32,7 +32,10 @@ function Work() {
                         </div>
                     </div>
                     <div className="w-logo">
-                        <LazyLoadImage src={require(`../assets/images/company/${w.logo}`)}  className="my-image"/>
+                        <LazyLoadImage
+                            src={w.logo.startsWith('http') ? w.logo : require(`../assets/images/company/${w.logo}`)}
+                            className="my-image"
+                        />
                     </div>
                 </div>
              </div>
