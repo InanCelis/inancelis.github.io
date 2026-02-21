@@ -34,7 +34,6 @@
     "inlineCss": true,
     "minifyHtml": false,
     "navigateTimeout": 60000,
-    "skipThirdPartyRequests": true,
     "include": [
       "/",
       "/details/",
