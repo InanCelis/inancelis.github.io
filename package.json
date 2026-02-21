@@ -33,6 +33,8 @@
   "reactSnap": {
     "inlineCss": true,
     "minifyHtml": false,
+    "navigateTimeout": 60000,
+    "skipThirdPartyRequests": true,
     "include": [
       "/",
       "/details/",
@@ -46,6 +48,7 @@
       "/blog/building-scalable-web-applications/",
       "/blog/react-best-practices-2025/",
       "/blog/create-react-app-from-scratch/",
+      "/blog/hire-reliable-web-developer-philippines/",
       "/project/modern-care/",
       "/project/blue-apple-launchpad/",
       "/project/monster-quest-escape-room/",

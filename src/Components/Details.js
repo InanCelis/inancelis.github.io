@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
 import LineClipPath from "./Slice/LineClipPath";
 import "../assets/styles/details.scss";
@@ -19,7 +19,6 @@ function Details() {
     if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
       age_now--;
     }
-    console.log(age_now);
     return age_now;
   };
   return (
