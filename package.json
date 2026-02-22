@@ -34,6 +34,7 @@
     "inlineCss": true,
     "minifyHtml": false,
     "navigateTimeout": 60000,
+    "maxConcurrentRoutes": 4,
     "include": [
       "/",
       "/details/",
