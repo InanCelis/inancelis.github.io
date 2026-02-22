@@ -54,6 +54,13 @@ function BlogPost() {
   // Get related posts (exclude current post)
   const relatedPosts = blogsData.filter((b) => b.id !== blog.id).slice(0, 2);
 
+  const goToRelated = (slug) => {
+    window.scrollTo(0, 0);
+    setTimeout(() => {
+      window.location.href = `/blog/${slug}/`;
+    }, 100);
+  };
+
   const redirectPage = (to) => {
     window.scrollTo(0, 0);
     setTimeout(() => {
@@ -333,17 +340,18 @@ function BlogPost() {
                     <span className="blog-date">{relatedBlog.date}</span>
                   </div>
                   <h4>
-                    <NavLink to={`/blog/${relatedBlog.slug}/`}>
+                    <a href={`/blog/${relatedBlog.slug}/`} onClick={(e) => { e.preventDefault(); goToRelated(relatedBlog.slug); }}>
                       {relatedBlog.title}
-                    </NavLink>
+                    </a>
                   </h4>
                   <p className="text-muted">{relatedBlog.excerpt}</p>
-                  <NavLink
-                    to={`/blog/${relatedBlog.slug}/`}
+                  <a
+                    href={`/blog/${relatedBlog.slug}/`}
                     className="read-more"
+                    onClick={(e) => { e.preventDefault(); goToRelated(relatedBlog.slug); }}
                   >
                     Read More <i className="fa-solid fa-arrow-right"></i>
-                  </NavLink>
+                  </a>
                 </div>
               ))}
             </div>

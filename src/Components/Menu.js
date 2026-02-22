@@ -1,6 +1,6 @@
 
 import React, {useState, useEffect} from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 import Logo from "./Logo";
 import Toggle from "./Toggle";
 import NavMenu from "./Slice/NavMenu";
@@ -16,6 +16,12 @@ function Layout({ children }) {
 
   const [isOpen, setOpen] = useState(false);
   const [isFirstLoad, setFirstLoad] = useState(true);
+  const location = useLocation();
+
+  useEffect(() => {
+    setOpen(false);
+  }, [location.pathname]);
+
   const ToggleMenu = () => {
     if (isFirstLoad) {
       setFirstLoad(false);
