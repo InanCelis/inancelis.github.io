@@ -19,8 +19,8 @@ function Layout({ children }) {
   const location = useLocation();
 
   useEffect(() => {
-    setOpen(false);
-  }, [location.pathname]);
+    if (isOpen) setOpen(false);
+  }, [location.pathname]); // eslint-disable-line react-hooks/exhaustive-deps
 
   const ToggleMenu = () => {
     if (isFirstLoad) {

@@ -10,19 +10,17 @@ import "../assets/styles/blog-post.scss";
 function BlogPost() {
   const { slug } = useParams();
   const navigate = useNavigate();
-  const [blog, setBlog] = useState(null);
   const [alert, setAlert] = useState({ message: '', type: '', isVisible: false });
 
+  // Find blog synchronously so first render matches react-snap pre-rendered HTML
+  const cleanSlug = slug?.replace(/\/$/, '') || slug;
+  const blog = blogsData.find((b) => b.slug === cleanSlug) || null;
+
   useEffect(() => {
-    // Remove trailing slash from slug if present
-    const cleanSlug = slug?.replace(/\/$/, '') || slug;
-    const foundBlog = blogsData.find((b) => b.slug === cleanSlug);
-    if (foundBlog) {
-      setBlog(foundBlog);
-    } else {
+    if (!blog) {
       navigate("/404");
     }
-  }, [slug, navigate]);
+  }, [blog, navigate]);
 
   if (!blog) {
     return null;
