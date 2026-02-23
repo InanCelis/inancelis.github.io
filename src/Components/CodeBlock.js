@@ -173,6 +173,13 @@ const CodeBlock = ({ code, language, heading, caption }) => {
           }
         );
 
+        // Attributes BEFORE tags — prevents the regex from matching
+        // class= inside the <span class="tag"> elements added below
+        highlighted = highlighted.replace(
+          /\s([a-z-]+)=/g,
+          ' <span class="attribute">$1</span>='
+        );
+
         // Tags
         highlighted = highlighted.replace(
           /&lt;([a-zA-Z][a-zA-Z0-9]*)/g,
@@ -181,12 +188,6 @@ const CodeBlock = ({ code, language, heading, caption }) => {
         highlighted = highlighted.replace(
           /&lt;\/([a-zA-Z][a-zA-Z0-9]*)&gt;/g,
           '&lt;/<span class="tag">$1</span>&gt;'
-        );
-
-        // Attributes
-        highlighted = highlighted.replace(
-          /\s([a-z-]+)=/g,
-          ' <span class="attribute">$1</span>='
         );
 
         // Restore strings with highlighting
