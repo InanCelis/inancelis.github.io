@@ -83,14 +83,15 @@ canvas {
             width: 45%;
             display: flex;
             justify-content: flex-end;
-
+            margin-right: 30px;
             img {
-                width: 100%;
-                border-bottom: 5px solid var(--text);
+                width: 120%;
+                max-width: 700px;
+                border-bottom: 3px solid var(--text);
             }
         }
         .details {
-            width: 55%;
+            width: 45%;
             font-style: $font-raleway;
             h6 {
                 text-transform: uppercase;

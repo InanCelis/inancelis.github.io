@@ -5,6 +5,7 @@ import SEO from "../Components/SEO";
 import CodeBlock from "../Components/CodeBlock";
 import AlertPopup from "../Components/Slice/AlertPopup";
 import blogsData from "../api/blogs.json";
+import DefaultPhoto from "../assets/images/Inan Celis with Laptop.png";
 import "../assets/styles/blog-post.scss";
 
 function BlogPost() {
@@ -236,7 +237,7 @@ function BlogPost() {
         url={`https://inancelis.com/blog/${blog.slug}/`}
         image={
           blog.og_image ||
-          "https://inancelis.com/static/media/meee.4c7463169d8947aeed63.png"
+          `https://inancelis.com${DefaultPhoto}`
         }
         type="article"
         structuredData={structuredData}

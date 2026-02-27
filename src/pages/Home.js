@@ -1,7 +1,7 @@
 import { useHelperFunction } from "../utils/helperFuntion";
 import Layout from "../Components/Layout/Layout";
 import ProjectItem from "../Components/ProjectItem";
-import Me from "../assets/images/meee.png";
+import Me from "../assets/images/Inan Celis with Laptop.png";
 import "../assets/styles/home.scss";
 import RainbowSwirl from "../Components/RainbowSwirl";
 import MouseScroll from "../Components/Slice/MouseScroll";
@@ -22,7 +22,7 @@ const structuredData = {
   name: "Ferdinand T. Celis (Inan Celis)",
   alternateName: "Inan Celis",
   url: "https://inancelis.com/",
-  image: "https://inancelis.com/static/media/meee.4c7463169d8947aeed63.png",
+  image: `https://inancelis.com${Me}`,
   jobTitle: "Full Stack Web Developer",
   description:
     "Professional web developer in the Philippines specializing in React, Laravel, Vue, and WordPress development",

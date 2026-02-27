@@ -1,5 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet";
+import DefaultPhoto from "../assets/images/Inan Celis with Laptop.png";
 
 const MetaSetup = () => (
   <div>
@@ -22,7 +23,7 @@ const MetaSetup = () => (
       <meta property="og:url" content="https://inancelis.com/" />
       <meta
         property="og:image"
-        content="https://inancelis.com/static/media/meee.4c7463169d8947aeed63.png"
+        content={`https://inancelis.com${DefaultPhoto}`}
       />
     </Helmet>
   </div>

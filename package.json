@@ -31,7 +31,7 @@
     "eject": "react-scripts eject"
   },
   "reactSnap": {
-    "inlineCss": true,
+    "inlineCss": false,
     "minifyHtml": false,
     "navigateTimeout": 60000,
     "maxConcurrentRoutes": 4,
@@ -49,6 +49,7 @@
       "/blog/react-best-practices-2025/",
       "/blog/create-react-app-from-scratch/",
       "/blog/hire-reliable-web-developer-philippines/",
+      "/blog/website-redesign-vs-rebuild/",
       "/project/modern-care/",
       "/project/blue-apple-launchpad/",
       "/project/monster-quest-escape-room/",
