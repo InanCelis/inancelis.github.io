@@ -74,6 +74,10 @@ function Blog() {
         description="Web development tutorials and coding tips from the Philippines. Expert guides on React, JavaScript, Laravel, WordPress, and modern web technologies."
         url="https://inancelis.com/blog/"
         structuredData={structuredData}
+        breadcrumbs={[
+          { name: "Home", url: "https://inancelis.com/" },
+          { name: "Blog", url: "https://inancelis.com/blog/" },
+        ]}
       />
       <div className="container blog-page py-5 pt-5">
         <div className="blog-header" data-aos="fade-up">

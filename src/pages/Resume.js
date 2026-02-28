@@ -7,6 +7,21 @@ import PageIndicator from "../Components/Slice/PageIndicator";
 import ResumeButton from "../Components/Slice/ResumeButton";
 import SEO from "../Components/SEO";
 
+const resumeStructuredData = {
+  "@context": "https://schema.org",
+  "@type": "ProfilePage",
+  name: "Resume - Inan Celis, Full Stack Web Developer",
+  description: "Professional resume of Inan Celis. Full-stack web developer in the Philippines with expertise in React, Vue, Laravel, and WordPress.",
+  url: "https://inancelis.com/resume/",
+  mainEntity: {
+    "@type": "Person",
+    name: "Ferdinand T. Celis (Inan Celis)",
+    jobTitle: "Full Stack Web Developer",
+    url: "https://inancelis.com/",
+    knowsAbout: ["React", "Vue", "Laravel", "PHP", "JavaScript", "WordPress"],
+  },
+};
+
 function Resume() {
   useHelperFunction("Resume |");
 
@@ -16,6 +31,11 @@ function Resume() {
         title="Resume | Full Stack Web Developer Philippines"
         description="Download Inan Celis' resume. Full-stack web developer in the Philippines with expertise in React, Vue, Laravel, and WordPress development. View skills, experience, and projects."
         url="https://inancelis.com/resume/"
+        structuredData={resumeStructuredData}
+        breadcrumbs={[
+          { name: "Home", url: "https://inancelis.com/" },
+          { name: "Resume", url: "https://inancelis.com/resume/" },
+        ]}
       />
       <div className="container">
         <h1 className="page-title">My Resume</h1>

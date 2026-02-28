@@ -14,6 +14,10 @@ function About() {
         description="Meet Inan Celis, passionate web developer from the Philippines. Discover my journey and expertise in creating digital solutions."
         url="https://inancelis.com/details/"
         type="profile"
+        breadcrumbs={[
+          { name: "Home", url: "https://inancelis.com/" },
+          { name: "About", url: "https://inancelis.com/details/" },
+        ]}
       />
       <div className="container">
         <h1 className="page-title">About Me</h1>

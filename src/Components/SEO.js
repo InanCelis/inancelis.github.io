@@ -10,14 +10,27 @@ const SEO = ({
   image = `https://inancelis.com${DefaultPhoto}`,
   type = "website",
   structuredData,
+  breadcrumbs,
 }) => {
-  const siteTitle = title.includes("Inan Celis")
+  const siteTitle = type === "article" || title.includes("Inan Celis")
     ? title
     : `${title} | Inan Celis`;
 
   // Ensure canonical URL always ends with / and remove www.
   let canonicalUrl = url.replace('www.', '');
   canonicalUrl = canonicalUrl.endsWith('/') ? canonicalUrl : `${canonicalUrl}/`;
+
+  // Build BreadcrumbList structured data
+  const breadcrumbData = breadcrumbs && breadcrumbs.length > 0 ? {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": breadcrumbs.map((crumb, index) => ({
+      "@type": "ListItem",
+      "position": index + 1,
+      "name": crumb.name,
+      "item": crumb.url,
+    })),
+  } : null;
 
   return (
     <Helmet>
@@ -49,6 +62,13 @@ const SEO = ({
       {structuredData && (
         <script type="application/ld+json">
           {JSON.stringify(structuredData)}
+        </script>
+      )}
+
+      {/* Breadcrumb Structured Data */}
+      {breadcrumbData && (
+        <script type="application/ld+json">
+          {JSON.stringify(breadcrumbData)}
         </script>
       )}
     </Helmet>

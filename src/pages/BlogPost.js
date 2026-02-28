@@ -232,7 +232,7 @@ function BlogPost() {
         </button>
       </div>
       <SEO
-        title={`${blog.title} | Inan Celis`}
+        title={blog.title}
         description={blog.metaDescription}
         url={`https://inancelis.com/blog/${blog.slug}/`}
         image={
@@ -241,6 +241,11 @@ function BlogPost() {
         }
         type="article"
         structuredData={structuredData}
+        breadcrumbs={[
+          { name: "Home", url: "https://inancelis.com/" },
+          { name: "Blog", url: "https://inancelis.com/blog/" },
+          { name: blog.title, url: `https://inancelis.com/blog/${blog.slug}/` },
+        ]}
       />
       <article className="container blog-post-page py-5 pt-5">
         <div className="blog-post-header" data-aos="fade-up">

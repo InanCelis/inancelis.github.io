@@ -75,6 +75,10 @@ function Contact() {
         description="Get in touch with Inan Celis for web development projects, collaborations, or freelance opportunities. Let's build something amazing together!"
         url="https://inancelis.com/contact/"
         structuredData={contactStructuredData}
+        breadcrumbs={[
+          { name: "Home", url: "https://inancelis.com/" },
+          { name: "Contact", url: "https://inancelis.com/contact/" },
+        ]}
       />
       <AlertPopup
         alertInfo={alert}

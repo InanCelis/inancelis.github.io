@@ -73,6 +73,23 @@ function ProjectView() {
           title={`${projItem.company} | Web Development Project Philippines`}
           description={projItem.description ? projItem.description.substring(0, 155) : 'Web development project by Inan Celis, professional web developer in the Philippines.'}
           url={`https://inancelis.com/project/${projItem.url}/`}
+          structuredData={{
+            "@context": "https://schema.org",
+            "@type": "CreativeWork",
+            name: projItem.company,
+            description: projItem.description,
+            url: `https://inancelis.com/project/${projItem.url}/`,
+            author: {
+              "@type": "Person",
+              name: "Ferdinand T. Celis (Inan Celis)",
+              url: "https://inancelis.com/",
+            },
+          }}
+          breadcrumbs={[
+            { name: "Home", url: "https://inancelis.com/" },
+            { name: "Projects", url: "https://inancelis.com/project/" },
+            { name: projItem.company || "Project", url: `https://inancelis.com/project/${projItem.url}/` },
+          ]}
         />
         <AlertPopup
               alertInfo={alert}
