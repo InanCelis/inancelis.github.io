@@ -15,6 +15,7 @@ import ResumeButton from "../Components/Slice/ResumeButton";
 import WhyTrustMe from "../Components/WhyTrustMe";
 import CallToAction from "../Components/CallToAction";
 import FAQ from "../Components/FAQ";
+import LeadPopup from "../Components/Slice/LeadPopup";
 
 const structuredData = {
   "@context": "https://schema.org",
@@ -23,9 +24,9 @@ const structuredData = {
   alternateName: "Inan Celis",
   url: "https://inancelis.com/",
   image: `https://inancelis.com${Me}`,
-  jobTitle: "Full Stack Web Developer",
+  jobTitle: "WordPress & Website Developer",
   description:
-    "Professional web developer in the Philippines specializing in React, Laravel, Vue, and WordPress development",
+    "WordPress and website developer in the Philippines specializing in custom WordPress sites, WooCommerce, and modern web development",
   address: {
     "@type": "PostalAddress",
     addressCountry: "Philippines",
@@ -36,16 +37,16 @@ const structuredData = {
   },
   sameAs: ["https://github.com/inancelis", "https://linkedin.com/in/inancelis"],
   knowsAbout: [
+    "WordPress",
+    "WooCommerce",
+    "PHP",
+    "Laravel",
+    "JavaScript",
     "React",
     "Vue",
-    "Laravel",
-    "PHP",
-    "JavaScript",
-    "WordPress",
     "Web Development",
     "Frontend Development",
     "Backend Development",
-    "Full Stack Development",
   ],
   alumniOf: {
     "@type": "EducationalOrganization",
@@ -57,9 +58,10 @@ function Home() {
   useHelperFunction("");
   return (
     <Layout>
+      <LeadPopup />
       <SEO
-        title="Web Developer Philippines | Inan Celis Portfolio"
-        description="Professional web developer in the Philippines. Expert in React, Vue, Laravel & WordPress development. Building fast, modern websites for businesses."
+        title="WordPress Developer Philippines | Inan Celis Portfolio"
+        description="WordPress and website developer in the Philippines. Expert in custom WordPress sites, WooCommerce, and modern web development. Building fast, professional websites for businesses."
         url="https://inancelis.com/"
         structuredData={structuredData}
       />
