@@ -32,6 +32,10 @@ const LeadPopup = () => {
           <i className="fa-regular fa-paper-plane"></i>
         </div>
         <h3>Need a Website for Your Business?</h3>
+        <p className="lead-description">
+          Send me a message and let's discuss how I can help build a fast,
+          modern website for your business.
+        </p>
         <ContactForm compact onSuccess={handleClose} />
       </div>
     </div>

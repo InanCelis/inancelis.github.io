@@ -16,7 +16,7 @@
 }
 
 .lead-popup {
-  background-color: white;
+  background-color: #fff;
   padding: 40px 35px 30px;
   border-radius: 8px;
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
@@ -57,11 +57,19 @@
 
   h3 {
     font-weight: 700;
-    margin-bottom: 20px;
+    margin-bottom: 8px;
     font-size: 1.25rem;
+    color: #181818;
   }
 
-  // Compact form styles for popup
+  .lead-description {
+    color: #666;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+
+  // Compact form styles — always light theme inside popup
   .compact-form {
     text-align: left;
 
@@ -99,10 +107,23 @@
       resize: vertical;
     }
 
+    // Submit button — gradient fill animation on hover (same as project cards)
     button[type="submit"] {
       width: 100%;
       text-align: center;
       margin-top: 5px;
+      color: color(main);
+      background: linear-gradient(#181818 0 0) calc(100% - var(--p, 0%)) / var(--p, 0%) no-repeat;
+      transition: 0.3s, background-position 0s;
+      border: none;
+      padding: 12px 18px;
+
+      &:hover,
+      &:focus {
+        --p: 100%;
+        color: #fff;
+        outline: none;
+      }
     }
   }
 }
@@ -139,6 +160,10 @@
 
     h3 {
       font-size: 1.1rem;
+    }
+
+    .lead-description {
+      font-size: 0.85rem;
       margin-bottom: 15px;
     }
 

@@ -108,8 +108,9 @@ const ContactForm = ({ compact = false, onSuccess }) => {
           <label>Message</label>
         </div>
 
-        <button type="submit" className="link link-full">
-          <i className="fa-solid fa-chevron-right"></i> Send Message
+        <button type="submit" className={compact ? "link" : "link link-full"}>
+          <i className="fa-solid fa-chevron-right"></i>{" "}
+          <span>Send Message</span>
         </button>
       </form>
     </>
