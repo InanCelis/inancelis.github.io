@@ -10,15 +10,15 @@ import SEO from "../Components/SEO";
 const resumeStructuredData = {
   "@context": "https://schema.org",
   "@type": "ProfilePage",
-  name: "Resume - Inan Celis, Full Stack Web Developer",
-  description: "Professional resume of Inan Celis. Full-stack web developer in the Philippines with expertise in React, Vue, Laravel, and WordPress.",
+  name: "Resume - Inan Celis, WordPress & Website Developer",
+  description: "Professional resume of Inan Celis. WordPress and website developer in the Philippines with expertise in WordPress, WooCommerce, PHP, Laravel, and React.",
   url: "https://inancelis.com/resume/",
   mainEntity: {
     "@type": "Person",
     name: "Ferdinand T. Celis (Inan Celis)",
-    jobTitle: "Full Stack Web Developer",
+    jobTitle: "WordPress & Website Developer",
     url: "https://inancelis.com/",
-    knowsAbout: ["React", "Vue", "Laravel", "PHP", "JavaScript", "WordPress"],
+    knowsAbout: ["WordPress", "WooCommerce", "PHP", "Laravel", "JavaScript", "React", "Vue"],
   },
 };
 
@@ -28,8 +28,8 @@ function Resume() {
   return (
     <Layout>
       <SEO
-        title="Resume | Full Stack Web Developer Philippines"
-        description="Download Inan Celis' resume. Full-stack web developer in the Philippines with expertise in React, Vue, Laravel, and WordPress development. View skills, experience, and projects."
+        title="Resume | WordPress & Website Developer Philippines"
+        description="Download Inan Celis' resume. WordPress and website developer in the Philippines with expertise in WordPress, WooCommerce, PHP, Laravel, and React. View skills and experience."
         url="https://inancelis.com/resume/"
         structuredData={resumeStructuredData}
         breadcrumbs={[

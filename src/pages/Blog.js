@@ -71,7 +71,7 @@ function Blog() {
     <Layout>
       <SEO
         title="Web Development Blog | Inan Celis Philippines"
-        description="Web development tutorials and coding tips from the Philippines. Expert guides on React, JavaScript, Laravel, WordPress, and modern web technologies."
+        description="WordPress tutorials, website development tips, and coding guides from the Philippines. Expert articles on WordPress, WooCommerce, PHP, and modern web technologies."
         url="https://inancelis.com/blog/"
         structuredData={structuredData}
         breadcrumbs={[

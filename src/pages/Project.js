@@ -8,7 +8,7 @@ const projectStructuredData = {
   "@context": "https://schema.org",
   "@type": "CollectionPage",
   name: "Web Development Projects by Inan Celis",
-  description: "Browse 15+ web development projects including enterprise WordPress sites, custom React apps, e-commerce platforms, and business websites.",
+  description: "Browse 15+ web development projects including custom WordPress sites, WooCommerce stores, business websites, and web applications.",
   url: "https://inancelis.com/project/",
   author: {
     "@type": "Person",
@@ -23,7 +23,7 @@ function Project() {
     <Layout>
       <SEO
         title="Web Development Projects Portfolio Philippines"
-        description="Browse 15+ web development projects by Inan Celis. Enterprise WordPress sites, custom React apps, e-commerce platforms, and business websites built in the Philippines."
+        description="Browse 15+ web development projects by Inan Celis. Custom WordPress sites, WooCommerce stores, business websites, and web applications built in the Philippines."
         url="https://inancelis.com/project/"
         structuredData={projectStructuredData}
         breadcrumbs={[

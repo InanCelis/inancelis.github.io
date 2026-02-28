@@ -71,8 +71,8 @@ function Contact() {
   return (
     <Layout>
       <SEO
-        title="Contact Web Developer Philippines | Inan Celis"
-        description="Get in touch with Inan Celis for web development projects, collaborations, or freelance opportunities. Let's build something amazing together!"
+        title="Contact WordPress Developer Philippines | Inan Celis"
+        description="Get in touch with Inan Celis for WordPress development, custom websites, or freelance web projects. Let's build something amazing together!"
         url="https://inancelis.com/contact/"
         structuredData={contactStructuredData}
         breadcrumbs={[

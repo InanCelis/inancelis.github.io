@@ -10,8 +10,8 @@ function About() {
   return (
     <Layout>
       <SEO
-        title="About Inan Celis | Web Developer Philippines"
-        description="Meet Inan Celis, passionate web developer from the Philippines. Discover my journey and expertise in creating digital solutions."
+        title="About Inan Celis | WordPress Developer Philippines"
+        description="Meet Inan Celis, WordPress and website developer from the Philippines. Specializing in custom WordPress development, business websites, and web solutions."
         url="https://inancelis.com/details/"
         type="profile"
         breadcrumbs={[

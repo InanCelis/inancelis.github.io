@@ -3,8 +3,8 @@ import { Helmet } from "react-helmet";
 import DefaultPhoto from "../assets/images/Inan Celis with Laptop.png";
 
 const SEO = ({
-  title = "Inan Celis - Full Stack Web Developer",
-  description = "Full-stack web developer specializing in React, Vue, Laravel, and WordPress. Building scalable web applications with modern technologies and user-centered design.",
+  title = "Inan Celis - WordPress & Website Developer Philippines",
+  description = "WordPress and website developer in the Philippines. Specializing in custom WordPress sites, WooCommerce, business websites, and web applications with modern design.",
   author = "Inan Celis",
   url = "https://inancelis.com/",
   image = `https://inancelis.com${DefaultPhoto}`,
