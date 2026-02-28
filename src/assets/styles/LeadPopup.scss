@@ -17,10 +17,12 @@
 
 .lead-popup {
   background-color: white;
-  padding: 40px 35px;
+  padding: 40px 35px 30px;
   border-radius: 8px;
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
-  width: 420px;
+  width: 480px;
+  max-height: 90vh;
+  overflow-y: auto;
   text-align: center;
   position: relative;
   color: #181818;
@@ -45,46 +47,62 @@
   }
 
   .lead-icon {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 
     i {
-      font-size: 48px;
+      font-size: 42px;
       color: color(main);
     }
   }
 
   h3 {
     font-weight: 700;
-    margin-bottom: 10px;
-    font-size: 1.35rem;
+    margin-bottom: 20px;
+    font-size: 1.25rem;
   }
 
-  p {
-    color: #666;
-    font-size: 0.95rem;
-    line-height: 1.6;
-    margin-bottom: 25px;
-  }
+  // Compact form styles for popup
+  .compact-form {
+    text-align: left;
 
-  .lead-cta {
-    display: inline-block;
-    background-color: color(main);
-    color: white;
-    padding: 12px 30px;
-    border-radius: 4px;
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 0.95rem;
-    transition: background-color 0.2s;
-
-    i {
-      margin-left: 6px;
-      font-size: 0.85rem;
+    .group {
+      margin-bottom: 30px;
     }
 
-    &:hover {
-      filter: brightness(0.9);
-      color: white;
+    .form-input {
+      color: #181818;
+      border-bottom-color: #ccc;
+    }
+
+    label {
+      color: #666;
+      font-size: 15px;
+    }
+
+    .bar:before,
+    .bar:after {
+      background: color(main);
+    }
+
+    .form-input:focus ~ label,
+    .form-input:valid ~ label,
+    input[type="email"]:focus ~ label,
+    input[type="email"]:valid ~ label,
+    input[type="email"]:not(:placeholder-shown) ~ label,
+    textarea:not(placeholder-shown) ~ label,
+    textarea:focus-within ~ label {
+      color: color(main);
+    }
+
+    textarea {
+      min-height: 60px;
+      resize: vertical;
+    }
+
+    button[type="submit"] {
+      width: 100%;
+      text-align: center;
+      margin-top: 5px;
     }
   }
 }
@@ -113,18 +131,19 @@
   .lead-popup {
     width: auto;
     margin: 0 15px;
-    padding: 30px 25px;
+    padding: 25px 20px 20px;
 
     .lead-icon i {
-      font-size: 40px;
+      font-size: 36px;
     }
 
     h3 {
-      font-size: 1.2rem;
+      font-size: 1.1rem;
+      margin-bottom: 15px;
     }
 
-    p {
-      font-size: 0.9rem;
+    .compact-form .group {
+      margin-bottom: 25px;
     }
   }
 }

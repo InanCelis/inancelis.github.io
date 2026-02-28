@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { NavLink } from "react-router-dom";
+import ContactForm from "./ContactForm";
 import "../../assets/styles/LeadPopup.scss";
 
 const LeadPopup = () => {
@@ -32,13 +32,7 @@ const LeadPopup = () => {
           <i className="fa-regular fa-paper-plane"></i>
         </div>
         <h3>Need a Website for Your Business?</h3>
-        <p>
-          Let's build a clean, modern, and professional website that helps your
-          business grow. Get in touch today for a free consultation.
-        </p>
-        <NavLink to="/contact/" className="lead-cta" onClick={handleClose}>
-          Get In Touch <i className="fa-solid fa-arrow-right"></i>
-        </NavLink>
+        <ContactForm compact onSuccess={handleClose} />
       </div>
     </div>
   );

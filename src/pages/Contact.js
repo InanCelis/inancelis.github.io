@@ -1,12 +1,9 @@
-import React, { useRef, useState } from "react";
-import emailjs from "emailjs-com";
-
 import Layout from "../Components/Layout/Layout";
 import { useHelperFunction } from "../utils/helperFuntion";
 import LineClipPath from "../Components/Slice/LineClipPath";
 import "../assets/styles/contact.scss";
 
-import AlertPopup from "../Components/Slice/AlertPopup";
+import ContactForm from "../Components/Slice/ContactForm";
 import PageIndicator from "../Components/Slice/PageIndicator";
 import SEO from "../Components/SEO";
 
@@ -20,53 +17,7 @@ const contactStructuredData = {
 };
 
 function Contact() {
-  const [alert, setAlert] = useState({
-    message: "",
-    type: "",
-    isVisible: false,
-  });
-  //form fields
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [message, setMessage] = useState("");
-
   useHelperFunction("Contact |");
-
-  const form = useRef();
-  const sendEmail = (e) => {
-    e.preventDefault();
-
-    emailjs
-      .sendForm(
-        "service_ptae8fe",
-        "template_gq5izz6",
-        form.current,
-        "w-rjpWx0cbWeWkXV6"
-      )
-      .then(
-        (result) => {
-          resetForm();
-          setAlert({
-            message: `Message has been delivered successfully. Please hold on for Inan's response.`,
-            type: "success",
-            isVisible: true,
-          });
-        },
-        (error) => {
-          setAlert({
-            message: "Failed to send the message.",
-            type: "error",
-            isVisible: true,
-          });
-        }
-      );
-  };
-
-  const resetForm = () => {
-    setName("");
-    setEmail("");
-    setMessage("");
-  };
 
   return (
     <Layout>
@@ -80,65 +31,11 @@ function Contact() {
           { name: "Contact", url: "https://inancelis.com/contact/" },
         ]}
       />
-      <AlertPopup
-        alertInfo={alert}
-        onClose={() => setAlert((alert.isVisible = false))}
-      />
       <div className=" container contact">
         <div className="form-container">
           <h1 className="contact-title font-weight-bold pb-3">Get In Touch</h1>
           <LineClipPath xtraClass={"grid-100 pb-4"} />
-          <form ref={form} onSubmit={sendEmail}>
-            <div className="group">
-              <input
-                type="text"
-                required
-                className="form-input"
-                name="name"
-                onChange={(e) => setName(e.target.value)}
-                value={name}
-              />
-
-              <span className="bar"></span>
-              <label>Name</label>
-            </div>
-            <div className="group">
-              <input
-                type="email"
-                required
-                name="email"
-                className="form-input"
-                placeholder=""
-                onChange={(e) => setEmail(e.target.value)}
-                value={email}
-              />
-
-              <span className="bar"></span>
-              <label>Your Email</label>
-              <span className="validation-text">
-                <i className="fa-solid fa-triangle-exclamation"></i> Please
-                enter a valid email address.
-              </span>
-            </div>
-            <div className="group">
-              <textarea
-                required
-                id="message"
-                name="message"
-                rows="0"
-                className="form-input"
-                onChange={(e) => setMessage(e.target.value)}
-                placeholder=""
-                value={message}
-              ></textarea>
-              <span className="bar"></span>
-              <label>Message</label>
-            </div>
-
-            <button type="submit" className="link link-full">
-              <i className="fa-solid fa-chevron-right"></i> Send Message
-            </button>
-          </form>
+          <ContactForm />
           <div className="other-contact">
             <h4 className="f-text-m pb-2">Other Contact info</h4>
             <div className="item-border">
