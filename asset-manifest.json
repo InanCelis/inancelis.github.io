@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a040b923.css",
-    "main.js": "/static/js/main.cea4159d.js",
+    "main.js": "/static/js/main.b210cbd9.js",
     "static/js/453.42befe1a.chunk.js": "/static/js/453.42befe1a.chunk.js",
     "static/media/gradpic.jpg": "/static/media/gradpic.c698ded6c2820500577e.jpg",
     "static/media/modern-care-1.png": "/static/media/modern-care-1.7a5afe669589f2f1e9fc.png",
@@ -74,11 +74,11 @@
     "static/media/moon.svg": "/static/media/moon.53ad6d49a21e6f089caf.svg",
     "static/media/debug.log": "/static/media/debug.0343788b825d343acc49.log",
     "main.a040b923.css.map": "/static/css/main.a040b923.css.map",
-    "main.cea4159d.js.map": "/static/js/main.cea4159d.js.map",
+    "main.b210cbd9.js.map": "/static/js/main.b210cbd9.js.map",
     "453.42befe1a.chunk.js.map": "/static/js/453.42befe1a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a040b923.css",
-    "static/js/main.cea4159d.js"
+    "static/js/main.b210cbd9.js"
   ]
 }
