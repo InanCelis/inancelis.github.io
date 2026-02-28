@@ -83,7 +83,7 @@
     }
 
     &:hover {
-      background-color: darken(color(main), 8%);
+      filter: brightness(0.9);
       color: white;
     }
   }
