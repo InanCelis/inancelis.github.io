@@ -11,34 +11,36 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 1000;
+  z-index: 999999;
   animation: leadFadeIn 0.3s ease;
 }
 
 .lead-popup {
   background-color: #fff;
-  padding: 40px 35px 30px;
-  border-radius: 8px;
+  padding: 0;
+  border-radius: 12px;
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
-  width: 480px;
-  max-height: 90vh;
-  overflow-y: auto;
-  text-align: center;
+  width: 1000px;
+  height: 85vh;
+  overflow: hidden;
   position: relative;
-  color: #181818;
   animation: leadSlideUp 0.4s ease;
+  display: flex;
+  flex-direction: column;
 
   .lead-close {
     position: absolute;
-    right: 12px;
-    top: 12px;
-    background: none;
+    right: 10px;
+    top: 10px;
+    background: #fff;
     border: none;
     font-size: 18px;
     color: #999;
     cursor: pointer;
-    padding: 5px;
+    padding: 5px 8px;
     line-height: 1;
+    border-radius: 50%;
+    z-index: 10;
     transition: color 0.2s;
 
     &:hover {
@@ -46,93 +48,41 @@
     }
   }
 
-  .lead-icon {
-    margin-bottom: 10px;
+  .lead-header {
+    padding: 30px 35px 15px;
+    text-align: center;
+    flex-shrink: 0;
 
-    i {
-      font-size: 42px;
-      color: color(main);
-    }
-  }
+    .lead-icon {
+      margin-bottom: 10px;
 
-  h3 {
-    font-weight: 700;
-    margin-bottom: 8px;
-    font-size: 1.25rem;
-    color: #181818;
-  }
-
-  .lead-description {
-    color: #666;
-    font-size: 0.9rem;
-    line-height: 1.5;
-    margin-bottom: 20px;
-  }
-
-  // Compact form styles — always light theme inside popup
-  .compact-form {
-    text-align: left;
-
-    .group {
-      margin-bottom: 30px;
-    }
-
-    .form-input {
-      color: #181818;
-      border-bottom-color: #ccc;
-    }
-
-    label {
-      color: #666 !important;
-      font-size: 15px !important;
-    }
-
-    .bar:before,
-    .bar:after {
-      background: color(main);
-    }
-
-    // Override contact.scss textarea:placeholder-shown rules
-    textarea:placeholder-shown ~ label,
-    textarea:placeholder-shown:focus ~ label {
-      color: #666 !important;
-      font-size: 15px !important;
-      top: 10px !important;
-    }
-
-    .form-input:focus ~ label,
-    .form-input:valid ~ label,
-    input[type="email"]:focus ~ label,
-    input[type="email"]:valid ~ label,
-    input[type="email"]:not(:placeholder-shown) ~ label,
-    textarea:focus-within ~ label,
-    textarea:not(:placeholder-shown):not(:focus-within) ~ label {
-      color: color(main) !important;
-      font-size: 14px !important;
-    }
-
-    textarea {
-      min-height: 60px;
-      resize: vertical;
-    }
-
-    // Submit button — gradient fill animation on hover (same as project cards)
-    button[type="submit"] {
-      width: 100%;
-      text-align: center;
-      margin-top: 5px;
-      color: color(main);
-      background: linear-gradient(#181818 0 0) calc(100% - var(--p, 0%)) / var(--p, 0%) no-repeat;
-      transition: 0.3s, background-position 0s;
-      border: none;
-      padding: 12px 18px;
-
-      &:hover,
-      &:focus {
-        --p: 100%;
-        color: #fff;
-        outline: none;
+      i {
+        font-size: 42px;
+        color: color(main);
       }
+    }
+
+    h3 {
+      font-weight: 700;
+      margin-bottom: 8px;
+      font-size: 1.25rem;
+      color: #181818;
+    }
+
+    .lead-description {
+      color: #666;
+      font-size: 0.9rem;
+      line-height: 1.5;
+      margin-bottom: 0;
+    }
+  }
+
+  .calendly-inline-widget {
+    flex: 1;
+    border-radius: 12px;
+
+    iframe {
+      border-radius: 12px;
     }
   }
 }
@@ -157,27 +107,32 @@
   }
 }
 
+@media screen and (max-width: 1050px) {
+  .lead-popup {
+    width: 95vw;
+  }
+}
+
 @media screen and (max-width: 550px) {
   .lead-popup {
-    width: auto;
-    margin: 0 15px;
-    padding: 25px 20px 20px;
+    width: 95vw;
+    height: 90vh;
+    border-radius: 8px;
 
-    .lead-icon i {
-      font-size: 36px;
-    }
+    .lead-header {
+      padding: 20px 20px 10px;
 
-    h3 {
-      font-size: 1.1rem;
-    }
+      .lead-icon i {
+        font-size: 36px;
+      }
 
-    .lead-description {
-      font-size: 0.85rem;
-      margin-bottom: 15px;
-    }
+      h3 {
+        font-size: 1.1rem;
+      }
 
-    .compact-form .group {
-      margin-bottom: 25px;
+      .lead-description {
+        font-size: 0.85rem;
+      }
     }
   }
 }

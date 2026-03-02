@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { useHelperFunction } from "../utils/helperFuntion";
 import Layout from "../Components/Layout/Layout";
 import ProjectItem from "../Components/ProjectItem";
@@ -55,10 +56,11 @@ const structuredData = {
 };
 
 function Home() {
+  const [calendlyOpen, setCalendlyOpen] = useState(false);
   useHelperFunction("");
   return (
     <Layout>
-      <LeadPopup />
+      <LeadPopup open={calendlyOpen} onClose={() => setCalendlyOpen(false)} />
       <SEO
         title="WordPress Developer Philippines | Inan Celis Portfolio"
         description="WordPress and website developer in the Philippines. Expert in custom WordPress sites, WooCommerce, and modern web development. Building fast, professional websites for businesses."
@@ -69,7 +71,7 @@ function Home() {
         <RainbowSwirl position={"Absolute"} />
       </div>
       <div className="container">
-        <HomeIntro photo={Me} />
+        <HomeIntro photo={Me} onBook={() => setCalendlyOpen(true)} />
         <MouseScroll />
       </div>
       <div>

@@ -1,7 +1,7 @@
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import { NavLink } from "react-router-dom";
-import ResumeButton from "../Components/Slice/ResumeButton";
-function HomeIntro({ photo }) {
+
+function HomeIntro({ photo, onBook }) {
   return (
     <div className="homepage" data-aos="fade-up-right">
       <div className="content">
@@ -24,14 +24,16 @@ function HomeIntro({ photo }) {
             tools to help brands grow online. My goal is to make every website
             simple to explore, fun to look at, and helpful for visitors.
           </p>
-          <div className="row m-0">
+          <div className="d-flex flex-wrap align-items-center hero-buttons">
             <NavLink
               to="/contact/"
-              className="button-52 button mr-5 mb-4 mb-sm-0"
+              className="button-52 button"
             >
               Hire Me Now
             </NavLink>
-            <ResumeButton />
+            <button className="button-50 button" onClick={onBook}>
+              Book Free Consultation &nbsp;<i className="fa-regular fa-calendar-check"></i>
+            </button>
           </div>
         </div>
       </div>
