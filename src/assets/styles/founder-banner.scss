@@ -1,0 +1,102 @@
+@import '_variables';
+@import 'functions';
+
+.founder-banner {
+  margin-top: 5rem;
+  border-top: 1px solid color-mix(in lab, color(textColor) 12%, transparent);
+  border-bottom: 1px solid color-mix(in lab, color(textColor) 12%, transparent);
+  background: color-mix(in lab, color(textColor) 3%, transparent);
+
+  &__inner {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0;
+    flex-wrap: wrap;
+  }
+
+  &__label {
+    font-size: 0.72rem;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: color(textLight);
+    font-weight: 600;
+    white-space: nowrap;
+  }
+
+  &__divider {
+    flex: 1;
+    height: 1px;
+    background: color-mix(in lab, color(textColor) 15%, transparent);
+    min-width: 20px;
+  }
+
+  &__logo-link {
+    display: inline-flex;
+    align-items: center;
+    flex-shrink: 0;
+    transition: opacity 0.2s ease;
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+
+  &__logo {
+    height: 52px;
+    width: auto;
+    display: block;
+
+    [data-theme="theme-dark"] & {
+      filter: brightness(0) invert(1);
+    }
+  }
+
+  &__desc {
+    font-size: 0.8rem;
+    color: color(textLight);
+    margin: 0;
+    line-height: 1.5;
+    max-width: 300px;
+  }
+
+  &__cta {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: color(main);
+    text-decoration: none;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    white-space: nowrap;
+    flex-shrink: 0;
+    transition: gap 0.2s ease, opacity 0.2s ease;
+    &:hover {
+      gap: 10px;
+      opacity: 0.8;
+      color: color(main);
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .founder-banner {
+    &__inner {
+      justify-content: center;
+      gap: 14px;
+    }
+
+    &__divider {
+      display: none;
+    }
+
+    &__desc {
+      display: none;
+    }
+
+    &__logo {
+      height: 40px;
+    }
+  }
+}

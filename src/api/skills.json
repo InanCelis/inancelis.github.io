@@ -85,7 +85,7 @@
             {
                 "text": "GoHighLevel",
                 "icon": "las la-rocket",
-                "level": 70
+                "level": 85
             },
             {
                 "text": "Git",
@@ -96,6 +96,51 @@
                 "text": "AWS",
                 "icon": "lab la-aws",
                 "level": 40
+            }
+        ]
+    },
+    {
+        "category": "GoHighLevel (GHL)",
+        "skills": [
+            {
+                "text": "GHL Funnel & Website Builder",
+                "icon": "las la-paint-brush",
+                "level": 85
+            },
+            {
+                "text": "Automation",
+                "icon": "las la-cogs",
+                "level": 85
+            },
+            {
+                "text": "AI Studio",
+                "icon": "las la-robot",
+                "level": 80
+            }
+        ]
+    },
+    {
+        "category": "Hosting & Server",
+        "skills": [
+            {
+                "text": "Hosting Management",
+                "icon": "las la-server",
+                "level": 85
+            },
+            {
+                "text": "SSL Installation",
+                "icon": "las la-lock",
+                "level": 90
+            },
+            {
+                "text": "Domain & DNS Setup",
+                "icon": "las la-network-wired",
+                "level": 90
+            },
+            {
+                "text": "Pointing Domains",
+                "icon": "las la-directions",
+                "level": 90
             }
         ]
     },

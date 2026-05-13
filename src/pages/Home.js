@@ -17,6 +17,7 @@ import WhyTrustMe from "../Components/WhyTrustMe";
 import CallToAction from "../Components/CallToAction";
 import FAQ from "../Components/FAQ";
 import LeadPopup from "../Components/Slice/LeadPopup";
+import FounderBanner from "../Components/FounderBanner";
 
 const structuredData = {
   "@context": "https://schema.org",
@@ -73,6 +74,9 @@ function Home() {
       <div className="container">
         <HomeIntro photo={Me} onBook={() => setCalendlyOpen(true)} />
         <MouseScroll />
+      </div>
+      <div>
+        <FounderBanner />
       </div>
       <div>
         <ProjectItem

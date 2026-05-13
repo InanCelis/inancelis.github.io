@@ -3,6 +3,7 @@ import { useHelperFunction } from "../utils/helperFuntion";
 import Details from "../Components/Details";
 import PageIndicator from "../Components/Slice/PageIndicator";
 import SEO from "../Components/SEO";
+import FounderBanner from "../Components/FounderBanner";
 
 function About() {
   useHelperFunction("Details |");
@@ -25,6 +26,7 @@ function About() {
           <Details />
         </div>
       </div>
+      <FounderBanner />
       <PageIndicator page="Details" />
     </Layout>
   );

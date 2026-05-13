@@ -9,6 +9,7 @@ import Blog from "./pages/Blog";
 import BlogPost from "./pages/BlogPost";
 import NotFound from "./pages/NotFound";
 import Resume from "./pages/Resume";
+import VirtualCV from "./pages/VirtualCV";
 import Contact from "./pages/Contact";
 import ScrollToTop from "./Components/ScrollToTop";
 import AOS from "aos";
@@ -42,6 +43,9 @@ function App() {
             <Route path='/blog' element={<Navigate to="/blog/" replace />} />
             <Route path='/details' element={<Navigate to="/details/" replace />} />
             <Route path='/resume' element={<Navigate to="/resume/" replace />} />
+            <Route path='/cv' element={<Navigate to="/inan-celis-resume/" replace />} />
+            <Route path='/cv/' element={<Navigate to="/inan-celis-resume/" replace />} />
+            <Route path='/inan-celis-resume' element={<Navigate to="/inan-celis-resume/" replace />} />
             <Route path='/contact' element={<Navigate to="/contact/" replace />} />
 
             {/* Routes with trailing slashes */}
@@ -55,6 +59,7 @@ function App() {
 
             <Route exact path='/details/' element={<About/>}/>
             <Route exact path='/resume/' element={<Resume/>}/>
+            <Route exact path='/inan-celis-resume/' element={<VirtualCV/>}/>
             <Route exact path='/contact/' element={<Contact/>}/>
 
             <Route path="*" element={<NotFound />} />

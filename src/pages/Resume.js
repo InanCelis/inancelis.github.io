@@ -1,5 +1,6 @@
 import Layout from "../Components/Layout/Layout";
 import { useHelperFunction } from "../utils/helperFuntion";
+import { NavLink } from "react-router-dom";
 import Expertise from "../Components/Expertise";
 import Work from "../Components/Work";
 import Skills from "../Components/Skills";
@@ -49,8 +50,11 @@ function Resume() {
       <div className="pt-5">
         <Work />
       </div>
-      <div className="d-flex justify-content-center pb-5">
-        <ResumeButton />
+      <div className="d-flex flex-wrap justify-content-center gap-3 pb-5">
+        {/* <ResumeButton /> */}
+        <NavLink to="/inan-celis-resume/" className="button-52 button">
+          View Virtual CV &nbsp;<i className="fa-solid fa-id-card"></i>
+        </NavLink>
       </div>
       <PageIndicator page="Resume" />
     </Layout>
