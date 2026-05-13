@@ -18,6 +18,8 @@ import CallToAction from "../Components/CallToAction";
 import FAQ from "../Components/FAQ";
 import LeadPopup from "../Components/Slice/LeadPopup";
 import FounderBanner from "../Components/FounderBanner";
+import { NavLink } from "react-router-dom";
+
 
 const structuredData = {
   "@context": "https://schema.org",
@@ -104,7 +106,10 @@ function Home() {
         <Work />
       </div>
       <div className="d-flex justify-content-center pb-5">
-        <ResumeButton />
+        {/* <ResumeButton /> */}
+        <NavLink to="/inan-celis-resume/" className="button-52 button">
+          View Virtual CV &nbsp;<i className="fa-solid fa-id-card"></i>
+        </NavLink>
       </div>
       <div className="margin-top-big">
         <CallToAction />
