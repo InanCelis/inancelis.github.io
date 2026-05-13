@@ -34,6 +34,14 @@
     <priority>0.80</priority>
   </url>
 
+  <!-- Virtual CV Page -->
+  <url>
+    <loc>https://inancelis.com/inan-celis-resume/</loc>
+    <lastmod>2026-05-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.90</priority>
+  </url>
+
   <!-- Contact Page -->
   <url>
     <loc>https://inancelis.com/contact/</loc>
