@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 import { useHelperFunction } from "../utils/helperFuntion";
 import skillsData from "../api/skills.json";
 import workData from "../api/work.json";
-import GradPhoto from "../assets/images/gradpic.jpg";
+import GradPhoto from "../assets/images/Inan Celis.png";
 import SEO from "../Components/SEO";
 import "../assets/styles/virtual-cv.scss";
 
