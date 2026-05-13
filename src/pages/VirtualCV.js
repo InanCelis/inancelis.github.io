@@ -26,7 +26,7 @@ function VirtualCV() {
   const handlePrint = () => window.print();
 
   return (
-    <div className="cv-wrapper">
+    <div className="cv-wrapper" data-theme="theme-light">
       <SEO
         title="Virtual CV | Ferdinand T. Celis — Website Developer Philippines"
         description="Professional CV of Ferdinand T. Celis (Inan Celis), Website Developer & Designer in the Philippines. Founder of WebGrowth Pros."

@@ -11,6 +11,7 @@ $cv-white:  #fff;
   background: #dcdcdc;
   font-family: 'Raleway', sans-serif;
   color: $cv-text;
+  color-scheme: light;
 }
 
 // ── Sticky toolbar ────────────────────────────────────────────────────────────
@@ -360,6 +361,12 @@ $cv-white:  #fff;
   * {
     -webkit-print-color-adjust: exact !important;
     print-color-adjust: exact !important;
+    color-scheme: light !important;
+  }
+
+  html, body {
+    background: white !important;
+    color: $cv-text !important;
   }
 
   .no-print,
@@ -369,9 +376,12 @@ $cv-white:  #fff;
 
   .cv-wrapper {
     background: white !important;
+    color-scheme: light !important;
   }
 
   .cv-document {
+    background: white !important;
+    color: $cv-text !important;
     margin: 0;
     box-shadow: none !important;
     max-width: 100%;
