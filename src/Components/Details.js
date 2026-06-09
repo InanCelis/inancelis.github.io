@@ -87,7 +87,7 @@ function Details() {
           </div>
           <div className="image" data-aos="fade-up">
             <LineClipPath content={`About me`} textClass={"f-text-s"} />
-            <LazyLoadImage src={require(`../assets/images/me-at-office.jpg`)} />
+            <LazyLoadImage src={require(`../assets/images/Inan Celis Laptop.png`)} />
           </div>
         </div>
       </div>
