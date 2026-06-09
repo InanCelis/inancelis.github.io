@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a7394b2e.css",
-    "main.js": "/static/js/main.c04a1c6a.js",
+    "main.js": "/static/js/main.98865450.js",
     "static/js/453.42befe1a.chunk.js": "/static/js/453.42befe1a.chunk.js",
     "static/media/gradpic.jpg": "/static/media/gradpic.c698ded6c2820500577e.jpg",
     "static/media/modern-care-1.png": "/static/media/modern-care-1.7a5afe669589f2f1e9fc.png",
@@ -19,6 +19,7 @@
     "static/media/absi-5.png": "/static/media/absi-5.78d1620b6a863dffb355.png",
     "static/media/absi-2.png": "/static/media/absi-2.f890db9eeb2c51efde18.png",
     "static/media/baby-company.png": "/static/media/baby-company.42d167d468099cd5825f.png",
+    "static/media/Inan Celis Laptop.png": "/static/media/Inan Celis Laptop.db8590dce042f348a41c.png",
     "static/media/ati-4.png": "/static/media/ati-4.b8c520f1903470076e49.png",
     "static/media/monster-quest-laptop.png": "/static/media/monster-quest-laptop.aa86441981c0fd38dcb1.png",
     "static/media/absi-4.png": "/static/media/absi-4.8e482085cd9d8d939ac3.png",
@@ -75,11 +76,11 @@
     "static/media/moon.svg": "/static/media/moon.53ad6d49a21e6f089caf.svg",
     "static/media/debug.log": "/static/media/debug.0343788b825d343acc49.log",
     "main.a7394b2e.css.map": "/static/css/main.a7394b2e.css.map",
-    "main.c04a1c6a.js.map": "/static/js/main.c04a1c6a.js.map",
+    "main.98865450.js.map": "/static/js/main.98865450.js.map",
     "453.42befe1a.chunk.js.map": "/static/js/453.42befe1a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a7394b2e.css",
-    "static/js/main.c04a1c6a.js"
+    "static/js/main.98865450.js"
   ]
 }
