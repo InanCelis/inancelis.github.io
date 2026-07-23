@@ -156,7 +156,7 @@ function VirtualCV() {
         {/* Education */}
         <div className="cv-section cv-section--last">
           <h2 className="cv-section-title">Education</h2>
-          <div className="cv-job cv-job--last">
+          <div className="cv-job">
             <div className="cv-job-meta">
               <span className="cv-job-title">
                 Bachelor of Science in Information Technology
@@ -165,6 +165,17 @@ function VirtualCV() {
             </div>
             <p className="cv-job-company">
               Laguna State Polytechnic University — Sta. Cruz, Laguna, Philippines
+            </p>
+          </div>
+          <div className="cv-job cv-job--last">
+            <div className="cv-job-meta">
+              <span className="cv-job-title">
+                Bachelor of Science in Computer
+              </span>
+              <span className="cv-job-dates">2015 – 2017</span>
+            </div>
+            <p className="cv-job-company">
+              Colegio De San Lorenzo — Congressional Avenue, Barangay Bahay Toro, Project 8, Quezon City, Philippines
             </p>
           </div>
         </div>
