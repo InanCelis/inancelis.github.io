@@ -88,6 +88,11 @@
                 "level": 85
             },
             {
+                "text": "n8n",
+                "icon": "las la-project-diagram",
+                "level": 80
+            },
+            {
                 "text": "Git",
                 "icon": "lab la-git-alt",
                 "level": 90
