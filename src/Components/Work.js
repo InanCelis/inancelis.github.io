@@ -7,7 +7,7 @@ import { LazyLoadImage } from 'react-lazy-load-image-component';
 function Work() {
 
 
-    const works = data.slice(0, 5).map((w) =>{
+    const works = data.slice(0, 6).map((w) =>{
         return (
             <div className="w-item shadow" key={w.id} data-aos="fade-up">
                 <div className="w-header">

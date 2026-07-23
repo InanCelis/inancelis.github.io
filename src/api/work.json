@@ -9,7 +9,7 @@
         "address": "Multiple Location",
         "site": "https://inancelis.com/",
         "site_text": "inancelis.com",
-        "description": "<span className='text-muted'>As a website developer Philippines, I handle many projects at the same time and enjoy learning something new from each one. I work on web development Philippines tasks for different clients and create simple, clean designs as a web designer Philippines. Also build full websites through website development Philippines, making sure each project fits what the client needs. I communicate clearly, solve problems fast, and always focus on giving high-quality results that help businesses grow.</span>",
+        "description": "<span className='text-muted'>As a website developer based in the Philippines, I handle multiple projects at once and enjoy learning something new from each one. I work with clients on web development and design, creating simple, clean designs and building full websites that fit exactly what they need. I communicate clearly, solve problems fast, and always focus on delivering high-quality results that help businesses grow.</span>",
         "tool" : [
             "Web Development",
             "Converting PSD to HTML",
@@ -17,6 +17,32 @@
             "T-shirt Design"
         ],
         "logo": "freelance.png"
+    },
+    {
+        "id": 6,
+        "position": "Web Designer and Developer",
+        "job_type": "Part-time to Full-time",
+        "from_date": "Aug 2024",
+        "to_date": "Present",
+        "company": "Blue Apple Launchpad",
+        "address": "Sacramento, California, United States - Remote",
+        "site": "https://blueapplelaunchpad.com/",
+        "site_text": "blueapplelaunchpad.com",
+        "description": "<b>Responsibilities</b> <ul className='text-muted'><li>Design and develop responsive WordPress websites using Elementor Pro</li><li>Build and maintain custom themes and page layouts for client projects</li><li>Collaborate with the team on site structure, UX, and content updates</li><li>Optimize site performance, responsiveness, and cross-browser compatibility</li><li>Troubleshoot and resolve website issues as they arise</li><li>Build and manage funnels, websites, and automations in GoHighLevel (GHL)</li><li>Create workflow automations using n8n to streamline business processes</li><li>Handle hosting management for client sites and servers</li><li>Configure DNS records and domain settings for hosting and email setup</li><li>Deploy websites to live servers and manage release updates</li><li>Develop custom WordPress plugins tailored to client requirements</li></ul>",
+        "tool" : [
+            "WordPress",
+            "Elementor Pro",
+            "Responsive Web Design",
+            "PHP",
+            "JavaScript",
+            "GoHighLevel (GHL)",
+            "n8n",
+            "Hosting Management",
+            "DNS Configuration",
+            "Website Deployment",
+            "Custom Plugin Creation"
+        ],
+        "logo": "blueapple.png"
     },
     {
         "id": 5,
