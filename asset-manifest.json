@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a7394b2e.css",
-    "main.js": "/static/js/main.e1575aa3.js",
+    "main.js": "/static/js/main.d3cb7a22.js",
     "static/js/453.42befe1a.chunk.js": "/static/js/453.42befe1a.chunk.js",
     "static/media/gradpic.jpg": "/static/media/gradpic.c698ded6c2820500577e.jpg",
     "static/media/modern-care-1.png": "/static/media/modern-care-1.7a5afe669589f2f1e9fc.png",
@@ -46,6 +46,7 @@
     "static/media/inancelis.pdf": "/static/media/inancelis.54b46f7e59b541038baa.pdf",
     "static/media/me3.png": "/static/media/me3.66418fb94c64f96b35da.png",
     "static/media/me.png": "/static/media/me.b8863b157174b7c0473a.png",
+    "static/media/blueapple.png": "/static/media/blueapple.cb3526b941161e5b63ca.png",
     "static/media/laptop.png": "/static/media/laptop.5e21f1b8b3ff79203fe0.png",
     "static/media/ajax.png": "/static/media/ajax.80c3470963cbd1c89004.png",
     "static/media/me-at-office.jpg": "/static/media/me-at-office.1a1b99316b39ab22f1f7.jpg",
@@ -76,11 +77,11 @@
     "static/media/moon.svg": "/static/media/moon.53ad6d49a21e6f089caf.svg",
     "static/media/debug.log": "/static/media/debug.0343788b825d343acc49.log",
     "main.a7394b2e.css.map": "/static/css/main.a7394b2e.css.map",
-    "main.e1575aa3.js.map": "/static/js/main.e1575aa3.js.map",
+    "main.d3cb7a22.js.map": "/static/js/main.d3cb7a22.js.map",
     "453.42befe1a.chunk.js.map": "/static/js/453.42befe1a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a7394b2e.css",
-    "static/js/main.e1575aa3.js"
+    "static/js/main.d3cb7a22.js"
   ]
 }
