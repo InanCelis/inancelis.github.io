@@ -171,6 +171,11 @@
                 "text": "Claude AI",
                 "icon": "las la-brain",
                 "level": 90
+            },
+            {
+                "text": "Vibe Coding",
+                "icon": "las la-magic",
+                "level": 85
             }
         ]
     }

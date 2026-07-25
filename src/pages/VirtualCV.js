@@ -29,7 +29,7 @@ function VirtualCV() {
     <div className="cv-wrapper" data-theme="theme-light">
       <SEO
         title="Virtual CV | Ferdinand T. Celis — Website Developer Philippines"
-        description="Professional CV of Ferdinand T. Celis (Inan Celis), Website Developer & Designer in the Philippines. Founder of WebGrowth Pros."
+        description="Professional CV of Ferdinand T. Celis (Inan Celis), Website Developer & Designer in the Philippines. Entrepreneurial experience founding WebGrowth Pros."
         url="https://inancelis.com/inan-celis-resume/"
       />
 
@@ -73,7 +73,7 @@ function VirtualCV() {
               </p>
               <p>
                 <i className="fa-solid fa-building" />
-                Founder —&nbsp;
+                Founder & Lead Developer —&nbsp;
                 <a href="https://webgrowthpros.com/" target="_blank" rel="noopener noreferrer">WebGrowth Pros (webgrowthpros.com)</a>
               </p>
             </div>
@@ -89,8 +89,8 @@ function VirtualCV() {
           <p className="cv-summary">
             I'm a professional website developer and designer from the Philippines with over 5 years of experience
             building clean, fast, and easy-to-use websites. I specialize in WordPress, WooCommerce, PHP, Laravel,
-            React, and Vue. I also serve as Founder of WebGrowth Pros, a web agency focused on helping businesses
-            grow online through strategic design and development.
+            React, and Vue. Alongside my development work, I founded WebGrowth Pros, an entrepreneurial venture
+            where I've sharpened my skills in client management, strategic planning, and full-cycle project delivery.
           </p>
         </div>
 
