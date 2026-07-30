@@ -35,6 +35,7 @@
     "minifyHtml": false,
     "navigateTimeout": 60000,
     "maxConcurrentRoutes": 4,
+    "skipThirdPartyRequests": true,
     "include": [
       "/",
       "/details/",
