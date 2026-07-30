@@ -3,6 +3,7 @@ import { useHelperFunction } from "../utils/helperFuntion";
 import ProjectItem from "../Components/ProjectItem";
 import PageIndicator from "../Components/Slice/PageIndicator";
 import SEO from "../Components/SEO";
+import AgencyProjects from "../Components/AgencyProjects";
 
 const projectStructuredData = {
   "@context": "https://schema.org",
@@ -36,6 +37,9 @@ function Project() {
         <h1 className="page-title">My Projects</h1>
       </div>
       <ProjectItem viewAll={false} otherItem={true} />
+      <div className="margin-top-big">
+        <AgencyProjects />
+      </div>
       <PageIndicator page="Projects" />
     </Layout>
   );

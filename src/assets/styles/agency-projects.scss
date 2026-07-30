@@ -1,0 +1,101 @@
+@import '_variables';
+@import 'functions';
+
+.agency-projects {
+  margin-top: 2rem;
+
+  &__header {
+    text-align: center;
+    max-width: 640px;
+    margin: 0 auto 2rem;
+
+    p {
+      margin-top: 0.5rem;
+      color: color(textLight);
+    }
+
+    a {
+      color: color(main);
+      font-weight: 600;
+    }
+  }
+
+  &__frame-wrap {
+    position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+  }
+
+  &__frame {
+    width: 100%;
+    height: 1000px;
+    border: 0;
+    display: block;
+    background: transparent;
+  }
+
+  &__fade {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 110px;
+    pointer-events: none;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 18px;
+    opacity: 1;
+    transition: opacity 0.25s ease;
+    background: linear-gradient(
+      to bottom,
+      transparent 0%,
+      color-mix(in lab, color(bgColor) 45%, transparent) 55%,
+      color-mix(in lab, color(bgColor) 92%, transparent) 100%
+    );
+
+    span {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      font-size: 0.7rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      font-weight: 700;
+      color: color(textLight);
+      background: color-mix(in lab, color(bgColor) 65%, transparent);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border: 1px solid color-mix(in lab, color(textColor) 12%, transparent);
+      padding: 8px 16px;
+      border-radius: 999px;
+      box-shadow: 0 8px 24px color-mix(in lab, color(textColor) 10%, transparent);
+
+      i {
+        animation: agency-projects-bounce 1.6s ease-in-out infinite;
+      }
+    }
+  }
+
+  &__frame-wrap:hover &__fade {
+    opacity: 0.5;
+  }
+}
+
+@keyframes agency-projects-bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(4px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .agency-projects {
+    &__frame {
+      height: 700px;
+    }
+  }
+}

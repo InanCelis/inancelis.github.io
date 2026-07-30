@@ -18,6 +18,7 @@ import CallToAction from "../Components/CallToAction";
 import FAQ from "../Components/FAQ";
 import LeadPopup from "../Components/Slice/LeadPopup";
 import FounderBanner from "../Components/FounderBanner";
+import AgencyProjects from "../Components/AgencyProjects";
 import { NavLink } from "react-router-dom";
 
 
@@ -79,6 +80,9 @@ function Home() {
       </div>
       <div>
         <FounderBanner />
+      </div>
+      <div className="margin-top-big">
+        <AgencyProjects />
       </div>
       <div>
         <ProjectItem

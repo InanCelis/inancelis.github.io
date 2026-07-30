@@ -97,7 +97,7 @@ function ProjectItem({ itemCount, viewAll, otherItem, title }) {
 
   return (
     <>
-      {title && <h2 className="container text-center pt-5">Projects</h2>}
+      {title && <h2 className="container text-center pt-5"></h2>}
       {projects}
       {otherItem ? (
         <>
