@@ -4,8 +4,8 @@ function AgencyProjects() {
   return (
     <div className="agency-projects container" data-aos="fade-up">
       <div className="agency-projects__header">
-        <h2 className="f-text-m">More Projects via Web Growth Pros</h2>
-        <p>
+        <h2 className="font-weight-bold">More Projects via Web Growth Pros</h2>
+        <p className="f-text-m">
           A showcase of client websites built through my web agency,{" "}
           <a
             href="https://webgrowthpros.com/"

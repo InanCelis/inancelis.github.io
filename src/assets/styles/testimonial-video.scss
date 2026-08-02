@@ -1,0 +1,102 @@
+@import '_variables';
+@import 'functions';
+
+.testimonial-video {
+  margin-top: 2rem;
+  text-align: center;
+
+  &__header {
+    max-width: 560px;
+    margin: 0 auto 2.5rem;
+
+    p {
+      margin-top: 0.75rem;
+      color: color(textLight);
+      line-height: 1.6;
+    }
+  }
+
+  &__eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.72rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: color(main);
+    margin-bottom: 0.75rem;
+
+    i {
+      font-size: 0.85rem;
+      opacity: 0.8;
+    }
+  }
+
+  &__stage {
+    position: relative;
+    width: min(85vw, 360px);
+    margin: 0 auto;
+  }
+
+  &__glow {
+    position: absolute;
+    inset: -12%;
+    z-index: 0;
+    border-radius: 40px;
+    background: radial-gradient(
+      closest-side,
+      color-mix(in lab, color(main) 32%, transparent),
+      transparent 72%
+    );
+    filter: blur(36px);
+    opacity: 0.55;
+  }
+
+  &__media {
+    position: relative;
+    z-index: 1;
+    aspect-ratio: 9 / 16;
+    border-radius: 22px;
+    overflow: hidden;
+    border: 1px solid color-mix(in lab, color(textColor) 12%, transparent);
+    box-shadow: 0 28px 60px color-mix(in lab, color(textColor) 18%, transparent);
+  }
+
+  &__frame {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    display: block;
+    background: #000;
+  }
+
+  &__caption {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+    margin-top: 1.75rem;
+
+    strong {
+      font-size: 1rem;
+    }
+
+    span {
+      font-size: 0.82rem;
+      color: color(textLight);
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .testimonial-video {
+    &__stage {
+      width: 100%;
+    }
+
+    &__media {
+      border-radius: 16px;
+    }
+  }
+}
