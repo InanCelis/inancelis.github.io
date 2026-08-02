@@ -4,6 +4,7 @@
 .testimonial-video {
   margin-top: 2rem;
   text-align: center;
+  overflow: hidden;
 
   &__header {
     max-width: 560px;
@@ -93,6 +94,10 @@
   .testimonial-video {
     &__stage {
       width: 100%;
+    }
+
+    &__glow {
+      inset: -4%;
     }
 
     &__media {
